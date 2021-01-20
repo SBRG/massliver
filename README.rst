@@ -24,8 +24,13 @@ Dev. Branches
 * main: Managed by Zack, main branch for stable code
 * devel: Managed by Zack, main branch for development of the liver model
 
-* Create a branch called ``devel-*`` where the ``*`` represents whatever you want to call the branch.
-* When you are ready to merge the branch into ``devel``, create a pull request and request a review from ``z-haiman``.
+* Create a branch called ``devel-*`` where the ``*`` represents whatever you want to call the branch. To do this::
+
+    git checkout devel
+    git branch devel-zh
+    git checkout devel-zh
+
+* When you are ready to merge the branch into ``devel``, create a pull request and check in w/ Zack
 
 To speed up the process of getting your code approved and working...
 
