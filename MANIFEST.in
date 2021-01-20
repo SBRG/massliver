@@ -1,0 +1,18 @@
+include \
+    *.yml \
+    *.yaml \
+    .bumpversion.cfg
+
+graft src
+graft tests
+
+global-exclude \
+    *.py[cod] \
+    __pycache__ \
+    .DS_Store
+
+
+prune data
+prune models
+prune notebooks
+prune references
