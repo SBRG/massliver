@@ -1,6 +1,8 @@
 MASS Liver
 ==========
-This repository is for the MASSpy liver model project.
+This repository is for the MASSpy liver model project. It is highly recommended to create a virtual environment for this project::
+
+    conda create -n massliver python=3.7
 
 Clone the repository using git clone, then navigate to the cloned repository and run the following command::
 
@@ -9,6 +11,11 @@ Clone the repository using git clone, then navigate to the cloned repository and
 Afterwards, make sure all worked by running the following from the repository::
 
     tox
+
+Running the ``tox`` command should install all pre-commit hooks into the development environment. To automatically lint your files, run the following::
+
+    pre-commit run --all-files
+
 
 Development Notes
 -----------------
