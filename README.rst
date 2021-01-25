@@ -31,8 +31,12 @@ Dev. Branches
 * main: Managed by Zack, main branch for stable code
 * devel: Managed by Zack, main branch for development of the liver model
 
-* Create a branch called ``devel-*`` where the ``*`` represents whatever you want to call the branch. To do this::
+* Start by running the following to update your local git::
 
+    git fetch
+
+* Create a branch called ``devel-*`` where the ``*`` represents whatever you want to call the branch. To do this::
+    
     git checkout devel
     git branch devel-zh
     git checkout devel-zh
