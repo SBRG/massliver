@@ -6,5 +6,6 @@ Naming convention is a number (for ordering), the creator's initials, and a shor
   extracts Km values and Vm values and inputs them into separate Panda dataframe
 1.2.1-sp--ma--uniprot-data-extraction-optimized
   Attaches UniProt ID's as well and forms an excel table at the end
-  
+1.2.5-sp--ma--uniprot-data-extraction-optimized
+  LATEST : Combined Km and Vm values, forms data table at the end with split values
   
