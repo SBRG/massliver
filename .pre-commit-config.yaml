@@ -22,11 +22,6 @@ repos:
       - id: rst-backticks
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
-    - repo: https://github.com/mgedmin/check-manifest
-      rev: "0.46"
-      hooks:
-      - id: check-manifest
-        args: [--no-build-isolation]
     - repo: https://github.com/pycqa/isort
       rev: 5.7.0
       hooks:

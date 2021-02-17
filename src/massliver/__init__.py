@@ -1,4 +1,4 @@
 from massliver import data, util
 
 
-__version__ = "0.0.2.dev0"
+__version__ = "0.0.2.dev1"
