@@ -31,11 +31,20 @@ Dev. Branches
 * main: Managed by Zack, main branch for stable code
 * devel: Managed by Zack, main branch for development of the liver model
 
+* Start by running the following to update your local git::
+
+    git fetch
+
 * Create a branch called ``devel-*`` where the ``*`` represents whatever you want to call the branch. To do this::
 
     git checkout devel
     git branch devel-zh
     git checkout devel-zh
+
+* To update your branch with devel::
+
+    git checkout devel-zh
+    git merge devel
 
 * When you are ready to merge the branch into ``devel``, create a pull request and check in w/ Zack
 
