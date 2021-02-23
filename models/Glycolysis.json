@@ -1,0 +1,828 @@
+{
+    "boundary_conditions": {},
+    "compartments": {
+        "c": "",
+        "i": "",
+        "m": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [
+        {
+            "id": "2645_AT1",
+            "name": "GCK",
+            "notes": {
+                "original_bigg_ids": [
+                    "2645.1"
+                ]
+            }
+        },
+        {
+            "id": "2821_AT1",
+            "name": "GPI",
+            "notes": {
+                "original_bigg_ids": [
+                    "2821.1"
+                ]
+            }
+        },
+        {
+            "id": "8789_AT1",
+            "name": "FBP2",
+            "notes": {
+                "original_bigg_ids": [
+                    "8789.1"
+                ]
+            }
+        },
+        {
+            "id": "5211_AT1",
+            "name": "PFKL",
+            "notes": {
+                "original_bigg_ids": [
+                    "5211.1"
+                ]
+            }
+        },
+        {
+            "id": "226_AT3",
+            "name": "ALDOA",
+            "notes": {
+                "original_bigg_ids": [
+                    "226.3"
+                ]
+            }
+        },
+        {
+            "id": "286016_AT1",
+            "name": "",
+            "notes": {
+                "original_bigg_ids": [
+                    "286016.1"
+                ]
+            }
+        },
+        {
+            "id": "2597_AT1",
+            "name": "GAPDH",
+            "notes": {
+                "original_bigg_ids": [
+                    "2597.1"
+                ]
+            }
+        },
+        {
+            "id": "5232_AT1",
+            "name": "PGK2",
+            "notes": {
+                "original_bigg_ids": [
+                    "5232.1"
+                ]
+            }
+        },
+        {
+            "id": "669_AT2",
+            "name": "BPGM",
+            "notes": {
+                "original_bigg_ids": [
+                    "669.2"
+                ]
+            }
+        },
+        {
+            "id": "2027_AT1",
+            "name": "ENO3",
+            "notes": {
+                "original_bigg_ids": [
+                    "2027.1"
+                ]
+            }
+        },
+        {
+            "id": "5105_AT1",
+            "name": "PCK1",
+            "notes": {
+                "original_bigg_ids": [
+                    "5105.1"
+                ]
+            }
+        },
+        {
+            "id": "5315_AT1",
+            "name": "PKM",
+            "notes": {
+                "original_bigg_ids": [
+                    "5315.1"
+                ]
+            }
+        },
+        {
+            "id": "5091_AT1",
+            "name": "PC",
+            "notes": {
+                "original_bigg_ids": [
+                    "5091.1"
+                ]
+            }
+        },
+        {
+            "id": "3948_AT2",
+            "name": "LDHC",
+            "notes": {
+                "original_bigg_ids": [
+                    "3948.2"
+                ]
+            }
+        }
+    ],
+    "id": "Glycolysis",
+    "metabolites": [
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_c",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_c",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "g6p_c",
+            "name": "D-Glucose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g6p[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C6H12O6",
+            "id": "glc__D_c",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H",
+            "id": "h_c",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "f6p_c",
+            "name": "D-Fructose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "f6p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C6H10O12P2",
+            "id": "fdp_c",
+            "name": "D-Fructose 1,6-bisphosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fdp[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H2O",
+            "id": "h2o_c",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "HO4P",
+            "id": "pi_c",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "dhap_c",
+            "name": "Dihydroxyacetone phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "dhap[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "g3p_c",
+            "name": "Glyceraldehyde 3-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g3p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C3H4O10P2",
+            "id": "13dpg_c",
+            "name": "3-Phospho-D-glyceroyl phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "13dpg[c]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C21H26N7O14P2",
+            "id": "nad_c",
+            "name": "Nicotinamide adenine dinucleotide",
+            "notes": {
+                "original_bigg_ids": [
+                    "nad[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C21H27N7O14P2",
+            "id": "nadh_c",
+            "name": "Nicotinamide adenine dinucleotide - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadh[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H4O7P",
+            "id": "3pg_c",
+            "name": "3-Phospho-D-glycerate",
+            "notes": {
+                "original_bigg_ids": [
+                    "3pg[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H4O7P",
+            "id": "2pg_c",
+            "name": "D-Glycerate 2-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "2pg[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H2O6P",
+            "id": "pep_c",
+            "name": "Phosphoenolpyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pep[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C3H2O6P",
+            "id": "pep_m",
+            "name": "Phosphoenolpyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pep[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "HO4P",
+            "id": "pi_m",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "CO2",
+            "id": "co2_m",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[m]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C10H12N5O11P2",
+            "id": "gdp_m",
+            "name": "GDP C10H12N5O11P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "gdp[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C10H12N5O14P3",
+            "id": "gtp_m",
+            "name": "GTP C10H12N5O14P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "gtp[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H2O5",
+            "id": "oaa_m",
+            "name": "Oxaloacetate",
+            "notes": {
+                "original_bigg_ids": [
+                    "oaa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C3H3O3",
+            "id": "pyr_c",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_m",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_m",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H",
+            "id": "h_m",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "CHO3",
+            "id": "hco3_m",
+            "name": "Bicarbonate",
+            "notes": {
+                "original_bigg_ids": [
+                    "hco3[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C3H3O3",
+            "id": "pyr_m",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C3H5O3",
+            "id": "lac__L_c",
+            "name": "L-Lactate",
+            "notes": {
+                "original_bigg_ids": [
+                    "lac_L[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "i",
+            "formula": "H",
+            "id": "h_i",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[i]"
+                ]
+            }
+        }
+    ],
+    "reactions": [
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "3098_AT3 or 80201_AT1 or 2645_AT3 or 3098_AT4 or 3099_AT1 or 2645_AT2 or 3098_AT5 or 2645_AT1 or 3098_AT1 or 3101_AT1 or 3098_AT2",
+            "id": "HEX1",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "g6p_c": 1.0,
+                "glc__D_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "Hexokinase (D-glucose:ATP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "HEX1"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2821_AT1",
+            "id": "PGI",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "g6p_c": -1.0
+            },
+            "name": "Glucose-6-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGI"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2203_AT1 or 8789_AT1",
+            "id": "FBP",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "fdp_c": -1.0,
+                "h2o_c": -1.0,
+                "pi_c": 1.0
+            },
+            "name": "Fructose-bisphosphatase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBP"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5214_AT1 or 5211_AT2 or (5214_AT1 and 5211_AT1) or (5214_AT1 and 5213_AT1) or 5213_AT1 or (5214_AT1 and 5211_AT2) or 5211_AT1 or (5211_AT1 and 5213_AT1) or (5213_AT1 and 5211_AT2)",
+            "id": "PFK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "name": "Phosphofructokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PFK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "226_AT2 or 226_AT1 or 226_AT3 or 230_AT1 or 229_AT1",
+            "id": "FBA",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Fructose-bisphosphate aldolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBA"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7167_AT1 or 286016_AT1",
+            "id": "TPI",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Triose-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TPI"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2597_AT1 or 26330_AT1",
+            "id": "GAPD",
+            "metabolites": {
+                "13dpg_c": 1.0,
+                "g3p_c": -1.0,
+                "h_c": 1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0,
+                "pi_c": -1.0
+            },
+            "name": "Glyceraldehyde-3-phosphate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "GAPD"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5230_AT1 or 375056_AT1 or 5232_AT1",
+            "id": "PGK",
+            "metabolites": {
+                "13dpg_c": 1.0,
+                "3pg_c": -1.0,
+                "adp_c": 1.0,
+                "atp_c": -1.0
+            },
+            "name": "Phosphoglycerate kinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "669_AT1 or 5223_AT1 or 5224_AT2 or 5224_AT1 or 669_AT2",
+            "id": "PGM",
+            "metabolites": {
+                "2pg_c": -1.0,
+                "3pg_c": 1.0
+            },
+            "name": "Phosphoglycerate mutase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGM"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2023_AT1 or 2027_AT1 or 2027_AT2 or 2026_AT1",
+            "id": "ENO",
+            "metabolites": {
+                "2pg_c": -1.0,
+                "h2o_c": 1.0,
+                "pep_c": 1.0
+            },
+            "name": "Enolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "ENO"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "PEPtm",
+            "metabolites": {
+                "pep_c": 1,
+                "pep_m": -1,
+                "pi_c": -1,
+                "pi_m": 1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5106_AT1 or 5105_AT1",
+            "id": "PEPCKm",
+            "metabolites": {
+                "co2_m": 1.0,
+                "gdp_m": 1.0,
+                "gtp_m": -1.0,
+                "oaa_m": -1.0,
+                "pep_m": 1.0
+            },
+            "name": "Phosphoenolpyruvate carboxykinase (GTP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "PEPCKm"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5315_AT2 or 5313_AT2 or 5315_AT3 or 5313_AT1 or 5315_AT1",
+            "id": "PYK",
+            "metabolites": {
+                "adp_c": -1.0,
+                "atp_c": 1.0,
+                "h_c": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0
+            },
+            "name": "Pyruvate kinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5091_AT1 or 5091_AT2",
+            "id": "PCm",
+            "metabolites": {
+                "adp_m": 1.0,
+                "atp_m": -1.0,
+                "h_m": 1.0,
+                "hco3_m": -1.0,
+                "oaa_m": 1.0,
+                "pi_m": 1.0,
+                "pyr_m": -1.0
+            },
+            "name": "Pyruvate carboxylase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PCm"
+                ]
+            },
+            "subsystem": "Pyruvate metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(3945_AT1 and 3939_AT1) or 160287_AT1 or 3948_AT2 or 3939_AT1 or 3948_AT1 or 55293_AT1 or 3945_AT1 or 92483_AT1",
+            "id": "LDH_L",
+            "metabolites": {
+                "h_c": 1.0,
+                "lac__L_c": -1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0,
+                "pyr_c": 1.0
+            },
+            "name": "L-lactate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "LDH_L"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "PYRt2m",
+            "metabolites": {
+                "h_i": -1,
+                "h_m": 1,
+                "pyr_c": -1,
+                "pyr_m": 1
+            },
+            "name": ""
+        }
+    ],
+    "units": [],
+    "version": "1"
+}
