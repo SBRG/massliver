@@ -1,0 +1,29 @@
+﻿Buffer_Char_ID,Buffer_Name,pKa__25_C__50_mM,Acid_Charge,Base_Charge
+trishcl,Tris-HCl,8.14,1,0
+tris,Tris,8.14,1,0
+trisac,Tris-acetate,8.14,1,0
+edta,EDTA,,,
+tric,Tricine,8.07,0,-1
+tricna,Tricine-Na,8.07,0,-1
+hepesnaoh,Hepes-NaOH,7.5,0,-1
+pipeskoh,PIPES-KOH,6.64,-1,-2
+kpi,KPO4,6.88,-1,-2
+napi,sodium phosphate,6.88,-1,-2
+nakpi,Na+/K+ phosphate,6.88,-1,-2
+chesk,CHES-K,9.37,0,-1
+hepes,Hepes,7.5,0,-1
+hepesbtp,HEPES-BTP,,,
+pipes,Pipes,6.64,-1,-2
+mops,MOPS,7.12,0,-1
+mopsnaoh,MOPS/NaOH,7.12,0,-1
+mopskoh,MOPS-KOH,7.12,0,-1
+mes,MES,6.14,0,-1
+netmphn,N-ethylmorpholine,7.83,1,0
+detam,diethanolamine,8.95,1,0
+glygly,glycylglycine,8.2,0,-1
+imdzcl,imidazole-Cl,7.06,1,0
+imdz_MIXED,mixed imidazoles,,,
+24dmid,"2,4-dimethylimidazole",,,
+teoa,triethanolamine,7.83,1,0
+teoahcl,triethanolamine-HCl,7.83,1,0
+pi_buffer,Phosphoric acid,7.198,-1,-2
