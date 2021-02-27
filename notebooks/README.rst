@@ -10,7 +10,7 @@ Naming convention is a number (for ordering), the creator's initials, and a shor
 1.2.5-sp--ma--uniprot-data-extraction-optimized
   LATEST : Combined Km and Vm values, forms data table at the end with split values
 1.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
-  From Excile file of reaction(rxn) BIGG IDs for all pathways, extract rxn IDs to form BIGG urls
-  Extracts EC numbers for each rxn from BIGG
-  Use the EC numbers to extract all Keq datas from Sabio-RK and map the EC numbers result with rxn IDs
+  From Excile file of reaction(rxn) BIGG IDs for all pathways, extract rxn IDs to form BIGG urls.
+  Then, extracts EC numbers for each rxn from BIGG website.
+  Use the EC numbers to extract all Keq datas from Sabio-RK website and map the EC numbers result with rxn IDs.
  
