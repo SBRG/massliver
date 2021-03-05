@@ -10,11 +10,11 @@
     "enzyme_modules": [],
     "genes": [
         {
-            "id": "2645_AT1",
-            "name": "GCK",
+            "id": "3099_AT1",
+            "name": "HK2",
             "notes": {
                 "original_bigg_ids": [
-                    "2645.1"
+                    "3099.1"
                 ]
             }
         },
@@ -37,20 +37,20 @@
             }
         },
         {
-            "id": "5211_AT1",
-            "name": "PFKL",
+            "id": "5213_AT1",
+            "name": "PFKM",
             "notes": {
                 "original_bigg_ids": [
-                    "5211.1"
+                    "5213.1"
                 ]
             }
         },
         {
-            "id": "226_AT3",
+            "id": "226_AT2",
             "name": "ALDOA",
             "notes": {
                 "original_bigg_ids": [
-                    "226.3"
+                    "226.2"
                 ]
             }
         },
@@ -73,29 +73,29 @@
             }
         },
         {
-            "id": "5232_AT1",
-            "name": "PGK2",
+            "id": "5230_AT1",
+            "name": "PGK1",
             "notes": {
                 "original_bigg_ids": [
-                    "5232.1"
+                    "5230.1"
                 ]
             }
         },
         {
-            "id": "669_AT2",
-            "name": "BPGM",
+            "id": "5223_AT1",
+            "name": "PGAM1",
             "notes": {
                 "original_bigg_ids": [
-                    "669.2"
+                    "5223.1"
                 ]
             }
         },
         {
-            "id": "2027_AT1",
-            "name": "ENO3",
+            "id": "2026_AT1",
+            "name": "ENO2",
             "notes": {
                 "original_bigg_ids": [
-                    "2027.1"
+                    "2026.1"
                 ]
             }
         },
@@ -109,29 +109,29 @@
             }
         },
         {
-            "id": "5315_AT1",
+            "id": "5315_AT3",
             "name": "PKM",
             "notes": {
                 "original_bigg_ids": [
-                    "5315.1"
+                    "5315.3"
                 ]
             }
         },
         {
-            "id": "5091_AT1",
+            "id": "5091_AT2",
             "name": "PC",
             "notes": {
                 "original_bigg_ids": [
-                    "5091.1"
+                    "5091.2"
                 ]
             }
         },
         {
-            "id": "3948_AT2",
-            "name": "LDHC",
+            "id": "3939_AT1",
+            "name": "LDHA",
             "notes": {
                 "original_bigg_ids": [
-                    "3948.2"
+                    "3939.1"
                 ]
             }
         }
