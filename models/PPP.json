@@ -71,11 +71,11 @@
             }
         },
         {
-            "id": "8277_AT1",
-            "name": "TKTL1",
+            "id": "7086_AT1",
+            "name": "TKT",
             "notes": {
                 "original_bigg_ids": [
-                    "8277.1"
+                    "7086.1"
                 ]
             }
         },
@@ -98,20 +98,20 @@
             }
         },
         {
-            "id": "2203_AT1",
-            "name": "FBP1",
+            "id": "8789_AT1",
+            "name": "FBP2",
             "notes": {
                 "original_bigg_ids": [
-                    "2203.1"
+                    "8789.1"
                 ]
             }
         },
         {
-            "id": "229_AT1",
-            "name": "ALDOB",
+            "id": "226_AT2",
+            "name": "ALDOA",
             "notes": {
                 "original_bigg_ids": [
-                    "229.1"
+                    "226.2"
                 ]
             }
         },
