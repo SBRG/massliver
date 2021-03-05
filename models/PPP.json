@@ -1,0 +1,629 @@
+{
+    "boundary_conditions": {},
+    "compartments": {
+        "c": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [
+        {
+            "id": "2821_AT1",
+            "name": "GPI",
+            "notes": {
+                "original_bigg_ids": [
+                    "2821.1"
+                ]
+            }
+        },
+        {
+            "id": "2539_AT1",
+            "name": "G6PD",
+            "notes": {
+                "original_bigg_ids": [
+                    "2539.1"
+                ]
+            }
+        },
+        {
+            "id": "25796_AT1",
+            "name": "PGLS",
+            "notes": {
+                "original_bigg_ids": [
+                    "25796.1"
+                ]
+            }
+        },
+        {
+            "id": "5226_AT1",
+            "name": "PGD",
+            "notes": {
+                "original_bigg_ids": [
+                    "5226.1"
+                ]
+            }
+        },
+        {
+            "id": "6120_AT2",
+            "name": "RPE",
+            "notes": {
+                "original_bigg_ids": [
+                    "6120.2"
+                ]
+            }
+        },
+        {
+            "id": "22934_AT1",
+            "name": "RPIA",
+            "notes": {
+                "original_bigg_ids": [
+                    "22934.1"
+                ]
+            }
+        },
+        {
+            "id": "6888_AT1",
+            "name": "TALDO1",
+            "notes": {
+                "original_bigg_ids": [
+                    "6888.1"
+                ]
+            }
+        },
+        {
+            "id": "8277_AT1",
+            "name": "TKTL1",
+            "notes": {
+                "original_bigg_ids": [
+                    "8277.1"
+                ]
+            }
+        },
+        {
+            "id": "84076_AT1",
+            "name": "TKTL2",
+            "notes": {
+                "original_bigg_ids": [
+                    "84076.1"
+                ]
+            }
+        },
+        {
+            "id": "5211_AT1",
+            "name": "PFKL",
+            "notes": {
+                "original_bigg_ids": [
+                    "5211.1"
+                ]
+            }
+        },
+        {
+            "id": "2203_AT1",
+            "name": "FBP1",
+            "notes": {
+                "original_bigg_ids": [
+                    "2203.1"
+                ]
+            }
+        },
+        {
+            "id": "229_AT1",
+            "name": "ALDOB",
+            "notes": {
+                "original_bigg_ids": [
+                    "229.1"
+                ]
+            }
+        },
+        {
+            "id": "286016_AT1",
+            "name": "",
+            "notes": {
+                "original_bigg_ids": [
+                    "286016.1"
+                ]
+            }
+        }
+    ],
+    "id": "PPP",
+    "metabolites": [
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "f6p_c",
+            "name": "D-Fructose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "f6p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "g6p_c",
+            "name": "D-Glucose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g6p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H9O9P",
+            "id": "6pgl_c",
+            "name": "6-phospho-D-glucono-1,5-lactone",
+            "notes": {
+                "original_bigg_ids": [
+                    "6pgl[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H",
+            "id": "h_c",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C21H25N7O17P3",
+            "id": "nadp_c",
+            "name": "Nicotinamide adenine dinucleotide phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C21H26N7O17P3",
+            "id": "nadph_c",
+            "name": "Nicotinamide adenine dinucleotide phosphate - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadph[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C6H10O10P",
+            "id": "6pgc_c",
+            "name": "6-Phospho-D-gluconate",
+            "notes": {
+                "original_bigg_ids": [
+                    "6pgc[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H2O",
+            "id": "h2o_c",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "CO2",
+            "id": "co2_c",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H9O8P",
+            "id": "ru5p__D_c",
+            "name": "D-Ribulose 5-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "ru5p_D[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H9O8P",
+            "id": "xu5p__D_c",
+            "name": "D-Xylulose 5-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "xu5p_D[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H9O8P",
+            "id": "r5p_c",
+            "name": "Alpha-D-Ribose 5-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "r5p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H7O7P",
+            "id": "e4p_c",
+            "name": "D-Erythrose 4-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "e4p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "g3p_c",
+            "name": "Glyceraldehyde 3-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g3p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C7H13O10P",
+            "id": "s7p_c",
+            "name": "Sedoheptulose 7-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "s7p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_c",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_c",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C6H10O12P2",
+            "id": "fdp_c",
+            "name": "D-Fructose 1,6-bisphosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fdp[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "HO4P",
+            "id": "pi_c",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "dhap_c",
+            "name": "Dihydroxyacetone phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "dhap[c]"
+                ]
+            }
+        }
+    ],
+    "reactions": [
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2821_AT1",
+            "id": "PGI",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "g6p_c": -1.0
+            },
+            "name": "Glucose-6-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGI"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2539_AT1",
+            "id": "G6PDH2r",
+            "metabolites": {
+                "6pgl_c": 1.0,
+                "g6p_c": -1.0,
+                "h_c": 1.0,
+                "nadp_c": -1.0,
+                "nadph_c": 1.0
+            },
+            "name": "Glucose 6-phosphate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "G6PDH2r"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "25796_AT1",
+            "id": "PGL",
+            "metabolites": {
+                "6pgc_c": 1.0,
+                "6pgl_c": -1.0,
+                "h2o_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "6-phosphogluconolactonase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGL"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5226_AT1",
+            "id": "GND",
+            "metabolites": {
+                "6pgc_c": -1.0,
+                "co2_c": 1.0,
+                "nadp_c": -1.0,
+                "nadph_c": 1.0,
+                "ru5p__D_c": 1.0
+            },
+            "name": "Phosphogluconate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "GND"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "6120_AT1 or 6120_AT2",
+            "id": "RPE",
+            "metabolites": {
+                "ru5p__D_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "name": "Ribulose 5-phosphate 3-epimerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "RPE"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "22934_AT1",
+            "id": "RPI",
+            "metabolites": {
+                "r5p_c": -1.0,
+                "ru5p__D_c": 1.0
+            },
+            "name": "Ribose-5-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "RPI"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "6888_AT1",
+            "id": "TALA",
+            "metabolites": {
+                "e4p_c": 1.0,
+                "f6p_c": 1.0,
+                "g3p_c": -1.0,
+                "s7p_c": -1.0
+            },
+            "name": "Transaldolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TALA"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7086_AT1 or 84076_AT1 or 8277_AT1",
+            "id": "TKT1",
+            "metabolites": {
+                "g3p_c": 1.0,
+                "r5p_c": -1.0,
+                "s7p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "name": "Transketolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TKT1"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7086_AT1 or 84076_AT1 or 8277_AT1",
+            "id": "TKT2",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": 1.0,
+                "g3p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "name": "Transketolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TKT2"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5214_AT1 or 5211_AT2 or (5214_AT1 and 5211_AT1) or (5214_AT1 and 5213_AT1) or 5213_AT1 or (5214_AT1 and 5211_AT2) or 5211_AT1 or (5211_AT1 and 5213_AT1) or (5213_AT1 and 5211_AT2)",
+            "id": "PFK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "name": "Phosphofructokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PFK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2203_AT1 or 8789_AT1",
+            "id": "FBP",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "fdp_c": -1.0,
+                "h2o_c": -1.0,
+                "pi_c": 1.0
+            },
+            "name": "Fructose-bisphosphatase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBP"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "226_AT2 or 226_AT1 or 226_AT3 or 230_AT1 or 229_AT1",
+            "id": "FBA",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Fructose-bisphosphate aldolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBA"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7167_AT1 or 286016_AT1",
+            "id": "TPI",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Triose-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TPI"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        }
+    ],
+    "units": [],
+    "version": "1"
+}
