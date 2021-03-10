@@ -1,0 +1,13 @@
+This folder contains the raw scraped data from SABIO-RK database for enzyme modules [UniProtID]:
+- Alanine Transferase [P25409]
+- Aspartate Aminotransferase [P13221]
+- Glutamate Dehydrogenase [P10860]
+- Glucose-6-phosphate dehydrogenase [Q8CFX1, P05370, A5JNM0]
+- Phosophofrutokinase [P17858, P30835]
+- Pyruvate Kinase [P12928, P11980]
+- Isocitrate Dehydrogenase [Q99NA5, P41565, Q68FX0]
+- Hydroxymethylglutaryl CoA synthase [P54869]
+- Hepatic fructokinase (ketohexokinase) [P50053, Q02974, Q0II75]
+- Phosphoenolpyruvate Carboxykinase [P35558, P07379]
+- Fructose 1,6-bisphosphatase [P09467, Q9Z1N1, P19112]
+- Glycogen Synthase [P67999]
