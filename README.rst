@@ -21,12 +21,6 @@ Development Notes
 -----------------
 
 * Sicily: Glycolysis, Gluconeogenesis, PPP
-    Models:
-    
-    Notebooks: 
-    
-    Data:
-    
 * Shuling: Sucrose Metabolism, Fructolysis, Glycogensis, Glycogenolysis
 * Riya: Pyruvate Dehydrogenase, TCA Cycle, Oxidative Phosphorylation, Ketogenesis, Ketone Oxidation
 * Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
@@ -34,7 +28,17 @@ Development Notes
 
 Folders
 ---------------
+
 Enzyme Module Data : Data from SABIO-RK extracted using __ code
+
+Models: Contains Model Construction notebooks, Escher maps, non-paramterized JSON files of pathway models
+    
+Notebooks: Contains Data Extraction code for UniProt and SABIO RK
+    
+Data: Contains 
+                Extracted UniProt Data
+                Extracted SABIO-RK Data
+                
 
 
 
