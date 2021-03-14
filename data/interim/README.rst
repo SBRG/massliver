@@ -8,3 +8,17 @@ Directory for the intermediate data that has been transformed.
     1. Fill out/ find information for: the ionic strength, cosubstrate concentration, ionic strength
     2. Reorganize: activator, inhibitor, cofactor 
 
+1.0-ma-amino_acid_enzyme_data.xlsx
+  Includes initial collection of enzyme data in MASSEF Format for Alanine Transferase, Aspartate Transferase, Glutamate Dehydrogenase
+  
+1.1-ma-amino_acid_enzyme_data.xlsx
+  Includes everything of 1.0-ma-amino_acid_enzyme_data.xlsx + updated unit conversions for katal, U, etc
+
+1.2-ma-amino_acid_enzyme_data.xlsx
+  Includes 1.0-ma-amino_acid_enzyme_data.xlsx + updated unit conversions for katal, U, etc
+
+1.0-ma-datacollection.xlsx
+  Includes concentration data from HEPATOKIN Paper 
+
+1.1-ma-datacollection.xlsx
+  Includes 1.0-ma-datacollection.xlsx + independent flux brainstorm for carbohydrate metabolism 
