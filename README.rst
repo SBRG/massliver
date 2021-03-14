@@ -19,10 +19,14 @@ Running the ``tox`` command should install all pre-commit hooks into the develop
 
 Development Notes
 -----------------
+
 * Sicily: Glycolysis, Gluconeogenesis, PPP
     Models:
+    
     Notebooks: 
-    Data
+    
+    Data:
+    
 * Shuling: Sucrose Metabolism, Fructolysis, Glycogensis, Glycogenolysis
 * Riya: Pyruvate Dehydrogenase, TCA Cycle, Oxidative Phosphorylation, Ketogenesis, Ketone Oxidation
 * Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
