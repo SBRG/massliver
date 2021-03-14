@@ -29,16 +29,19 @@ Development Notes
 Folders
 ---------------
 
-Enzyme Module Data : Data from SABIO-RK extracted using __ code
+
 
 Models: Contains Model Construction notebooks, Escher maps, non-paramterized JSON files of pathway models
     
 Notebooks: Contains Data Extraction code for UniProt and SABIO RK
 
-    
-Data: Contains 
+Data Contains 
                * Extracted UniProt Data
                * Extracted SABIO-RK Data
+               * Contains EnzymeModule Data in MASSEF format
+               * Concentration Data from HEPATOKIN paper
+               * Equilibrium constants data (Keq) from SABIO-RK
+               * Buffer info for MASSEf
                 
 
 
