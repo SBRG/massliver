@@ -28,6 +28,11 @@ Development Notes
 * Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
 * TBD: Citrate Malate Shuttle
 
+Folders
+---------------
+Enzyme Module Data : Data from SABIO-RK extracted using __ code
+
+
 
 Dev. Branches
 +++++++++++++
