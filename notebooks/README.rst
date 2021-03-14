@@ -1,6 +1,9 @@
 Directory for the Jupyter notebooks.
 
 Naming convention is a number (for ordering), the creator's initials, and a short ``-`` delimited description, e.g. ``1.0-zbh-initial-data-exploration``.
+Notebooks
+-----------------------
+
 
 1.0-ma-uniprot-data-extraction.ipynb
   Initial attempt to extract data from Uniprot database (using random enzymes)
