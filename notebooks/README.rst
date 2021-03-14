@@ -24,4 +24,8 @@ Notebooks
 1.1-ma-Keq_eQuilibrator.ipynb
   Same details as 1.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
   Updated to include Beautiful Soup code to extract exact Keq data 
+1.0-sz--rm--SabioRK-data-extraction.ipynb
+  inital notebook with the code for extraction of the enzyme data from Sabio-RK database. This file tries to use 
+  helium (webscaping package) to extract the data. This is not a final file but a work in progress. 
+
  
