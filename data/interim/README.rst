@@ -13,3 +13,6 @@ Directory for the intermediate data that has been transformed.
   
 1.1-ma-amino_acid_enzyme_data.xlsx
   Includes everything of 1.0-ma-amino_acid_enzyme_data.xlsx + updated unit conversions for katal, U, etc
+
+1.0-ma-datacollection.xlsx
+  Includes concentration data from HEPATOKIN Paper 
