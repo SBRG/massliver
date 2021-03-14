@@ -7,10 +7,12 @@ JSON Models
 ----------------
 CoreModel: COBRA model for the entire core model
 
-Fructolysis, Glycogen, Glycolysis, PPP, Sucrose : JSON files for the pathway notebooks created.
-
 Recon3D : JSON file required for the Sucrose model
 
-Python Jupyter Notebooks
+Fructolysis, Glycogen, Glycolysis, PPP, Sucrose : JSON files for the pathway notebooks created ( not parameterized)
+
+
+
+Python Construction Notebooks
 -----------------------------
 The Python notebooks are the model construction notebooks with initials of creators
