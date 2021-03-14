@@ -29,13 +29,12 @@ Development Notes
 Folders
 ---------------
 
-
-
 Models: Contains Model Construction notebooks, Escher maps, non-paramterized JSON files of pathway models
     
 Notebooks: Contains Data Extraction code for UniProt and SABIO RK
 
 Data Contains 
+
                * Extracted UniProt Data
                * Extracted SABIO-RK Data
                * Contains EnzymeModule Data in MASSEF format
