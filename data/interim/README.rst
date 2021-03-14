@@ -11,3 +11,5 @@ Directory for the intermediate data that has been transformed.
 1.0-ma-amino_acid_enzyme_data.xlsx
   Includes initial collection of enzyme data in MASSEF Format for Alanine Transferase, Aspartate Transferase, Glutamate Dehydrogenase
   
+1.1-ma-amino_acid_enzyme_data.xlsx
+  Includes everything of 1.0-ma-amino_acid_enzyme_data.xlsx + updated unit conversions for katal, U, etc
