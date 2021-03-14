@@ -17,5 +17,3 @@ Notebooks
   LATEST : Combined Km and Vm values, forms data table at the end with split values
 
 
-
-Sabio-RK_Extraction_v1.ipynb : SABIO RK extraction code
