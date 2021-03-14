@@ -16,3 +16,6 @@ Directory for the intermediate data that has been transformed.
 
 1.0-ma-datacollection.xlsx
   Includes concentration data from HEPATOKIN Paper 
+
+1.1-ma-datacollection.xlsx
+  Includes 1.0-ma-datacollection.xlsx + independent flux brainstorm for carbohydrate metabolism 
