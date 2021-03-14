@@ -15,17 +15,8 @@ Afterwards, make sure all worked by running the following from the repository::
 Running the ``tox`` command should install all pre-commit hooks into the development environment. To automatically lint your files, run the following::
 
     pre-commit run --all-files
-
-
-Development Notes
------------------
-
-* Sicily: Glycolysis, Gluconeogenesis, PPP
-* Shuling: Sucrose Metabolism, Fructolysis, Glycogensis, Glycogenolysis
-* Riya: Pyruvate Dehydrogenase, TCA Cycle, Oxidative Phosphorylation, Ketogenesis, Ketone Oxidation
-* Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
-* TBD: Citrate Malate Shuttle
-
+    
+    
 Folders
 ---------------
 
@@ -42,6 +33,18 @@ Data Contains
                * Equilibrium constants data (Keq) from SABIO-RK
                * Buffer info for MASSEf
                 
+    
+
+
+Development Notes
+-----------------
+
+* Sicily: Glycolysis, Gluconeogenesis, PPP, Lactate Fermentation
+* Shuling: Sucrose Metabolism, Fructolysis, Glycogensis, Glycogenolysis
+* Riya: Pyruvate Dehydrogenase, TCA Cycle, Oxidative Phosphorylation, Ketogenesis, Ketone Oxidation
+* Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
+* TBD: Citrate Malate Shuttle
+
 
 
 
