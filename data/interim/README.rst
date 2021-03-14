@@ -8,3 +8,6 @@ Directory for the intermediate data that has been transformed.
     1. Fill out/ find information for: the ionic strength, cosubstrate concentration, ionic strength
     2. Reorganize: activator, inhibitor, cofactor 
 
+1.0-ma-amino_acid_enzyme_data.xlsx
+  Includes initial collection of enzyme data in MASSEF Format for Alanine Transferase, Aspartate Transferase, Glutamate Dehydrogenase
+  
