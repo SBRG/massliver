@@ -24,3 +24,4 @@ Notebooks
 1.1-ma-Keq_eQuilibrator.ipynb
   Same details as 1.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
   Updated to include Beautiful Soup code to extract exact Keq data 
+ 
