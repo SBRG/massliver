@@ -17,7 +17,7 @@ Notebooks
   LATEST : Combined Km and Vm values, forms data table at the end with split values
 1.4-ma-pathway-notebook-creation-workflow.ipynb
   Initial attempt to create a pathway construction workflow using Amino Acid reactions (does not work) 
-2.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
+1.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
   From Excel file of reaction(rxn) BIGG IDs for all pathways, extract rxn IDs to form BIGG urls.
   Then, extracts EC numbers for each rxn from BIGG website.
   Use the EC numbers to extract all Keq datas from Sabio-RK website and map the EC numbers result with rxn IDs.
