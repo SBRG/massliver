@@ -22,3 +22,12 @@ Directory for the intermediate data that has been transformed.
 
 1.1-ma-datacollection.xlsx
   Includes 1.0-ma-datacollection.xlsx + independent flux brainstorm for carbohydrate metabolism 
+
+1.0-rm-datacollection.xlsx
+  Updated Keq values from the Keq extraction from SABIO-RK. This is the same data collection file used but just updated Keq tab of the sheet. 
+
+1.0 - rm - enzyme - module - data.xlsx
+  First data review of enzyme modules data that was extracted from SABIO-RK database and Uniprot. 
+  
+EnzymeNameData.xlsx
+  This is a outline file that has the structure and data parameters that MASSEF software package is takes in to create enzyme modules. 
