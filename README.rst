@@ -15,15 +15,37 @@ Afterwards, make sure all worked by running the following from the repository::
 Running the ``tox`` command should install all pre-commit hooks into the development environment. To automatically lint your files, run the following::
 
     pre-commit run --all-files
+    
+    
+Folders
+---------------
+
+Models: Contains Model Construction notebooks, Escher maps, non-paramterized JSON files of pathway models
+    
+Notebooks: Contains Data Extraction code for UniProt and SABIO RK
+
+Data Contains 
+
+               * Extracted UniProt Data
+               * Extracted SABIO-RK Data
+               * Contains EnzymeModule Data in MASSEF format
+               * Concentration Data from HEPATOKIN paper
+               * Equilibrium constants data (Keq) from SABIO-RK
+               * Buffer info for MASSEf
+                
+    
 
 
 Development Notes
 -----------------
-* Sicily: Glycolysis, Gluconeogenesis, PPP
+
+* Sicily: Glycolysis, Gluconeogenesis, PPP, Lactate Fermentation
 * Shuling: Sucrose Metabolism, Fructolysis, Glycogensis, Glycogenolysis
 * Riya: Pyruvate Dehydrogenase, TCA Cycle, Oxidative Phosphorylation, Ketogenesis, Ketone Oxidation
 * Mahima: Amino Acid Degradation, Amino Acid Synthesis, Urea Cycle, Aspartate- Malate Shuttle
 * TBD: Citrate Malate Shuttle
+
+
 
 
 Dev. Branches
