@@ -27,6 +27,9 @@ Notebooks
 1.0-sz--rm--SabioRK-data-extraction.ipynb
   inital notebook with the code for extraction of the enzyme data from Sabio-RK database. This file tries to use 
   helium (webscaping package) to extract the data. This is not a final file but a work in progress. 
+1.0-rm-data-input-functions.ipynb
+  This is has the function to extract data from excel sheet and put in a pandas dataframe. More funcitons can be added
+  to this notebook as needed. 
 EnzymeModuleDataList.xlsx
   this file has the names and UniProt IDs of the enzymes that is used in the extraction code to scrape the data from SABIO-RK.
 
