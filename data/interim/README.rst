@@ -22,3 +22,6 @@ Directory for the intermediate data that has been transformed.
 
 1.1-ma-datacollection.xlsx
   Includes 1.0-ma-datacollection.xlsx + independent flux brainstorm for carbohydrate metabolism 
+
+1.2-ma-data-collection.xlsx
+  Includes final form (MASSpy data form) of concentration, flux, Keq data from HEPATOKIN, In Vivo Studies Paper (2020), eQuilbrator 
