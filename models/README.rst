@@ -16,3 +16,9 @@ Fructolysis, Glycogen, Glycolysis, PPP, Sucrose : JSON files for the pathway not
 Python Construction Notebooks
 -----------------------------
 The Python notebooks are the model construction notebooks with initials of creators
+
+
+
+Escher Maps
+---------------------------
+Escher maps created using the CoreModel, present in the model construction notebooks to verify pathways
