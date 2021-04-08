@@ -13,3 +13,5 @@ Data Extraction Code Notebooks:
 1.0-sz--rm--SabioRK-data-extraction.ipynb
  Extraction Code for data values from SabioRK
 
+EnzymeModulesList.xlsx & Reaction_Name.xlsx
+ Excel Files needed for Data Extraction 
