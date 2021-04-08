@@ -10,5 +10,6 @@ Data Extraction Code Notebooks:
  (Final Version for Extraction) From Excel file of "EnzymeModulesList", extract UniProt IDs for enzymes to form Sabio-RK urls. Use Helium to extract enzyme data from Sabio-RK  website
 1.0-sz--rm--Keq_eQuilibrator.ipynb
  From Excel file of "rxn_testing", extract reaction BIGG IDs to form BIGG urls in order to get full reaction names and the first EC number. Use the EC numbers to form     eQuilibrator urls. Automate to adjust pH, pMg, and ionic strength (pseudo parameter for testing; still need to find standards) May need to manually extract the Gibbs free   energy (no success with Helium and BeautifulSoup yet)
-
+1.0-sz--rm--SabioRK-data-extraction.ipynb
+ Extraction Code for data values from SabioRK
 
