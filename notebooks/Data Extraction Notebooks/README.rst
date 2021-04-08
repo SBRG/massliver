@@ -2,12 +2,8 @@ Data Extraction Code Notebooks:
 
 1.0-ma-uniprot-data-extraction.ipynb
  Initial attempt to extract data from Uniprot database (using random enzymes)
-1.2-ma--sp--uniprot-data-extraction-optimized :
- From Excel file of UniProt ID's, extracts ID and forms url and forms soup extracts Km values and Vm values and inputs them into separate Panda dataframe
-1.2.1-sp--ma--uniprot-data-extraction-optimized
- Attaches UniProt ID's as well and forms an excel table at the end
 1.2.5-sp--ma--uniprot-data-extraction-optimized
-LATEST : Combined Km and Vm values, forms data table at the end with split values
+ LATEST : Combined Km and Vm values, forms data table at the end with split values
 1.4-ma-pathway-notebook-creation-workflow.ipynb
 Initial attempt to create a pathway construction workflow using Amino Acid reactions (does not work)
 1.0-sz--rm-Keq_Extraction_for_Reactions.ipynb
