@@ -17,3 +17,5 @@ Directory for the intermediate data that has been transformed.
 1.0-rm-datacollection.xlsx
   Includes initial Keq research
 
+1.0 - rm - enzyme - module - data.xlsx
+  Includes enzyme module data for TCA Cycle, Ketone Pathways
