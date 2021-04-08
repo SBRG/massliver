@@ -25,5 +25,9 @@ Folder: "Note" (sz)
     - Fructose 1,6-bisphosphatase [P09467, Q9Z1N1, P19112]
     - Glycogen Synthase [P67999]
  
-  
+ 
+srp--Kinetic_Values_from_Uniprot_using_v1.2.5.xlsx
+ Extracted Kinetic Values from Uniprot
 
+Enzyme Module Data
+ Enzyme Module Data from Sabio-RK
