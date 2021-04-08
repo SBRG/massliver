@@ -29,3 +29,5 @@ Folder: "Note" (sz)
 srp--Kinetic_Values_from_Uniprot_using_v1.2.5.xlsx
  Extracted Kinetic Values from Uniprot
 
+Enzyme Module Data
+ Enzyme Module Data from Sabio-RK
