@@ -1,0 +1,404 @@
+{
+    "boundary_conditions": {},
+    "compartments": {
+        "": "",
+        "i": "",
+        "m": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [
+        {
+            "id": "64064_AT1",
+            "name": "OXCT2",
+            "notes": {
+                "original_bigg_ids": [
+                    "64064.1"
+                ]
+            }
+        },
+        {
+            "id": "3158_AT1",
+            "name": "HMGCS2",
+            "notes": {
+                "original_bigg_ids": [
+                    "3158.1"
+                ]
+            }
+        },
+        {
+            "id": "54511_AT1",
+            "name": "HMGCLL1",
+            "notes": {
+                "original_bigg_ids": [
+                    "54511.1"
+                ]
+            }
+        },
+        {
+            "id": "622_AT3",
+            "name": "BDH1",
+            "notes": {
+                "original_bigg_ids": [
+                    "622.3"
+                ]
+            }
+        },
+        {
+            "id": "38_AT1",
+            "name": "ACAT1",
+            "notes": {
+                "original_bigg_ids": [
+                    "38.1"
+                ]
+            }
+        }
+    ],
+    "id": "Ketone",
+    "metabolites": [
+        {
+            "compartment": "",
+            "id": "acetone_c",
+            "name": ""
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "C3H6O",
+            "id": "acetone_m",
+            "name": "Acetone",
+            "notes": {
+                "original_bigg_ids": [
+                    "acetone[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "i",
+            "formula": "H",
+            "id": "h_i",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[i]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H",
+            "id": "h_m",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C4H5O3",
+            "id": "acac_m",
+            "name": "Acetoacetate",
+            "notes": {
+                "original_bigg_ids": [
+                    "acac[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "CO2",
+            "id": "co2_m",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C25H36N7O18P3S",
+            "id": "aacoa_m",
+            "name": "Acetoacetyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "aacoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H4O4",
+            "id": "succ_m",
+            "name": "Succinate",
+            "notes": {
+                "original_bigg_ids": [
+                    "succ[m]"
+                ]
+            }
+        },
+        {
+            "charge": -5,
+            "compartment": "m",
+            "formula": "C25H35N7O19P3S",
+            "id": "succoa_m",
+            "name": "Succinyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "succoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C23H34N7O17P3S",
+            "id": "accoa_m",
+            "name": "Acetyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "accoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C21H32N7O16P3S",
+            "id": "coa_m",
+            "name": "Coenzyme A",
+            "notes": {
+                "original_bigg_ids": [
+                    "coa[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H2O",
+            "id": "h2o_m",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[m]"
+                ]
+            }
+        },
+        {
+            "charge": -5,
+            "compartment": "m",
+            "formula": "C27H39N7O20P3S",
+            "id": "hmgcoa_m",
+            "name": "Hydroxymethylglutaryl CoA C27H39N7O20P3S",
+            "notes": {
+                "original_bigg_ids": [
+                    "hmgcoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C4H7O3",
+            "id": "bhb_m",
+            "name": "(R)-3-Hydroxybutanoate",
+            "notes": {
+                "original_bigg_ids": [
+                    "bhb[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C21H26N7O14P2",
+            "id": "nad_m",
+            "name": "Nicotinamide adenine dinucleotide",
+            "notes": {
+                "original_bigg_ids": [
+                    "nad[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C21H27N7O14P2",
+            "id": "nadh_m",
+            "name": "Nicotinamide adenine dinucleotide - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadh[m]"
+                ]
+            }
+        },
+        {
+            "compartment": "",
+            "id": "bhb_c",
+            "name": ""
+        }
+    ],
+    "reactions": [
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "ACETONEt2m",
+            "metabolites": {
+                "acetone_c": -1,
+                "acetone_m": 1,
+                "h_i": -1,
+                "h_m": 1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "ADCim",
+            "metabolites": {
+                "acac_m": -1.0,
+                "acetone_m": 1.0,
+                "co2_m": 1.0,
+                "h_m": -1.0
+            },
+            "name": "Acetoacetate decarboxylation (irreversible), mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "ADCim"
+                ]
+            },
+            "subsystem": "Propanoate metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5019_AT1 or 64064_AT1",
+            "id": "OCOAT1m",
+            "metabolites": {
+                "aacoa_m": 1.0,
+                "acac_m": -1.0,
+                "succ_m": 1.0,
+                "succoa_m": -1.0
+            },
+            "name": "3-oxoacid CoA-transferase",
+            "notes": {
+                "original_bigg_ids": [
+                    "OCOAT1m"
+                ]
+            },
+            "subsystem": "Valine, leucine, and isoleucine metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 0.0,
+            "gene_reaction_rule": "3158_AT1",
+            "id": "HMGCOASm",
+            "metabolites": {
+                "aacoa_m": 1.0,
+                "accoa_m": 1.0,
+                "coa_m": -1.0,
+                "h2o_m": 1.0,
+                "h_m": -1.0,
+                "hmgcoa_m": -1.0
+            },
+            "name": "Hydroxymethylglutaryl CoA synthase  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "HMGCOASim"
+                ]
+            },
+            "subsystem": "Cholesterol metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "3155_AT1 or 54511_AT1",
+            "id": "HMGLm",
+            "metabolites": {
+                "acac_m": 1.0,
+                "accoa_m": 1.0,
+                "hmgcoa_m": -1.0
+            },
+            "name": "Hydroxymethylglutaryl-CoA lyase",
+            "notes": {
+                "original_bigg_ids": [
+                    "HMGLm"
+                ]
+            },
+            "subsystem": "Cholesterol metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "622_AT2 or 622_AT3 or 622_AT1",
+            "id": "BDHm",
+            "metabolites": {
+                "acac_m": 1.0,
+                "bhb_m": -1.0,
+                "h_m": 1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0
+            },
+            "name": "3-Hydroxybutanoate:NAD+ oxidoreductase, mitochondria",
+            "notes": {
+                "original_bigg_ids": [
+                    "BDHm"
+                ]
+            },
+            "subsystem": "Butanoate metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "BHBtm",
+            "metabolites": {
+                "bhb_c": -1,
+                "bhb_m": 1,
+                "h_i": -1,
+                "h_m": 1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(3030_AT1 and 3032_AT1) or 38_AT1",
+            "id": "ACACT1m",
+            "metabolites": {
+                "aacoa_m": 1.0,
+                "accoa_m": -2.0,
+                "coa_m": 1.0
+            },
+            "name": "Acetyl CoA C acetyltransferase  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "ACACT1rm"
+                ]
+            },
+            "subsystem": "Tryptophan metabolism"
+        }
+    ],
+    "units": [],
+    "version": "1"
+}
