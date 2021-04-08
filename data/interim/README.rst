@@ -13,3 +13,7 @@ Directory for the intermediate data that has been transformed.
 
 1.5-ma-data-collection.xlsx
   Includes final form (MASSpy data form) of concentration, flux, Keq data from HEPATOKIN, In Vivo Studies Paper (2020), eQuilbrator 
+  
+1.0-rm-datacollection.xlsx
+  Includes initial Keq research
+
