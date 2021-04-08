@@ -1,3 +1,3 @@
-Here are all the Escher maps:
+Escher Maps
 
 
