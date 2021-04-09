@@ -1,0 +1,970 @@
+{
+    "boundary_conditions": {},
+    "compartments": {
+        "c": "",
+        "e": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [
+        {
+            "id": "3795_AT2",
+            "name": "KHK",
+            "notes": {
+                "original_bigg_ids": [
+                    "3795.2"
+                ]
+            }
+        },
+        {
+            "id": "229_AT1",
+            "name": "ALDOB",
+            "notes": {
+                "original_bigg_ids": [
+                    "229.1"
+                ]
+            }
+        },
+        {
+            "id": "286016_AT1",
+            "name": "",
+            "notes": {
+                "original_bigg_ids": [
+                    "286016.1"
+                ]
+            }
+        },
+        {
+            "id": "5214_AT1",
+            "name": "PFKP",
+            "notes": {
+                "original_bigg_ids": [
+                    "5214.1"
+                ]
+            }
+        },
+        {
+            "id": "7086_AT1",
+            "name": "TKT",
+            "notes": {
+                "original_bigg_ids": [
+                    "7086.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS7291.1",
+                    "CCDS7292.1",
+                    "CCDS7290.1",
+                    "CCDS7289.1"
+                ],
+                "ncbigene": [
+                    "3098"
+                ],
+                "omim": [
+                    "142600"
+                ],
+                "refseq_name": [
+                    "HK1"
+                ],
+                "refseq_synonym": [
+                    "HKI",
+                    "HMSNR",
+                    "HK1-ta",
+                    "HXK1",
+                    "HK1-tb",
+                    "HK1-tc",
+                    "HKD"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "3098_AT4",
+            "name": "HK1",
+            "notes": {
+                "original_bigg_ids": [
+                    "3098.4"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS3196.1"
+                ],
+                "ncbigene": [
+                    "6476"
+                ],
+                "omim": [
+                    "609845"
+                ],
+                "refseq_name": [
+                    "SI"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "6476_AT1",
+            "name": "SI",
+            "notes": {
+                "original_bigg_ids": [
+                    "6476.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS99.1",
+                    "CCDS44054.1"
+                ],
+                "hprd": [
+                    "00690"
+                ],
+                "ncbigene": [
+                    "6518"
+                ],
+                "omim": [
+                    "138230"
+                ],
+                "refseq_name": [
+                    "SLC2A5"
+                ],
+                "refseq_synonym": [
+                    "GLUT5",
+                    "GLUT-5"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "6518_AT1",
+            "name": "SLC2A5",
+            "notes": {
+                "original_bigg_ids": [
+                    "6518.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS11097.1"
+                ],
+                "hprd": [
+                    "00688"
+                ],
+                "ncbigene": [
+                    "6517"
+                ],
+                "omim": [
+                    "138190"
+                ],
+                "refseq_name": [
+                    "SLC2A4"
+                ],
+                "refseq_synonym": [
+                    "GLUT4"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "6517_AT1",
+            "name": "SLC2A4",
+            "notes": {
+                "original_bigg_ids": [
+                    "6517.1"
+                ]
+            }
+        }
+    ],
+    "id": "Fructolysis_SucroseMetabolism",
+    "metabolites": [
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_c",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_c",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "f1p_c",
+            "name": "D-Fructose 1-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "f1p[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C6H12O6",
+            "id": "fru_c",
+            "name": "D-Fructose",
+            "notes": {
+                "original_bigg_ids": [
+                    "fru[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H",
+            "id": "h_c",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "dhap_c",
+            "name": "Dihydroxyacetone phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "dhap[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C3H6O3",
+            "id": "glyald_c",
+            "name": "D-Glyceraldehyde",
+            "notes": {
+                "original_bigg_ids": [
+                    "glyald[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "g3p_c",
+            "name": "Glyceraldehyde 3-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g3p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C6H10O12P2",
+            "id": "fdp_c",
+            "name": "D-Fructose 1,6-bisphosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fdp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "f6p_c",
+            "name": "D-Fructose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "f6p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H7O7P",
+            "id": "e4p_c",
+            "name": "D-Erythrose 4-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "e4p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H9O8P",
+            "id": "xu5p__D_c",
+            "name": "D-Xylulose 5-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "xu5p_D[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C6H12O6",
+            "id": "glc__D_c",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[c]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "sucr"
+                ],
+                "biocyc": [
+                    "META:SUCROSE"
+                ],
+                "chebi": [
+                    "CHEBI:9314",
+                    "CHEBI:15128",
+                    "CHEBI:17992",
+                    "CHEBI:45795",
+                    "CHEBI:26812"
+                ],
+                "hmdb": [
+                    "HMDB00258"
+                ],
+                "inchi_key": [
+                    "CZMRCDWAGMRECN-UGDNZRGBSA-N"
+                ],
+                "kegg.compound": [
+                    "C00089"
+                ],
+                "kegg.drug": [
+                    "D00025"
+                ],
+                "kegg.glycan": [
+                    "G00370"
+                ],
+                "metanetx.chemical": [
+                    "MNXM167"
+                ],
+                "reactome.compound": [
+                    "188980"
+                ],
+                "sabiork": [
+                    "1294"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00076"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "C12H22O11",
+            "id": "sucr_e",
+            "name": "Sucrose C12H22O11",
+            "notes": {
+                "original_bigg_ids": [
+                    "sucr[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "fru"
+                ],
+                "biocyc": [
+                    "META:D-Fructopyranose",
+                    "META:Fructofuranose",
+                    "META:CPD-15382",
+                    "META:FRU"
+                ],
+                "chebi": [
+                    "CHEBI:47424",
+                    "CHEBI:28757",
+                    "CHEBI:24110",
+                    "CHEBI:20929",
+                    "CHEBI:4119",
+                    "CHEBI:15824",
+                    "CHEBI:5172",
+                    "CHEBI:24104",
+                    "CHEBI:12923",
+                    "CHEBI:4118",
+                    "CHEBI:37714",
+                    "CHEBI:37721",
+                    "CHEBI:48095"
+                ],
+                "hmdb": [
+                    "HMDB62538"
+                ],
+                "inchi_key": [
+                    "RFSUNEUAIZKAJO-VRPWFDPXSA-N"
+                ],
+                "kegg.compound": [
+                    "C01496",
+                    "C05003",
+                    "C00095",
+                    "C10906"
+                ],
+                "kegg.drug": [
+                    "D00114"
+                ],
+                "metanetx.chemical": [
+                    "MNXM175"
+                ],
+                "reactome.compound": [
+                    "189049",
+                    "29532"
+                ],
+                "sabiork": [
+                    "25055",
+                    "1463",
+                    "1464"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00082",
+                    "cpd19015",
+                    "cpd27040"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "C6H12O6",
+            "id": "fru_e",
+            "name": "D-Fructose",
+            "notes": {
+                "original_bigg_ids": [
+                    "fru[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "glc__D"
+                ],
+                "biocyc": [
+                    "META:Glucopyranose"
+                ],
+                "chebi": [
+                    "CHEBI:12965",
+                    "CHEBI:20999",
+                    "CHEBI:4167",
+                    "CHEBI:17634"
+                ],
+                "hmdb": [
+                    "HMDB00122",
+                    "HMDB06564"
+                ],
+                "inchi_key": [
+                    "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+                ],
+                "kegg.compound": [
+                    "C00031"
+                ],
+                "kegg.drug": [
+                    "D00009"
+                ],
+                "metanetx.chemical": [
+                    "MNXM41"
+                ],
+                "sabiork": [
+                    "1406",
+                    "1407"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd26821",
+                    "cpd00027"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "C6H12O6",
+            "id": "glc__D_e",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "h2o"
+                ],
+                "biocyc": [
+                    "META:CPD-15815",
+                    "META:OXONIUM",
+                    "META:HYDROXYL-GROUP",
+                    "META:WATER",
+                    "META:OH"
+                ],
+                "chebi": [
+                    "CHEBI:13352",
+                    "CHEBI:30490",
+                    "CHEBI:43228",
+                    "CHEBI:33813",
+                    "CHEBI:44292",
+                    "CHEBI:44641",
+                    "CHEBI:27313",
+                    "CHEBI:42043",
+                    "CHEBI:44819",
+                    "CHEBI:29356",
+                    "CHEBI:5594",
+                    "CHEBI:10743",
+                    "CHEBI:15377",
+                    "CHEBI:42857",
+                    "CHEBI:13365",
+                    "CHEBI:29412",
+                    "CHEBI:16234",
+                    "CHEBI:13419",
+                    "CHEBI:5585",
+                    "CHEBI:44701"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/799908db-b8c9-4982-86cb-1f225e2ad08c",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/e7f34a8e-cded-4793-b6d5-792335b38636",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/969d0227-3069-4e44-9525-7ae7bad84170"
+                ],
+                "hmdb": [
+                    "HMDB02111",
+                    "HMDB01039"
+                ],
+                "inchi_key": [
+                    "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00001",
+                    "C01328"
+                ],
+                "kegg.drug": [
+                    "D00001",
+                    "D06322"
+                ],
+                "metanetx.chemical": [
+                    "MNXM2"
+                ],
+                "reactome.compound": [
+                    "113521",
+                    "141343",
+                    "2022884",
+                    "5278291",
+                    "29356",
+                    "189422",
+                    "5668574",
+                    "5693747",
+                    "109276",
+                    "113519",
+                    "1605715",
+                    "8851517",
+                    "113518",
+                    "351603"
+                ],
+                "sabiork": [
+                    "40"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27222",
+                    "cpd00001",
+                    "cpd15275"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "H2O",
+            "id": "h2o_e",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[e]"
+                ]
+            }
+        }
+    ],
+    "reactions": [
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "3795_AT1 or 3795_AT2",
+            "id": "KHK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f1p_c": 1.0,
+                "fru_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "Ketohexokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "KHK"
+                ]
+            },
+            "subsystem": "Fructose and mannose metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "226_AT2 or 226_AT1 or 226_AT3 or 229_AT1 or 230_AT1",
+            "id": "FBA2",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "f1p_c": -1.0,
+                "glyald_c": 1.0
+            },
+            "name": "D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBA2"
+                ]
+            },
+            "subsystem": "Fructose and mannose metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "TRIOK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "g3p_c": 1.0,
+                "glyald_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "Triokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TRIOK"
+                ]
+            },
+            "subsystem": "Fructose and mannose metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7167_AT1 or 286016_AT1",
+            "id": "TPI",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Triose-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TPI"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "226_AT2 or 226_AT1 or 226_AT3 or 230_AT1 or 229_AT1",
+            "id": "FBA",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Fructose-bisphosphate aldolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBA"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5214_AT1 or 5211_AT2 or (5214_AT1 and 5211_AT1) or (5214_AT1 and 5213_AT1) or 5213_AT1 or (5214_AT1 and 5211_AT2) or 5211_AT1 or (5211_AT1 and 5213_AT1) or (5213_AT1 and 5211_AT2)",
+            "id": "PFK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "name": "Phosphofructokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PFK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7086_AT1 or 84076_AT1 or 8277_AT1",
+            "id": "TKT2",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": 1.0,
+                "g3p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "name": "Transketolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TKT2"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "EX_glc__D_c",
+            "metabolites": {
+                "glc__D_c": -1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "HEX7"
+                ],
+                "ec-code": [
+                    "2.7.1.1",
+                    "2.7.1.4"
+                ],
+                "kegg.reaction": [
+                    "R00867"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100614"
+                ],
+                "sbo": "SBO:0000176"
+            },
+            "gene_reaction_rule": "2645_AT2 or 2645_AT3 or 3098_AT3 or 3098_AT1 or 3101_AT1 or 3098_AT2 or 3099_AT1 or 2645_AT1 or 3098_AT4 or 80201_AT1 or 3098_AT5",
+            "id": "HEX7",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": 1.0,
+                "fru_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "Hexokinase (D-fructose:ATP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "HEX7"
+                ]
+            },
+            "subsystem": "Fructose and mannose metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "EX_sucr_e"
+                ],
+                "metanetx.reaction": [
+                    "MNXR104641"
+                ],
+                "sabiork": [
+                    "13123"
+                ],
+                "sbo": "SBO:0000627",
+                "seed.reaction": [
+                    "rxn09275"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_sucr_e",
+            "metabolites": {
+                "sucr_e": -1.0
+            },
+            "name": "Sucrose exchange",
+            "notes": {
+                "original_bigg_ids": [
+                    "EX_sucr[e]"
+                ]
+            },
+            "subsystem": "Extracellular exchange"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "SUCRe"
+                ],
+                "ec-code": [
+                    "3.2.1.26",
+                    "3.2.1.10",
+                    "2.4.1.9",
+                    "2.4.1.10",
+                    "3.2.1.48",
+                    "3.2.1.20",
+                    "2.4.1.4"
+                ],
+                "kegg.reaction": [
+                    "R06087",
+                    "R00801"
+                ],
+                "metanetx.reaction": [
+                    "MNXR104638"
+                ],
+                "sabiork": [
+                    "1146"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00575"
+                ]
+            },
+            "gene_reaction_rule": "6476_AT1 or 8972_AT1",
+            "id": "SUCRe",
+            "metabolites": {
+                "fru_e": 1.0,
+                "glc__D_e": 1.0,
+                "h2o_e": -1.0,
+                "sucr_e": -1.0
+            },
+            "name": "Sucrose hydrolyzing enxyme  extracellular",
+            "notes": {
+                "original_bigg_ids": [
+                    "SUCRe"
+                ]
+            },
+            "subsystem": "Galactose metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "FRUt1r"
+                ],
+                "metanetx.reaction": [
+                    "MNXR99663"
+                ],
+                "reactome.reaction": [
+                    "R-OSA-189222",
+                    "R-XTR-189222",
+                    "R-SCE-189222",
+                    "R-ATH-189222",
+                    "R-RNO-189222",
+                    "R-DME-189222",
+                    "R-TGU-189222",
+                    "R-SSC-189222",
+                    "R-CFA-189222",
+                    "R-DRE-189222",
+                    "R-HSA-189222",
+                    "R-GGA-189222",
+                    "R-BTA-189222",
+                    "R-MMU-189222",
+                    "R-DDI-189222"
+                ],
+                "sabiork": [
+                    "13415"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn12996",
+                    "rxn08537"
+                ]
+            },
+            "gene_reaction_rule": "29988_AT1 or 6514_AT1 or 155184_AT1 or 6518_AT1 or 66035_AT1",
+            "id": "FRUt1r",
+            "metabolites": {
+                "fru_c": 1.0,
+                "fru_e": -1.0
+            },
+            "name": "D-fructose transport in via uniport",
+            "notes": {
+                "original_bigg_ids": [
+                    "FRUt1r"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "GLCt1"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-574"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100188"
+                ],
+                "sabiork": [
+                    "7002",
+                    "601"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn09875",
+                    "rxn09679",
+                    "rxn08617"
+                ]
+            },
+            "gene_reaction_rule": "66035_AT1 or 6517_AT1 or 56606_AT1 or 154091_AT1 or 6513_AT1 or 11182_AT1 or 29988_AT1 or 6514_AT1 or 155184_AT1 or 56606_AT2 or 144195_AT1 or 6515_AT1 or 81031_AT1",
+            "id": "GLCt1",
+            "metabolites": {
+                "glc__D_c": 1.0,
+                "glc__D_e": -1.0
+            },
+            "name": "Glucose transport  uniport ",
+            "notes": {
+                "original_bigg_ids": [
+                    "GLCt1r"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        }
+    ],
+    "units": [],
+    "version": "1"
+}
