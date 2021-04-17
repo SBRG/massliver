@@ -5,4 +5,4 @@ Quadratic Programming and Model Construction Attempts for Glycolysis
   
   
 1.0-srp-glycogenolysis.ipynb 
-simulatable HEX1 reaction using 1.9 data collection
+  Simulatable HEX1 reaction using 1.9 data collection
