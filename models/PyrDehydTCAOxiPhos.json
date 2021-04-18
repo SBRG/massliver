@@ -1,0 +1,1110 @@
+{
+    "boundary_conditions": {},
+    "compartments": {
+        "c": "",
+        "i": "",
+        "m": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [
+        {
+            "id": "1737_AT1",
+            "name": "DLAT",
+            "notes": {
+                "original_bigg_ids": [
+                    "1737.1"
+                ]
+            }
+        },
+        {
+            "id": "1431_AT1",
+            "name": "CS",
+            "notes": {
+                "original_bigg_ids": [
+                    "1431.1"
+                ]
+            }
+        },
+        {
+            "id": "50_AT1",
+            "name": "ACO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "50.1"
+                ]
+            }
+        },
+        {
+            "id": "3421_AT1",
+            "name": "IDH3G",
+            "notes": {
+                "original_bigg_ids": [
+                    "3421.1"
+                ]
+            }
+        },
+        {
+            "id": "1738_AT1",
+            "name": "DLD",
+            "notes": {
+                "original_bigg_ids": [
+                    "1738.1"
+                ]
+            }
+        },
+        {
+            "id": "8803_AT1",
+            "name": "SUCLA2",
+            "notes": {
+                "original_bigg_ids": [
+                    "8803.1"
+                ]
+            }
+        },
+        {
+            "id": "6389_AT1",
+            "name": "SDHA",
+            "notes": {
+                "original_bigg_ids": [
+                    "6389.1"
+                ]
+            }
+        },
+        {
+            "id": "2271_AT1",
+            "name": "FH",
+            "notes": {
+                "original_bigg_ids": [
+                    "2271.1"
+                ]
+            }
+        },
+        {
+            "id": "4190_AT1",
+            "name": "MDH1",
+            "notes": {
+                "original_bigg_ids": [
+                    "4190.1"
+                ]
+            }
+        },
+        {
+            "id": "1349_AT1",
+            "name": "COX7B",
+            "notes": {
+                "original_bigg_ids": [
+                    "1349.1"
+                ]
+            }
+        },
+        {
+            "id": "4519_AT1",
+            "name": "CYTB",
+            "notes": {
+                "original_bigg_ids": [
+                    "4519.1"
+                ]
+            }
+        },
+        {
+            "id": "4709_AT1",
+            "name": "NDUFB3",
+            "notes": {
+                "original_bigg_ids": [
+                    "4709.1"
+                ]
+            }
+        },
+        {
+            "id": "2110_AT1",
+            "name": "ETFDH",
+            "notes": {
+                "original_bigg_ids": [
+                    "2110.1"
+                ]
+            }
+        },
+        {
+            "id": "9551_AT2",
+            "name": "ATP5J2",
+            "notes": {
+                "original_bigg_ids": [
+                    "9551.2"
+                ]
+            }
+        },
+        {
+            "id": "7352_AT2",
+            "name": "UCP3",
+            "notes": {
+                "original_bigg_ids": [
+                    "7352.2"
+                ]
+            }
+        },
+        {
+            "id": "3032_AT1",
+            "name": "HADHB",
+            "notes": {
+                "original_bigg_ids": [
+                    "3032.1"
+                ]
+            }
+        },
+        {
+            "id": "2747_AT1",
+            "name": "GLUD2",
+            "notes": {
+                "original_bigg_ids": [
+                    "2747.1"
+                ]
+            }
+        },
+        {
+            "id": "5091_AT2",
+            "name": "PC",
+            "notes": {
+                "original_bigg_ids": [
+                    "5091.2"
+                ]
+            }
+        },
+        {
+            "id": "2806_AT1",
+            "name": "GOT2",
+            "notes": {
+                "original_bigg_ids": [
+                    "2806.1"
+                ]
+            }
+        },
+        {
+            "id": "1468_AT1",
+            "name": "SLC25A10",
+            "notes": {
+                "original_bigg_ids": [
+                    "1468.1"
+                ]
+            }
+        }
+    ],
+    "id": "PyrDehydTCAOxiPhos",
+    "metabolites": [
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C23H34N7O17P3S",
+            "id": "accoa_m",
+            "name": "Acetyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "accoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "CO2",
+            "id": "co2_m",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C21H32N7O16P3S",
+            "id": "coa_m",
+            "name": "Coenzyme A",
+            "notes": {
+                "original_bigg_ids": [
+                    "coa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C21H26N7O14P2",
+            "id": "nad_m",
+            "name": "Nicotinamide adenine dinucleotide",
+            "notes": {
+                "original_bigg_ids": [
+                    "nad[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C21H27N7O14P2",
+            "id": "nadh_m",
+            "name": "Nicotinamide adenine dinucleotide - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadh[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C3H3O3",
+            "id": "pyr_m",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[m]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C6H5O7",
+            "id": "cit_m",
+            "name": "Citrate",
+            "notes": {
+                "original_bigg_ids": [
+                    "cit[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H2O",
+            "id": "h2o_m",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H",
+            "id": "h_m",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H2O5",
+            "id": "oaa_m",
+            "name": "Oxaloacetate",
+            "notes": {
+                "original_bigg_ids": [
+                    "oaa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C6H5O7",
+            "id": "icit_m",
+            "name": "Isocitrate",
+            "notes": {
+                "original_bigg_ids": [
+                    "icit[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C5H4O5",
+            "id": "akg_m",
+            "name": "2-Oxoglutarate",
+            "notes": {
+                "original_bigg_ids": [
+                    "akg[m]"
+                ]
+            }
+        },
+        {
+            "charge": -5,
+            "compartment": "m",
+            "formula": "C25H35N7O19P3S",
+            "id": "succoa_m",
+            "name": "Succinyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "succoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_m",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_m",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "HO4P",
+            "id": "pi_m",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H4O4",
+            "id": "succ_m",
+            "name": "Succinate",
+            "notes": {
+                "original_bigg_ids": [
+                    "succ[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C27H31N9O15P2",
+            "id": "fad_m",
+            "name": "Flavin adenine dinucleotide oxidized",
+            "notes": {
+                "original_bigg_ids": [
+                    "fad[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C27H33N9O15P2",
+            "id": "fadh2_m",
+            "name": "Flavin adenine dinucleotide reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "fadh2[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H2O4",
+            "id": "fum_m",
+            "name": "Fumarate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fum[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H4O5",
+            "id": "mal__L_m",
+            "name": "L-Malate",
+            "notes": {
+                "original_bigg_ids": [
+                    "mal_L[m]"
+                ]
+            }
+        },
+        {
+            "charge": 3,
+            "compartment": "m",
+            "formula": "C42H54FeN8O6S2",
+            "id": "ficytC_m",
+            "name": "Ferricytochrome c",
+            "notes": {
+                "original_bigg_ids": [
+                    "ficytC[m]"
+                ]
+            }
+        },
+        {
+            "charge": 2,
+            "compartment": "m",
+            "formula": "C42H54FeN8O6S2",
+            "id": "focytC_m",
+            "name": "Ferrocytochrome C",
+            "notes": {
+                "original_bigg_ids": [
+                    "focytC[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "i",
+            "formula": "H",
+            "id": "h_i",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[i]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "O2",
+            "id": "o2_m",
+            "name": "O2 O2",
+            "notes": {
+                "original_bigg_ids": [
+                    "o2[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "C59H90O4",
+            "id": "q10_m",
+            "name": "Ubiquinone-10",
+            "notes": {
+                "original_bigg_ids": [
+                    "q10[m]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "C59H92O4",
+            "id": "q10h2_m",
+            "name": "Ubiquinol-10",
+            "notes": {
+                "original_bigg_ids": [
+                    "q10h2[m]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C25H36N7O18P3S",
+            "id": "aacoa_m",
+            "name": "Acetoacetyl-CoA",
+            "notes": {
+                "original_bigg_ids": [
+                    "aacoa[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C5H8NO4",
+            "id": "glu__L_m",
+            "name": "L-Glutamate",
+            "notes": {
+                "original_bigg_ids": [
+                    "glu_L[m]"
+                ]
+            }
+        },
+        {
+            "charge": 1,
+            "compartment": "m",
+            "formula": "H4N",
+            "id": "nh4_m",
+            "name": "Ammonium",
+            "notes": {
+                "original_bigg_ids": [
+                    "nh4[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C3H3O3",
+            "id": "pyr_c",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[c]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "CHO3",
+            "id": "hco3_m",
+            "name": "Bicarbonate",
+            "notes": {
+                "original_bigg_ids": [
+                    "hco3[m]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C4H6NO4",
+            "id": "asp__L_m",
+            "name": "L-Aspartate",
+            "notes": {
+                "original_bigg_ids": [
+                    "asp_L[m]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H4O5",
+            "id": "akg_c",
+            "name": "2-Oxoglutarate",
+            "notes": {
+                "original_bigg_ids": [
+                    "akg[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H4O5",
+            "id": "mal__L_c",
+            "name": "L-Malate",
+            "notes": {
+                "original_bigg_ids": [
+                    "mal_L[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "HO4P",
+            "id": "pi_c",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H2O4",
+            "id": "fum_c",
+            "name": "Fumarate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fum[c]"
+                ]
+            }
+        }
+    ],
+    "reactions": [
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "((1738_AT1 and 8050_AT1) and (5161_AT1 and 5162_AT1) and 1737_AT1) or ((1738_AT1 and 8050_AT1) and (5160_AT1 and 5162_AT1) and 1737_AT1)",
+            "id": "PDHm",
+            "metabolites": {
+                "accoa_m": 1.0,
+                "co2_m": 1.0,
+                "coa_m": -1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0,
+                "pyr_m": -1.0
+            },
+            "name": "Pyruvate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PDHm"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "1431_AT1 or 1431_AT2",
+            "id": "CSm",
+            "metabolites": {
+                "accoa_m": -1.0,
+                "cit_m": 1.0,
+                "coa_m": 1.0,
+                "h2o_m": -1.0,
+                "h_m": 1.0,
+                "oaa_m": -1.0
+            },
+            "name": "Citrate synthase",
+            "notes": {
+                "original_bigg_ids": [
+                    "CSm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "50_AT1 or 48_AT1",
+            "id": "ACONTm",
+            "metabolites": {
+                "cit_m": -1.0,
+                "icit_m": 1.0
+            },
+            "name": "Aconitate hydratase",
+            "notes": {
+                "original_bigg_ids": [
+                    "ACONTm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(3421_AT2 and 3420_AT3 and 3419_AT1) or (3420_AT1 and 3421_AT1 and 3419_AT1) or (3420_AT1 and 3421_AT1 and 3419_AT1) or (3420_AT3 and 3421_AT1 and 3419_AT1) or (3421_AT1 and 3419_AT1 and 3420_AT2) or (3421_AT2 and 3419_AT1 and 3420_AT2)",
+            "id": "ICDHxm",
+            "metabolites": {
+                "akg_m": 1.0,
+                "co2_m": 1.0,
+                "icit_m": -1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0
+            },
+            "name": "Isocitrate dehydrogenase  NAD ",
+            "notes": {
+                "original_bigg_ids": [
+                    "ICDHxm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(4967_AT2 and 1738_AT1 and 8050_AT1 and 1743_AT1) or (4967_AT1 and 1738_AT1 and 8050_AT1 and 1743_AT1)",
+            "id": "AKGDm",
+            "metabolites": {
+                "akg_m": -1.0,
+                "co2_m": 1.0,
+                "coa_m": -1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0,
+                "succoa_m": 1.0
+            },
+            "name": "2-oxoglutarate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "AKGDm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "8802_AT1 and 8803_AT1",
+            "id": "SUCOASm",
+            "metabolites": {
+                "adp_m": 1.0,
+                "atp_m": -1.0,
+                "coa_m": -1.0,
+                "pi_m": 1.0,
+                "succ_m": -1.0,
+                "succoa_m": 1.0
+            },
+            "name": "Succinate  CoA ligase  ADP forming ",
+            "notes": {
+                "original_bigg_ids": [
+                    "SUCOASm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "6389_AT1 and 6392_AT1 and 6391_AT1 and 6390_AT1",
+            "id": "SUCD1m",
+            "metabolites": {
+                "fad_m": -1.0,
+                "fadh2_m": 1.0,
+                "fum_m": 1.0,
+                "succ_m": -1.0
+            },
+            "name": "Succinate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "SUCD1m"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2271_AT1",
+            "id": "FUMm",
+            "metabolites": {
+                "fum_m": -1.0,
+                "h2o_m": -1.0,
+                "mal__L_m": 1.0
+            },
+            "name": "Fumarase  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "FUMm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "4191_AT1 or 4190_AT1",
+            "id": "MDHm",
+            "metabolites": {
+                "h_m": 1.0,
+                "mal__L_m": -1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0,
+                "oaa_m": 1.0
+            },
+            "name": "Malate dehydrogenase  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "MDHm"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(7384_AT1 and 7388_AT1 and 4519_AT1 and 10975_AT1 and 29796_AT2 and 7385_AT1 and 1537_AT1 and 7386_AT1 and 27089_AT1 and 7381_AT1 and 1337_AT1 and 1347_AT1 and 1340_AT1 and 1350_AT1 and 1327_AT1 and 1349_AT1 and 1329_AT1 and 1339_AT1 and 1345_AT1 and 170712_AT1 and 1351_AT1 and 9377_AT1 and 341947_AT1) or (7384_AT1 and 7388_AT1 and 29796_AT1 and 10975_AT1 and 4519_AT1 and 7385_AT1 and 7386_AT1 and 1537_AT1 and 27089_AT1 and 7381_AT1 and 1337_AT1 and 1347_AT1 and 1340_AT1 and 1350_AT1 and 1327_AT1 and 1349_AT1 and 1329_AT1 and 1339_AT1 and 1345_AT1 and 170712_AT1 and 1351_AT1 and 9377_AT1 and 341947_AT1)",
+            "id": "CYOOm2i",
+            "metabolites": {
+                "ficytC_m": 4.0,
+                "focytC_m": -4.0,
+                "h2o_m": 2.0,
+                "h_i": 4.0,
+                "h_m": -8.0,
+                "o2_m": -1.0
+            },
+            "name": "CYOOm2i",
+            "notes": {
+                "original_bigg_ids": [
+                    "CYOOm2i"
+                ]
+            },
+            "subsystem": "Oxidative phosphorylation"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(7384_AT1 and 7388_AT1 and 4519_AT1 and 29796_AT2 and 10975_AT1 and 7385_AT1 and 7386_AT1 and 1537_AT1 and 27089_AT1 and 7381_AT1) or (7384_AT1 and 7388_AT1 and 4519_AT1 and 29796_AT1 and 10975_AT1 and 7385_AT1 and 1537_AT1 and 7386_AT1 and 27089_AT1 and 7381_AT1)",
+            "id": "CYOR_u10mi",
+            "metabolites": {
+                "ficytC_m": -2.0,
+                "focytC_m": 2.0,
+                "h_i": 4.0,
+                "h_m": -2.0,
+                "q10_m": 1.0,
+                "q10h2_m": -1.0
+            },
+            "name": "CYOR u10mi",
+            "notes": {
+                "original_bigg_ids": [
+                    "CYOR_u10mi"
+                ]
+            },
+            "subsystem": "Oxidative phosphorylation"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(4715_AT1 and 4720_AT1 and 4719_AT1 and 4700_AT1 and 55967_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4718_AT1 and 4696_AT1 and 4694_AT1 and 374291_AT1 and 4728_AT1 and 4712_AT2 and 4717_AT1 and 4705_AT1 and 4725_AT1 and 4716_AT1 and 4537_AT1 and 7991_AT1 and 4722_AT1 and 4541_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4723_AT1 and 4698_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 126328_AT1 and 4711_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4535_AT1 and 4731_AT2 and 4706_AT1 and 4729_AT1 and 4540_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 55967_AT1 and 4700_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4696_AT1 and 4718_AT1 and 4694_AT1 and 374291_AT1 and 4728_AT1 and 7991_AT2 and 4717_AT1 and 4731_AT1 and 4705_AT1 and 4725_AT1 and 4716_AT1 and 4537_AT1 and 4722_AT1 and 4541_AT1 and 4712_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4698_AT1 and 4723_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 126328_AT1 and 4711_AT1 and 4724_AT1 and 4536_AT1 and 4713_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4706_AT1 and 4535_AT1 and 4540_AT1 and 4729_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 55967_AT1 and 4700_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4718_AT1 and 4696_AT1 and 374291_AT1 and 4694_AT1 and 4728_AT1 and 7991_AT2 and 4712_AT2 and 4717_AT1 and 4705_AT1 and 4725_AT1 and 4716_AT1 and 4537_AT1 and 4722_AT1 and 4541_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4698_AT1 and 4723_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 4711_AT1 and 126328_AT1 and 4724_AT1 and 4536_AT1 and 4713_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4731_AT2 and 4706_AT1 and 4535_AT1 and 4540_AT1 and 4729_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 4700_AT1 and 55967_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4718_AT1 and 4696_AT1 and 374291_AT1 and 4694_AT1 and 4728_AT1 and 4717_AT1 and 4705_AT1 and 4725_AT1 and 4537_AT1 and 4716_AT1 and 4722_AT1 and 7991_AT1 and 4541_AT1 and 4712_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4723_AT1 and 4698_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 4711_AT1 and 126328_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4706_AT1 and 4535_AT1 and 4731_AT2 and 4729_AT1 and 4540_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 55967_AT1 and 4700_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4696_AT1 and 4718_AT1 and 4694_AT1 and 374291_AT1 and 4728_AT1 and 4717_AT1 and 4731_AT1 and 4705_AT1 and 4725_AT1 and 4716_AT1 and 4537_AT1 and 4722_AT1 and 7991_AT1 and 4541_AT1 and 4539_AT1 and 4712_AT1 and 4707_AT1 and 4701_AT1 and 4723_AT1 and 4698_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 126328_AT1 and 4711_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4706_AT1 and 4535_AT1 and 4540_AT1 and 4729_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 55967_AT1 and 4700_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4696_AT1 and 4718_AT1 and 374291_AT1 and 4694_AT1 and 4728_AT1 and 4712_AT2 and 4717_AT1 and 4731_AT1 and 4705_AT1 and 4725_AT1 and 4537_AT1 and 4716_AT1 and 4722_AT1 and 7991_AT1 and 4541_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4723_AT1 and 4698_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 126328_AT1 and 4711_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4535_AT1 and 4706_AT1 and 4729_AT1 and 4540_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 4700_AT1 and 55967_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4718_AT1 and 4696_AT1 and 4694_AT1 and 374291_AT1 and 4728_AT1 and 7991_AT2 and 4717_AT1 and 4705_AT1 and 4725_AT1 and 4537_AT1 and 4716_AT1 and 4722_AT1 and 4541_AT1 and 4712_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4723_AT1 and 4698_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 4711_AT1 and 126328_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4535_AT1 and 4731_AT2 and 4706_AT1 and 4540_AT1 and 4729_AT1) or (4715_AT1 and 4720_AT1 and 4719_AT1 and 4700_AT1 and 55967_AT1 and 4709_AT1 and 4710_AT1 and 4726_AT1 and 4718_AT1 and 4696_AT1 and 374291_AT1 and 4694_AT1 and 4728_AT1 and 7991_AT2 and 4712_AT2 and 4717_AT1 and 4731_AT1 and 4705_AT1 and 4725_AT1 and 4537_AT1 and 4716_AT1 and 4722_AT1 and 4541_AT1 and 4539_AT1 and 4707_AT1 and 4701_AT1 and 4698_AT1 and 4723_AT1 and 4538_AT1 and 4697_AT1 and 51079_AT1 and 4714_AT1 and 4704_AT1 and 4711_AT1 and 126328_AT1 and 4724_AT1 and 4713_AT1 and 4536_AT1 and 4695_AT1 and 4702_AT1 and 4708_AT1 and 4706_AT1 and 4535_AT1 and 4540_AT1 and 4729_AT1 and 54539_AT1)",
+            "id": "NADH2_u10mi",
+            "metabolites": {
+                "h_i": 4.0,
+                "h_m": -5.0,
+                "nad_m": 1.0,
+                "nadh_m": -1.0,
+                "q10_m": -1.0,
+                "q10h2_m": 1.0
+            },
+            "name": "NADH2 u10mi",
+            "notes": {
+                "original_bigg_ids": [
+                    "NADH2_u10mi"
+                ]
+            },
+            "subsystem": "Oxidative phosphorylation"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(2110_AT1 and 2109_AT1 and 2108_AT1) or (2109_AT2 and 2108_AT1)",
+            "id": "FADH2ETC",
+            "metabolites": {
+                "fad_m": 1.0,
+                "fadh2_m": -1.0,
+                "q10_m": -1.0,
+                "q10h2_m": 1.0
+            },
+            "name": "Complex II reaction for respiratory chain",
+            "notes": {
+                "original_bigg_ids": [
+                    "FADH2ETC"
+                ]
+            },
+            "subsystem": "Oxidative phosphorylation"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "((513_AT1 and 498_AT2 and 506_AT1 and 509_AT2 and 514_AT1) or (498_AT2 and 513_AT2 and 514_AT2 and 506_AT1 and 509_AT2) or (513_AT1 and 509_AT1 and 498_AT1 and 514_AT2 and 506_AT1) or (498_AT2 and 513_AT2 and 506_AT1 and 509_AT2 and 514_AT1) or (513_AT2 and 498_AT1 and 514_AT2 and 506_AT1 and 509_AT2) or (513_AT1 and 498_AT1 and 506_AT1 and 509_AT2 and 514_AT1) or (513_AT1 and 498_AT2 and 514_AT2 and 506_AT1 and 509_AT2) or (513_AT1 and 498_AT2 and 509_AT1 and 506_AT1 and 514_AT1) or (498_AT2 and 509_AT1 and 513_AT2 and 506_AT1 and 514_AT1) or (513_AT2 and 498_AT1 and 506_AT1 and 509_AT2 and 514_AT1) or (513_AT2 and 514_AT2 and 506_AT1 and 509_AT2 and 498_AT3) or (513_AT2 and 506_AT1 and 509_AT2 and 498_AT3 and 514_AT1) or (513_AT1 and 509_AT1 and 506_AT1 and 498_AT3 and 514_AT1) or (509_AT1 and 513_AT2 and 514_AT2 and 506_AT1 and 498_AT3) or (513_AT1 and 498_AT2 and 509_AT1 and 514_AT2 and 506_AT1) or (513_AT1 and 498_AT1 and 514_AT2 and 506_AT1 and 509_AT2) or (513_AT1 and 509_AT1 and 498_AT1 and 506_AT1 and 514_AT1) or (513_AT1 and 506_AT1 and 509_AT2 and 498_AT3 and 514_AT1) or (509_AT1 and 513_AT2 and 506_AT1 and 498_AT3 and 514_AT1) or (513_AT1 and 514_AT2 and 506_AT1 and 509_AT2 and 498_AT3) or (509_AT1 and 513_AT2 and 498_AT1 and 506_AT1 and 514_AT1) or (513_AT1 and 509_AT1 and 514_AT2 and 506_AT1 and 498_AT3) or (498_AT2 and 509_AT1 and 513_AT2 and 514_AT2 and 506_AT1) or (509_AT1 and 513_AT2 and 498_AT1 and 514_AT2 and 506_AT1)) and ((10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 516_AT2 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 518_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 518_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 518_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 518_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5 and 518_AT2) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 518_AT2 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT4 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 518_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT5) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 10476_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 515_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 522_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 522_AT3) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 518_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (4905_AT1 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 516_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT4 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 515_AT2 and 522_AT5 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4 and 518_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 521_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 515_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 516_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 521_AT1) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 516_AT2 and 521_AT1) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT4 and 521_AT1 and 518_AT1) or (518_AT3 and 4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT4 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 517_AT2 and 515_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT4) or (4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT4 and 516_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 521_AT1 and 518_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 518_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 522_AT2 and 10476_AT2 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 516_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 521_AT1 and 518_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 10476_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 516_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 518_AT2) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 521_AT1 and 518_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 518_AT2 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT2 and 522_AT1 and 9551_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 518_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 518_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 522_AT2 and 9551_AT3 and 10476_AT2 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT5) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT4 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT4 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 515_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 517_AT2 and 522_AT1 and 521_AT1) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT5) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT3 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT4 and 516_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 521_AT1 and 518_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT2) or (517_AT1 and 4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 516_AT2 and 521_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 522_AT1 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT3 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 515_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 518_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 521_AT1 and 518_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2 and 522_AT3) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 517_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT2 and 10476_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (517_AT1 and 4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 518_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 517_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 516_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 10476_AT2 and 522_AT5 and 521_AT1 and 515_AT1) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 515_AT2 and 522_AT1 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 516_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT3) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 518_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 518_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 521_AT1 and 518_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5 and 518_AT2) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 517_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 515_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 518_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 518_AT2 and 522_AT4 and 521_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 518_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 516_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 518_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 517_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 518_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT3 and 521_AT1) or (518_AT3 and 4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (517_AT1 and 4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 10476_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT5) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 515_AT2 and 10476_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 521_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5) or (517_AT1 and 4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (4905_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT2 and 10476_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT4 and 9551_AT2) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5 and 518_AT2) or (4905_AT1 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 518_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 517_AT2 and 522_AT5 and 521_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 10476_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 516_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 516_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT4 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT3 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 517_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT4 and 521_AT1 and 518_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 522_AT1 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 522_AT1 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 521_AT1 and 518_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT3 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT4 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 517_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 518_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT4 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT4) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 521_AT1 and 518_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT4 and 521_AT1 and 518_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 522_AT5 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT4) or (518_AT3 and 4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 9551_AT3 and 10476_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT4 and 521_AT1 and 518_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 10476_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 517_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 521_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 518_AT2 and 522_AT3 and 521_AT1) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (517_AT1 and 4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT2 and 522_AT5 and 9551_AT2 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2) or (4905_AT1 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 10476_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 517_AT2 and 515_AT2 and 9551_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT4 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT3) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT4 and 516_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 517_AT2 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 515_AT2 and 10476_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 517_AT2 and 515_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2 and 522_AT3) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 518_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT3 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 521_AT1 and 518_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 518_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 518_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 521_AT1 and 518_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 521_AT1) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (518_AT3 and 4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 518_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 518_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 517_AT2 and 522_AT4 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 516_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 515_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT4 and 521_AT1 and 518_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT3) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 10476_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT4 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 9551_AT3 and 10476_AT2 and 522_AT5 and 521_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT3 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 522_AT5 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 517_AT2 and 522_AT1 and 521_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT2 and 9551_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 516_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 516_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 518_AT2 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 518_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 521_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 521_AT1 and 518_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT4 and 521_AT1) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 9551_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 517_AT2 and 9551_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 515_AT2 and 10476_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT1 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 522_AT4) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT3 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT3 and 521_AT1 and 518_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT4) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 518_AT2) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 517_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 518_AT2 and 522_AT4 and 521_AT1) or (518_AT3 and 4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 522_AT4) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 10476_AT2 and 522_AT5 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 518_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT5 and 9551_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 9551_AT3 and 10476_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 517_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 521_AT1 and 518_AT1) or (517_AT1 and 4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT4 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 518_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT2 and 10476_AT2 and 9551_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT2 and 522_AT3 and 521_AT1 and 518_AT1 and 515_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT2 and 9551_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT4 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 515_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (518_AT3 and 4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT5 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT5 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 522_AT5 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT4 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT4 and 521_AT1 and 518_AT1) or (517_AT1 and 4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT4 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 521_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 522_AT4 and 9551_AT2) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 515_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 9551_AT3 and 10476_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 517_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 518_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 518_AT2 and 521_AT1) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 522_AT5) or (4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT5 and 9551_AT2) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (518_AT3 and 4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT1 and 9551_AT2 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT5) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 518_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 516_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 518_AT2) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 517_AT2 and 9551_AT2 and 522_AT4 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 9551_AT3 and 518_AT2) or (517_AT1 and 4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT3 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (4905_AT1 and 515_AT3 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT1 and 521_AT1 and 518_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 9551_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 522_AT2 and 521_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2 and 522_AT3) or (4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1) or (518_AT3 and 4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT5 and 518_AT2 and 9551_AT2) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT3 and 521_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 522_AT5 and 518_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT3 and 521_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (4905_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2) or (517_AT1 and 4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT1 and 518_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4 and 518_AT2 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 516_AT2 and 522_AT3 and 521_AT1) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT2 and 522_AT3 and 521_AT1 and 518_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT3) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 518_AT2 and 9551_AT2 and 522_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 515_AT2 and 522_AT1 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT1 and 9551_AT2 and 516_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT1 and 521_AT1 and 518_AT1) or (4905_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (517_AT1 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT3) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT5 and 521_AT1) or (518_AT3 and 4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT5 and 521_AT1 and 518_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 516_AT2 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT4 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT3 and 521_AT1 and 518_AT1 and 515_AT1) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (518_AT3 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT3 and 522_AT5) or (518_AT3 and 4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 516_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 10476_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 10476_AT2 and 522_AT1 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (4905_AT1 and 522_AT2 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 517_AT2 and 515_AT2 and 522_AT5 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT5 and 521_AT1 and 518_AT1) or (518_AT3 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1) or (4905_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT2 and 522_AT1 and 518_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 516_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4 and 518_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 522_AT1 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT2) or (4905_AT1 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3) or (4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT5) or (517_AT1 and 4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT3 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 10476_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 518_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 522_AT4 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 517_AT2 and 522_AT4 and 521_AT1 and 515_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 522_AT5) or (4905_AT1 and 9551_AT1 and 10476_AT2 and 521_AT1 and 518_AT1 and 515_AT1 and 10632_AT1 and 522_AT3) or (4905_AT1 and 9551_AT1 and 522_AT2 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 518_AT2) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT3 and 517_AT2 and 521_AT1) or (518_AT3 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT3 and 522_AT3) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT3 and 515_AT2 and 522_AT3 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 518_AT1 and 10632_AT1 and 9551_AT3 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 517_AT2 and 515_AT2 and 522_AT4 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 522_AT1 and 9551_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT5 and 9551_AT2 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT2 and 9551_AT2 and 522_AT4 and 516_AT2 and 521_AT1) or (4905_AT1 and 515_AT3 and 10476_AT2 and 522_AT1 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (517_AT1 and 4905_AT1 and 10476_AT2 and 521_AT1 and 515_AT1 and 10632_AT1 and 9551_AT2 and 522_AT3) or (517_AT1 and 4905_AT1 and 9551_AT1 and 515_AT3 and 10476_AT2 and 521_AT1 and 10632_AT1 and 522_AT4) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 516_AT2 and 522_AT3 and 521_AT1) or (10632_AT1 and 4905_AT1 and 516_AT1 and 9551_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 521_AT1) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 522_AT2 and 9551_AT3 and 515_AT2 and 521_AT1) or (4905_AT1 and 515_AT2 and 10476_AT2 and 521_AT1 and 10632_AT1 and 517_AT2 and 9551_AT3 and 522_AT4) or (518_AT3 and 10632_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 522_AT2 and 9551_AT2 and 521_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 522_AT5 and 521_AT1 and 518_AT1 and 515_AT1) or (4905_AT1 and 515_AT3 and 522_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 9551_AT2) or (10632_AT1 and 4905_AT1 and 516_AT1 and 10476_AT1 and 9551_AT3 and 522_AT4 and 521_AT1 and 515_AT1) or (10632_AT1 and 4905_AT1 and 10476_AT1 and 9551_AT1 and 515_AT3 and 522_AT5 and 516_AT2 and 521_AT1) or (4905_AT1 and 9551_AT1 and 515_AT2 and 10476_AT2 and 516_AT2 and 521_AT1 and 10632_AT1 and 522_AT5) or (10632_AT1 and 517_AT1 and 4905_AT1 and 10476_AT1 and 515_AT3 and 9551_AT3 and 522_AT3 and 521_AT1)) and (539_AT1 and 267020_AT1 and 27109_AT1)",
+            "id": "ATPS4mi",
+            "metabolites": {
+                "adp_m": -1.0,
+                "atp_m": 1.0,
+                "h2o_m": 1.0,
+                "h_i": -4.0,
+                "h_m": 3.0,
+                "pi_m": -1.0
+            },
+            "name": "ATP synthase (four protons for one ATP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "ATPS4mi"
+                ]
+            },
+            "subsystem": "Oxidative phosphorylation"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "9016_AT1 or 7352_AT2 or 7352_AT1 or 7351_AT1 or 9016_AT2 or 7350_AT1 or 9481_AT1",
+            "id": "Htmi",
+            "metabolites": {
+                "h_i": -1.0,
+                "h_m": 1.0
+            },
+            "name": "Htmi",
+            "notes": {
+                "original_bigg_ids": [
+                    "Htmi"
+                ]
+            },
+            "subsystem": "Transport, mitochondrial"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "(3030_AT1 and 3032_AT1) or 38_AT1",
+            "id": "ACACT1m",
+            "metabolites": {
+                "aacoa_m": 1.0,
+                "accoa_m": -2.0,
+                "coa_m": 1.0
+            },
+            "name": "Acetyl CoA C acetyltransferase  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "ACACT1rm"
+                ]
+            },
+            "subsystem": "Tryptophan metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2747_AT1 or 2746_AT1",
+            "id": "GDHm",
+            "metabolites": {
+                "akg_m": 1.0,
+                "glu__L_m": -1.0,
+                "h2o_m": -1.0,
+                "h_m": 1.0,
+                "nad_m": -1.0,
+                "nadh_m": 1.0,
+                "nh4_m": 1.0
+            },
+            "name": "Glutamate dehydrogenase, mitochondria",
+            "notes": {
+                "original_bigg_ids": [
+                    "GLUDxm"
+                ]
+            },
+            "subsystem": "Glutamate metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "PYRt2m",
+            "metabolites": {
+                "h_i": -1,
+                "h_m": 1,
+                "pyr_c": -1,
+                "pyr_m": 1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5091_AT1 or 5091_AT2",
+            "id": "PCm",
+            "metabolites": {
+                "adp_m": 1.0,
+                "atp_m": -1.0,
+                "h_m": 1.0,
+                "hco3_m": -1.0,
+                "oaa_m": 1.0,
+                "pi_m": 1.0,
+                "pyr_m": -1.0
+            },
+            "name": "Pyruvate carboxylase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PCm"
+                ]
+            },
+            "subsystem": "Pyruvate metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2806_AT1",
+            "id": "ASPTAm",
+            "metabolites": {
+                "akg_m": -1.0,
+                "asp__L_m": -1.0,
+                "glu__L_m": 1.0,
+                "oaa_m": 1.0
+            },
+            "name": "Aspartate transaminase",
+            "notes": {
+                "original_bigg_ids": [
+                    "ASPTAm"
+                ]
+            },
+            "subsystem": "Alanine and aspartate metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "8402_AT1 or 1468_AT1",
+            "id": "AKGMALtm",
+            "metabolites": {
+                "akg_c": 1.0,
+                "akg_m": -1.0,
+                "mal__L_c": -1.0,
+                "mal__L_m": 1.0
+            },
+            "name": "Dicarboxylate/tricarboxylate carrier (mal:akg), mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "AKGMALtm"
+                ]
+            },
+            "subsystem": "Transport, mitochondrial"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "1468_AT1",
+            "id": "MALtm",
+            "metabolites": {
+                "mal__L_c": -1.0,
+                "mal__L_m": 1.0,
+                "pi_c": 1.0,
+                "pi_m": -1.0
+            },
+            "name": "Malate transport  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "MALtm"
+                ]
+            },
+            "subsystem": "Transport, mitochondrial"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "FUMtm",
+            "metabolites": {
+                "fum_c": -1,
+                "fum_m": 1,
+                "pi_c": 1,
+                "pi_m": -1
+            },
+            "name": ""
+        }
+    ],
+    "units": [],
+    "version": "1"
+}

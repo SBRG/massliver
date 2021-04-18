@@ -3,18 +3,19 @@
     "compartments": {
         "c": "",
         "i": "",
-        "m": ""
+        "m": "",
+        "r": ""
     },
     "custom_parameters": {},
     "custom_rates": {},
     "enzyme_modules": [],
     "genes": [
         {
-            "id": "3099_AT1",
-            "name": "HK2",
+            "id": "3101_AT1",
+            "name": "HK3",
             "notes": {
                 "original_bigg_ids": [
-                    "3099.1"
+                    "3101.1"
                 ]
             }
         },
@@ -28,47 +29,47 @@
             }
         },
         {
-            "id": "8789_AT1",
-            "name": "FBP2",
+            "id": "2203_AT1",
+            "name": "FBP1",
             "notes": {
                 "original_bigg_ids": [
-                    "8789.1"
+                    "2203.1"
                 ]
             }
         },
         {
-            "id": "5213_AT1",
-            "name": "PFKM",
+            "id": "5211_AT1",
+            "name": "PFKL",
             "notes": {
                 "original_bigg_ids": [
-                    "5213.1"
+                    "5211.1"
                 ]
             }
         },
         {
-            "id": "226_AT2",
+            "id": "226_AT3",
             "name": "ALDOA",
             "notes": {
                 "original_bigg_ids": [
-                    "226.2"
+                    "226.3"
                 ]
             }
         },
         {
-            "id": "286016_AT1",
-            "name": "",
+            "id": "7167_AT1",
+            "name": "TPI1",
             "notes": {
                 "original_bigg_ids": [
-                    "286016.1"
+                    "7167.1"
                 ]
             }
         },
         {
-            "id": "2597_AT1",
-            "name": "GAPDH",
+            "id": "26330_AT1",
+            "name": "GAPDHS",
             "notes": {
                 "original_bigg_ids": [
-                    "2597.1"
+                    "26330.1"
                 ]
             }
         },
@@ -82,20 +83,20 @@
             }
         },
         {
-            "id": "5223_AT1",
-            "name": "PGAM1",
+            "id": "5224_AT1",
+            "name": "PGAM2",
             "notes": {
                 "original_bigg_ids": [
-                    "5223.1"
+                    "5224.1"
                 ]
             }
         },
         {
-            "id": "2026_AT1",
-            "name": "ENO2",
+            "id": "2027_AT2",
+            "name": "ENO3",
             "notes": {
                 "original_bigg_ids": [
-                    "2026.1"
+                    "2027.2"
                 ]
             }
         },
@@ -109,11 +110,11 @@
             }
         },
         {
-            "id": "5315_AT3",
-            "name": "PKM",
+            "id": "5313_AT1",
+            "name": "PKLR",
             "notes": {
                 "original_bigg_ids": [
-                    "5315.3"
+                    "5313.1"
                 ]
             }
         },
@@ -127,11 +128,92 @@
             }
         },
         {
-            "id": "3939_AT1",
-            "name": "LDHA",
+            "id": "92483_AT1",
+            "name": "LDHAL6B",
             "notes": {
                 "original_bigg_ids": [
-                    "3939.1"
+                    "92483.1"
+                ]
+            }
+        },
+        {
+            "id": "2539_AT1",
+            "name": "G6PD",
+            "notes": {
+                "original_bigg_ids": [
+                    "2539.1"
+                ]
+            }
+        },
+        {
+            "id": "5236_AT1",
+            "name": "PGM1",
+            "notes": {
+                "original_bigg_ids": [
+                    "5236.1"
+                ]
+            }
+        },
+        {
+            "id": "2542_AT1",
+            "name": "SLC37A4",
+            "notes": {
+                "original_bigg_ids": [
+                    "2542.1"
+                ]
+            }
+        },
+        {
+            "id": "8277_AT1",
+            "name": "TKTL1",
+            "notes": {
+                "original_bigg_ids": [
+                    "8277.1"
+                ]
+            }
+        },
+        {
+            "id": "26227_AT1",
+            "name": "PHGDH",
+            "notes": {
+                "original_bigg_ids": [
+                    "26227.1"
+                ]
+            }
+        },
+        {
+            "id": "84706_AT1",
+            "name": "GPT2",
+            "notes": {
+                "original_bigg_ids": [
+                    "84706.1"
+                ]
+            }
+        },
+        {
+            "id": "10993_AT1",
+            "name": "SDS",
+            "notes": {
+                "original_bigg_ids": [
+                    "10993.1"
+                ]
+            }
+        },
+        {
+            "id": "4190_AT1",
+            "name": "MDH1",
+            "notes": {
+                "original_bigg_ids": [
+                    "4190.1"
+                ]
+            }
+        },
+        {
+            "id": "1468_AT1",
+            "name": "SLC25A10",
+            "notes": {
+                "original_bigg_ids": [
+                    "1468.1"
                 ]
             }
         }
@@ -509,6 +591,270 @@
                     "h[i]"
                 ]
             }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H9O9P",
+            "id": "6pgl_c",
+            "name": "6-phospho-D-glucono-1,5-lactone",
+            "notes": {
+                "original_bigg_ids": [
+                    "6pgl[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C21H25N7O17P3",
+            "id": "nadp_c",
+            "name": "Nicotinamide adenine dinucleotide phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C21H26N7O17P3",
+            "id": "nadph_c",
+            "name": "Nicotinamide adenine dinucleotide phosphate - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadph[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "g1p_c",
+            "name": "D-Glucose 1-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g1p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "r",
+            "formula": "C6H11O9P",
+            "id": "g6p_r",
+            "name": "D-Glucose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g6p[r]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "r",
+            "formula": "C6H12O6",
+            "id": "glc__D_r",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[r]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H7O7P",
+            "id": "e4p_c",
+            "name": "D-Erythrose 4-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "e4p[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H9O8P",
+            "id": "xu5p__D_c",
+            "name": "D-Xylulose 5-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "xu5p_D[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H2O7P",
+            "id": "3php_c",
+            "name": "3-Phosphohydroxypyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "3php[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H2O5S",
+            "id": "3snpyr_c",
+            "name": "3-Sulfinopyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "3snpyr[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "O3S",
+            "id": "so3_c",
+            "name": "Sulfite",
+            "notes": {
+                "original_bigg_ids": [
+                    "so3[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H4O5",
+            "id": "akg_c",
+            "name": "2-Oxoglutarate",
+            "notes": {
+                "original_bigg_ids": [
+                    "akg[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C3H7NO2",
+            "id": "ala__L_c",
+            "name": "L-Alanine",
+            "notes": {
+                "original_bigg_ids": [
+                    "ala_L[c]"
+                ]
+            }
+        },
+        {
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C5H8NO4",
+            "id": "glu__L_c",
+            "name": "L-Glutamate",
+            "notes": {
+                "original_bigg_ids": [
+                    "glu_L[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C3H5NO2",
+            "id": "2amac_c",
+            "name": "2-Aminoacrylate",
+            "notes": {
+                "original_bigg_ids": [
+                    "2amac[c]"
+                ]
+            }
+        },
+        {
+            "charge": 1,
+            "compartment": "c",
+            "formula": "H4N",
+            "id": "nh4_c",
+            "name": "Ammonium",
+            "notes": {
+                "original_bigg_ids": [
+                    "nh4[c]"
+                ]
+            }
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "CO2",
+            "id": "co2_c",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[c]"
+                ]
+            }
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C10H12N5O11P2",
+            "id": "gdp_c",
+            "name": "GDP C10H12N5O11P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "gdp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C10H12N5O14P3",
+            "id": "gtp_c",
+            "name": "GTP C10H12N5O14P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "gtp[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H2O5",
+            "id": "oaa_c",
+            "name": "Oxaloacetate",
+            "notes": {
+                "original_bigg_ids": [
+                    "oaa[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H4O5",
+            "id": "mal__L_c",
+            "name": "L-Malate",
+            "notes": {
+                "original_bigg_ids": [
+                    "mal_L[c]"
+                ]
+            }
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H4O5",
+            "id": "mal__L_m",
+            "name": "L-Malate",
+            "notes": {
+                "original_bigg_ids": [
+                    "mal_L[m]"
+                ]
+            }
         }
     ],
     "reactions": [
@@ -819,6 +1165,278 @@
                 "h_m": 1,
                 "pyr_c": -1,
                 "pyr_m": 1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2539_AT1",
+            "id": "G6PDH2r",
+            "metabolites": {
+                "6pgl_c": 1.0,
+                "g6p_c": -1.0,
+                "h_c": 1.0,
+                "nadp_c": -1.0,
+                "nadph_c": 1.0
+            },
+            "name": "Glucose 6-phosphate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "G6PDH2r"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5236_AT1 or 55276_AT1",
+            "id": "PGMT",
+            "metabolites": {
+                "g1p_c": -1.0,
+                "g6p_c": 1.0
+            },
+            "name": "Phosphoglucomutase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGMT"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2542_AT1",
+            "id": "G6Pter",
+            "metabolites": {
+                "g6p_c": -1.0,
+                "g6p_r": 1.0
+            },
+            "name": "Glucose 6 phosphate endoplasmic reticular transport via diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "G6Pter"
+                ]
+            },
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "GLCter",
+            "metabolites": {
+                "glc__D_c": -1.0,
+                "glc__D_r": 1.0
+            },
+            "name": "Glucose transport, endoplasmic reticulum",
+            "notes": {
+                "original_bigg_ids": [
+                    "GLCter"
+                ]
+            },
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "7086_AT1 or 84076_AT1 or 8277_AT1",
+            "id": "TKT2",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": 1.0,
+                "g3p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "name": "Transketolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TKT2"
+                ]
+            },
+            "subsystem": "Pentose phosphate pathway"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "26227_AT1",
+            "id": "PGCD",
+            "metabolites": {
+                "3pg_c": -1.0,
+                "3php_c": 1.0,
+                "h_c": 1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0
+            },
+            "name": "Phosphoglycerate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGCD"
+                ]
+            },
+            "subsystem": "Glycine, serine, alanine, and threonine metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "3SPYRSP",
+            "metabolites": {
+                "3snpyr_c": -1.0,
+                "h2o_c": -1.0,
+                "h_c": 1.0,
+                "pyr_c": 1.0,
+                "so3_c": 1.0
+            },
+            "name": "3-sulfinopyruvate hydrolase (spotaneous reaction)",
+            "notes": {
+                "original_bigg_ids": [
+                    "3SPYRSP"
+                ]
+            },
+            "subsystem": "Methionine and cysteine metabolism"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "2875_AT1 or 84706_AT1",
+            "id": "ALATA_L",
+            "metabolites": {
+                "akg_c": -1.0,
+                "ala__L_c": -1.0,
+                "glu__L_c": 1.0,
+                "pyr_c": 1.0
+            },
+            "name": "L-alanine transaminase",
+            "notes": {
+                "original_bigg_ids": [
+                    "ALATA_L"
+                ]
+            },
+            "subsystem": "Glutamate metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "10993_AT1",
+            "id": "2AMACHYD",
+            "metabolites": {
+                "2amac_c": -1.0,
+                "h2o_c": -1.0,
+                "nh4_c": 1.0,
+                "pyr_c": 1.0
+            },
+            "name": "2-Aminoacrylate hydrolysis",
+            "notes": {
+                "original_bigg_ids": [
+                    "2AMACHYD"
+                ]
+            },
+            "subsystem": "Glycine, serine, alanine, and threonine metabolism"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "5105_AT1",
+            "id": "PEPCK_re",
+            "metabolites": {
+                "co2_c": 1.0,
+                "gdp_c": 1.0,
+                "gtp_c": -1.0,
+                "oaa_c": -1.0,
+                "pep_c": 1.0
+            },
+            "name": "Phosphoenolpyruvate carboxykinase (GTP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "PEPCK"
+                ]
+            },
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "130752_AT1 or 4190_AT1",
+            "id": "MDH",
+            "metabolites": {
+                "h_c": 1.0,
+                "mal__L_c": -1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0,
+                "oaa_c": 1.0
+            },
+            "name": "Malate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "MDH"
+                ]
+            },
+            "subsystem": "Citric acid cycle"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "1468_AT1",
+            "id": "MALtm",
+            "metabolites": {
+                "mal__L_c": -1.0,
+                "mal__L_m": 1.0,
+                "pi_c": 1.0,
+                "pi_m": -1.0
+            },
+            "name": "Malate transport  mitochondrial",
+            "notes": {
+                "original_bigg_ids": [
+                    "MALtm"
+                ]
+            },
+            "subsystem": "Transport, mitochondrial"
+        },
+        {
+            "_lower_bound": -1.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "EX_glc__D_c",
+            "metabolites": {
+                "glc__D_c": -1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "EX_pyr_c",
+            "metabolites": {
+                "pyr_c": -1
+            },
+            "name": ""
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "EX_lac__L_c",
+            "metabolites": {
+                "lac__L_c": -1
             },
             "name": ""
         }
