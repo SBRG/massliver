@@ -1,5 +1,8 @@
 {
     "boundary_conditions": {
+        "adp_b": 1.0,
+        "atp_b": 1.0,
+        "f6p_b": 1.0,
         "g6p_b": 1.0
     },
     "compartments": {
@@ -14,11 +17,11 @@
     "enzyme_modules": [],
     "genes": [
         {
-            "id": "3098_AT5",
-            "name": "HK1",
+            "id": "3101_AT1",
+            "name": "HK3",
             "notes": {
                 "original_bigg_ids": [
-                    "3098.5"
+                    "3101.1"
                 ]
             }
         },
@@ -32,11 +35,11 @@
             }
         },
         {
-            "id": "2203_AT1",
-            "name": "FBP1",
+            "id": "8789_AT1",
+            "name": "FBP2",
             "notes": {
                 "original_bigg_ids": [
-                    "2203.1"
+                    "8789.1"
                 ]
             }
         },
@@ -77,11 +80,11 @@
             }
         },
         {
-            "id": "5230_AT1",
-            "name": "PGK1",
+            "id": "375056_AT1",
+            "name": "MIA3",
             "notes": {
                 "original_bigg_ids": [
-                    "5230.1"
+                    "375056.1"
                 ]
             }
         },
@@ -95,47 +98,47 @@
             }
         },
         {
-            "id": "2027_AT2",
-            "name": "ENO3",
+            "id": "2023_AT1",
+            "name": "ENO1",
             "notes": {
                 "original_bigg_ids": [
-                    "2027.2"
+                    "2023.1"
                 ]
             }
         },
         {
-            "id": "5106_AT1",
-            "name": "PCK2",
+            "id": "5105_AT1",
+            "name": "PCK1",
             "notes": {
                 "original_bigg_ids": [
-                    "5106.1"
+                    "5105.1"
                 ]
             }
         },
         {
-            "id": "5313_AT1",
-            "name": "PKLR",
+            "id": "5315_AT3",
+            "name": "PKM",
             "notes": {
                 "original_bigg_ids": [
-                    "5313.1"
+                    "5315.3"
                 ]
             }
         },
         {
-            "id": "5091_AT2",
+            "id": "5091_AT1",
             "name": "PC",
             "notes": {
                 "original_bigg_ids": [
-                    "5091.2"
+                    "5091.1"
                 ]
             }
         },
         {
-            "id": "92483_AT1",
-            "name": "LDHAL6B",
+            "id": "160287_AT1",
+            "name": "LDHAL6A",
             "notes": {
                 "original_bigg_ids": [
-                    "92483.1"
+                    "160287.1"
                 ]
             }
         },
@@ -167,11 +170,11 @@
             }
         },
         {
-            "id": "8277_AT1",
-            "name": "TKTL1",
+            "id": "84076_AT1",
+            "name": "TKTL2",
             "notes": {
                 "original_bigg_ids": [
-                    "8277.1"
+                    "84076.1"
                 ]
             }
         },
@@ -199,15 +202,6 @@
             "notes": {
                 "original_bigg_ids": [
                     "10993.1"
-                ]
-            }
-        },
-        {
-            "id": "5105_AT1",
-            "name": "PCK1",
-            "notes": {
-                "original_bigg_ids": [
-                    "5105.1"
                 ]
             }
         },
@@ -241,31 +235,59 @@
         {
             "annotation": {
                 "ccds": [
-                    "CCDS66300.1",
-                    "CCDS66302.1",
-                    "CCDS66301.1",
-                    "CCDS8585.1"
+                    "CCDS98.2"
                 ],
                 "ncbigene": [
-                    "144195"
+                    "155184"
                 ],
                 "omim": [
-                    "611039"
+                    "610371"
                 ],
                 "refseq_name": [
-                    "SLC2A14"
+                    "SLC2A7"
                 ],
                 "refseq_synonym": [
-                    "SLC2A3P3",
-                    "GLUT14"
+                    "GLUT7"
                 ],
                 "sbo": "SBO:0000243"
             },
-            "id": "144195_AT1",
-            "name": "SLC2A14",
+            "id": "155184_AT1",
+            "name": "SLC2A7",
             "notes": {
                 "original_bigg_ids": [
-                    "144195.1"
+                    "155184.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS58617.1",
+                    "CCDS11889.1"
+                ],
+                "hprd": [
+                    "02631"
+                ],
+                "ncbigene": [
+                    "361"
+                ],
+                "omim": [
+                    "600308"
+                ],
+                "refseq_name": [
+                    "AQP4"
+                ],
+                "refseq_synonym": [
+                    "MIWC",
+                    "WCH4"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "361_AT1",
+            "name": "AQP4",
+            "notes": {
+                "original_bigg_ids": [
+                    "361.1"
                 ]
             }
         }
@@ -982,6 +1004,249 @@
                     "glc_D[e]"
                 ]
             }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "h2o"
+                ],
+                "biocyc": [
+                    "META:CPD-15815",
+                    "META:OXONIUM",
+                    "META:HYDROXYL-GROUP",
+                    "META:WATER",
+                    "META:OH"
+                ],
+                "chebi": [
+                    "CHEBI:13352",
+                    "CHEBI:30490",
+                    "CHEBI:43228",
+                    "CHEBI:33813",
+                    "CHEBI:44292",
+                    "CHEBI:44641",
+                    "CHEBI:27313",
+                    "CHEBI:42043",
+                    "CHEBI:44819",
+                    "CHEBI:29356",
+                    "CHEBI:5594",
+                    "CHEBI:10743",
+                    "CHEBI:15377",
+                    "CHEBI:42857",
+                    "CHEBI:13365",
+                    "CHEBI:29412",
+                    "CHEBI:16234",
+                    "CHEBI:13419",
+                    "CHEBI:5585",
+                    "CHEBI:44701"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/799908db-b8c9-4982-86cb-1f225e2ad08c",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/e7f34a8e-cded-4793-b6d5-792335b38636",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/969d0227-3069-4e44-9525-7ae7bad84170"
+                ],
+                "hmdb": [
+                    "HMDB02111",
+                    "HMDB01039"
+                ],
+                "inchi_key": [
+                    "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00001",
+                    "C01328"
+                ],
+                "kegg.drug": [
+                    "D00001",
+                    "D06322"
+                ],
+                "metanetx.chemical": [
+                    "MNXM2"
+                ],
+                "reactome.compound": [
+                    "113521",
+                    "141343",
+                    "2022884",
+                    "5278291",
+                    "29356",
+                    "189422",
+                    "5668574",
+                    "5693747",
+                    "109276",
+                    "113519",
+                    "1605715",
+                    "8851517",
+                    "113518",
+                    "351603"
+                ],
+                "sabiork": [
+                    "40"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27222",
+                    "cpd00001",
+                    "cpd15275"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "H2O",
+            "id": "h2o_e",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "pi"
+                ],
+                "biocyc": [
+                    "META:Pi",
+                    "META:CPD-16459",
+                    "META:PHOSPHATE-GROUP"
+                ],
+                "chebi": [
+                    "CHEBI:26078",
+                    "CHEBI:18367",
+                    "CHEBI:29139",
+                    "CHEBI:39739",
+                    "CHEBI:43470",
+                    "CHEBI:35780",
+                    "CHEBI:43474",
+                    "CHEBI:26020",
+                    "CHEBI:45024",
+                    "CHEBI:39745",
+                    "CHEBI:29137",
+                    "CHEBI:14791",
+                    "CHEBI:7793"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"
+                ],
+                "hmdb": [
+                    "HMDB02105",
+                    "HMDB00973",
+                    "HMDB01429",
+                    "HMDB02142",
+                    "HMDB05947"
+                ],
+                "inchi_key": [
+                    "NBIIXXVUZAFLBC-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00009"
+                ],
+                "kegg.drug": [
+                    "D05467"
+                ],
+                "metanetx.chemical": [
+                    "MNXM9"
+                ],
+                "reactome.compound": [
+                    "5228339",
+                    "113550",
+                    "8851513",
+                    "113551",
+                    "109277",
+                    "29372",
+                    "8851226",
+                    "113548"
+                ],
+                "sabiork": [
+                    "36"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27787",
+                    "cpd00009"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "HO4P",
+            "id": "pi_e",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "h"
+                ],
+                "biocyc": [
+                    "META:PROTON"
+                ],
+                "chebi": [
+                    "CHEBI:5584",
+                    "CHEBI:13357",
+                    "CHEBI:15378",
+                    "CHEBI:10744"
+                ],
+                "hmdb": [
+                    "HMDB59597"
+                ],
+                "inchi_key": [
+                    "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00080"
+                ],
+                "metanetx.chemical": [
+                    "MNXM1"
+                ],
+                "reactome.compound": [
+                    "2000349",
+                    "425978",
+                    "74722",
+                    "428040",
+                    "427899",
+                    "428548",
+                    "156540",
+                    "70106",
+                    "425969",
+                    "1132304",
+                    "5668577",
+                    "1470067",
+                    "163953",
+                    "193465",
+                    "113529",
+                    "351626",
+                    "425999",
+                    "194688",
+                    "374900",
+                    "2872447",
+                    "372511"
+                ],
+                "sabiork": [
+                    "39"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00067"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "formula": "H",
+            "id": "h_e",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[e]"
+                ]
+            }
         }
     ],
     "reactions": [
@@ -1669,6 +1934,771 @@
             "_reversible": true,
             "_upper_bound": 1000.0,
             "annotation": {
+                "bigg.reaction": [
+                    "H2Oter"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-145",
+                    "META:TRANS-RXN0-547"
+                ],
+                "metanetx.reaction": [
+                    "MNXR98641"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-507868",
+                    "R-CFA-432054",
+                    "R-CFA-432010",
+                    "R-RNO-507868",
+                    "R-OSA-432065",
+                    "R-GGA-432010",
+                    "R-SPO-445714",
+                    "R-PFA-445714",
+                    "R-CFA-432065",
+                    "R-GGA-432067",
+                    "R-TGU-432054",
+                    "R-TGU-445714",
+                    "R-OSA-507868",
+                    "R-DRE-507868",
+                    "R-SPO-507868",
+                    "R-BTA-432054",
+                    "R-GGA-507870",
+                    "R-OSA-432010",
+                    "R-DME-432065",
+                    "R-DRE-432067",
+                    "R-PFA-507868",
+                    "R-SSC-432054",
+                    "R-HSA-432065",
+                    "R-OSA-507870",
+                    "R-HSA-432054",
+                    "R-SSC-432065",
+                    "R-CEL-507868",
+                    "R-XTR-507868",
+                    "R-ATH-507870",
+                    "R-SCE-432065",
+                    "R-BTA-507870",
+                    "R-DME-432010",
+                    "R-CFA-445714",
+                    "R-DRE-445714",
+                    "R-BTA-507868",
+                    "R-GGA-507868",
+                    "R-RNO-432054",
+                    "R-RNO-432010",
+                    "R-SSC-432067",
+                    "R-CEL-445714",
+                    "R-DDI-432065",
+                    "R-ATH-432010",
+                    "R-SCE-432054",
+                    "R-MMU-432065",
+                    "R-MMU-445714",
+                    "R-GGA-432065",
+                    "R-HSA-432067",
+                    "R-SSC-507870",
+                    "R-SCE-432067",
+                    "R-RNO-507870",
+                    "R-DME-432054",
+                    "R-ATH-432067",
+                    "R-BTA-445714",
+                    "R-DRE-507870",
+                    "R-DME-507868",
+                    "R-DME-507870",
+                    "R-DRE-432010",
+                    "R-MMU-432010",
+                    "R-HSA-445714",
+                    "R-OSA-432054",
+                    "R-RNO-432067",
+                    "R-TGU-432010",
+                    "R-TGU-507868",
+                    "R-DDI-432054",
+                    "R-PFA-507870",
+                    "R-HSA-507870",
+                    "R-XTR-432067",
+                    "R-HSA-432010",
+                    "R-SSC-507868",
+                    "R-SCE-507870",
+                    "R-CEL-507870",
+                    "R-DDI-507868",
+                    "R-DRE-432054",
+                    "R-XTR-507870",
+                    "R-DDI-432010",
+                    "R-BTA-432065",
+                    "R-CFA-432067",
+                    "R-OSA-432067",
+                    "R-ATH-432065",
+                    "R-GGA-445714",
+                    "R-SCE-507868",
+                    "R-TGU-432065",
+                    "R-MMU-432067",
+                    "R-TGU-507870",
+                    "R-CFA-507870",
+                    "R-RNO-432065",
+                    "R-MMU-432054",
+                    "R-MMU-507868",
+                    "R-SPO-507870",
+                    "R-SCE-432010",
+                    "R-MMU-507870",
+                    "R-SSC-445714",
+                    "R-HSA-507868",
+                    "R-DME-432067",
+                    "R-SSC-432010",
+                    "R-TGU-432067",
+                    "R-GGA-432054",
+                    "R-BTA-432010",
+                    "R-SCE-445714",
+                    "R-DDI-507870",
+                    "R-ATH-432054",
+                    "R-DDI-432067",
+                    "R-XTR-445714",
+                    "R-BTA-432067",
+                    "R-CFA-507868",
+                    "R-RNO-445714"
+                ],
+                "rhea": [
+                    "29668",
+                    "29669",
+                    "29667",
+                    "29670"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn08687",
+                    "rxn08686",
+                    "rxn09745",
+                    "rxn09838",
+                    "rxn09874",
+                    "rxn09812",
+                    "rxn09643",
+                    "rxn05319"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "H2Oter",
+            "metabolites": {
+                "h2o_c": -1.0,
+                "h2o_r": 1.0
+            },
+            "name": "H2O endoplasmic reticulum transport",
+            "notes": {
+                "original_bigg_ids": [
+                    "H2Oter"
+                ]
+            },
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PIter"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-470"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102871"
+                ],
+                "rhea": [
+                    "32824",
+                    "32826",
+                    "32825",
+                    "32823"
+                ],
+                "sabiork": [
+                    "10985"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn10838",
+                    "rxn09722",
+                    "rxn09121",
+                    "rxn13178"
+                ]
+            },
+            "gene_reaction_rule": "2542_AT1",
+            "id": "PIter",
+            "metabolites": {
+                "pi_c": 1.0,
+                "pi_r": -1.0
+            },
+            "name": "Phosphate transport, endoplasmic reticulum",
+            "notes": {
+                "original_bigg_ids": [
+                    "PIter"
+                ]
+            },
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "H2Ot"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-145",
+                    "META:TRANS-RXN0-547"
+                ],
+                "metanetx.reaction": [
+                    "MNXR98641"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-507868",
+                    "R-CFA-432054",
+                    "R-CFA-432010",
+                    "R-RNO-507868",
+                    "R-OSA-432065",
+                    "R-GGA-432010",
+                    "R-SPO-445714",
+                    "R-PFA-445714",
+                    "R-CFA-432065",
+                    "R-GGA-432067",
+                    "R-TGU-432054",
+                    "R-TGU-445714",
+                    "R-OSA-507868",
+                    "R-DRE-507868",
+                    "R-SPO-507868",
+                    "R-BTA-432054",
+                    "R-GGA-507870",
+                    "R-OSA-432010",
+                    "R-DME-432065",
+                    "R-DRE-432067",
+                    "R-PFA-507868",
+                    "R-SSC-432054",
+                    "R-HSA-432065",
+                    "R-OSA-507870",
+                    "R-HSA-432054",
+                    "R-SSC-432065",
+                    "R-CEL-507868",
+                    "R-XTR-507868",
+                    "R-ATH-507870",
+                    "R-SCE-432065",
+                    "R-BTA-507870",
+                    "R-DME-432010",
+                    "R-CFA-445714",
+                    "R-DRE-445714",
+                    "R-BTA-507868",
+                    "R-GGA-507868",
+                    "R-RNO-432054",
+                    "R-RNO-432010",
+                    "R-SSC-432067",
+                    "R-CEL-445714",
+                    "R-DDI-432065",
+                    "R-ATH-432010",
+                    "R-SCE-432054",
+                    "R-MMU-432065",
+                    "R-MMU-445714",
+                    "R-GGA-432065",
+                    "R-HSA-432067",
+                    "R-SSC-507870",
+                    "R-SCE-432067",
+                    "R-RNO-507870",
+                    "R-DME-432054",
+                    "R-ATH-432067",
+                    "R-BTA-445714",
+                    "R-DRE-507870",
+                    "R-DME-507868",
+                    "R-DME-507870",
+                    "R-DRE-432010",
+                    "R-MMU-432010",
+                    "R-HSA-445714",
+                    "R-OSA-432054",
+                    "R-RNO-432067",
+                    "R-TGU-432010",
+                    "R-TGU-507868",
+                    "R-DDI-432054",
+                    "R-PFA-507870",
+                    "R-HSA-507870",
+                    "R-XTR-432067",
+                    "R-HSA-432010",
+                    "R-SSC-507868",
+                    "R-SCE-507870",
+                    "R-CEL-507870",
+                    "R-DDI-507868",
+                    "R-DRE-432054",
+                    "R-XTR-507870",
+                    "R-DDI-432010",
+                    "R-BTA-432065",
+                    "R-CFA-432067",
+                    "R-OSA-432067",
+                    "R-ATH-432065",
+                    "R-GGA-445714",
+                    "R-SCE-507868",
+                    "R-TGU-432065",
+                    "R-MMU-432067",
+                    "R-TGU-507870",
+                    "R-CFA-507870",
+                    "R-RNO-432065",
+                    "R-MMU-432054",
+                    "R-MMU-507868",
+                    "R-SPO-507870",
+                    "R-SCE-432010",
+                    "R-MMU-507870",
+                    "R-SSC-445714",
+                    "R-HSA-507868",
+                    "R-DME-432067",
+                    "R-SSC-432010",
+                    "R-TGU-432067",
+                    "R-GGA-432054",
+                    "R-BTA-432010",
+                    "R-SCE-445714",
+                    "R-DDI-507870",
+                    "R-ATH-432054",
+                    "R-DDI-432067",
+                    "R-XTR-445714",
+                    "R-BTA-432067",
+                    "R-CFA-507868",
+                    "R-RNO-445714"
+                ],
+                "rhea": [
+                    "29668",
+                    "29669",
+                    "29667",
+                    "29670"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn08687",
+                    "rxn08686",
+                    "rxn09745",
+                    "rxn09838",
+                    "rxn09874",
+                    "rxn09812",
+                    "rxn09643",
+                    "rxn05319"
+                ]
+            },
+            "gene_reaction_rule": "358_AT1 or 361_AT1 or 4284_AT1 or 359_AT1 or 362_AT1 or 343_AT1",
+            "id": "H2Ot",
+            "metabolites": {
+                "h2o_c": 1.0,
+                "h2o_e": -1.0
+            },
+            "name": "H2O transport via diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "H2Ot"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PIt"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-470"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102871"
+                ],
+                "rhea": [
+                    "32824",
+                    "32826",
+                    "32825",
+                    "32823"
+                ],
+                "sabiork": [
+                    "10985"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn10838",
+                    "rxn09722",
+                    "rxn09121",
+                    "rxn13178"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "PIt",
+            "metabolites": {
+                "pi_c": -1.0,
+                "pi_e": 1.0
+            },
+            "name": "Inorganic phosphate exchange, diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "r1423"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "EX_pi_e"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-470"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102871"
+                ],
+                "rhea": [
+                    "32824",
+                    "32826",
+                    "32825",
+                    "32823"
+                ],
+                "sabiork": [
+                    "10985"
+                ],
+                "sbo": "SBO:0000627",
+                "seed.reaction": [
+                    "rxn10838",
+                    "rxn09722",
+                    "rxn09121",
+                    "rxn13178"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_pi_e",
+            "metabolites": {
+                "pi_e": -1.0
+            },
+            "name": "Phosphate exchange",
+            "notes": {
+                "original_bigg_ids": [
+                    "EX_pi[e]"
+                ]
+            },
+            "subsystem": "Extracellular exchange"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "EX_h2o_e"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-145",
+                    "META:TRANS-RXN0-547"
+                ],
+                "metanetx.reaction": [
+                    "MNXR98641"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-507868",
+                    "R-CFA-432054",
+                    "R-CFA-432010",
+                    "R-RNO-507868",
+                    "R-OSA-432065",
+                    "R-GGA-432010",
+                    "R-SPO-445714",
+                    "R-PFA-445714",
+                    "R-CFA-432065",
+                    "R-GGA-432067",
+                    "R-TGU-432054",
+                    "R-TGU-445714",
+                    "R-OSA-507868",
+                    "R-DRE-507868",
+                    "R-SPO-507868",
+                    "R-BTA-432054",
+                    "R-GGA-507870",
+                    "R-OSA-432010",
+                    "R-DME-432065",
+                    "R-DRE-432067",
+                    "R-PFA-507868",
+                    "R-SSC-432054",
+                    "R-HSA-432065",
+                    "R-OSA-507870",
+                    "R-HSA-432054",
+                    "R-SSC-432065",
+                    "R-CEL-507868",
+                    "R-XTR-507868",
+                    "R-ATH-507870",
+                    "R-SCE-432065",
+                    "R-BTA-507870",
+                    "R-DME-432010",
+                    "R-CFA-445714",
+                    "R-DRE-445714",
+                    "R-BTA-507868",
+                    "R-GGA-507868",
+                    "R-RNO-432054",
+                    "R-RNO-432010",
+                    "R-SSC-432067",
+                    "R-CEL-445714",
+                    "R-DDI-432065",
+                    "R-ATH-432010",
+                    "R-SCE-432054",
+                    "R-MMU-432065",
+                    "R-MMU-445714",
+                    "R-GGA-432065",
+                    "R-HSA-432067",
+                    "R-SSC-507870",
+                    "R-SCE-432067",
+                    "R-RNO-507870",
+                    "R-DME-432054",
+                    "R-ATH-432067",
+                    "R-BTA-445714",
+                    "R-DRE-507870",
+                    "R-DME-507868",
+                    "R-DME-507870",
+                    "R-DRE-432010",
+                    "R-MMU-432010",
+                    "R-HSA-445714",
+                    "R-OSA-432054",
+                    "R-RNO-432067",
+                    "R-TGU-432010",
+                    "R-TGU-507868",
+                    "R-DDI-432054",
+                    "R-PFA-507870",
+                    "R-HSA-507870",
+                    "R-XTR-432067",
+                    "R-HSA-432010",
+                    "R-SSC-507868",
+                    "R-SCE-507870",
+                    "R-CEL-507870",
+                    "R-DDI-507868",
+                    "R-DRE-432054",
+                    "R-XTR-507870",
+                    "R-DDI-432010",
+                    "R-BTA-432065",
+                    "R-CFA-432067",
+                    "R-OSA-432067",
+                    "R-ATH-432065",
+                    "R-GGA-445714",
+                    "R-SCE-507868",
+                    "R-TGU-432065",
+                    "R-MMU-432067",
+                    "R-TGU-507870",
+                    "R-CFA-507870",
+                    "R-RNO-432065",
+                    "R-MMU-432054",
+                    "R-MMU-507868",
+                    "R-SPO-507870",
+                    "R-SCE-432010",
+                    "R-MMU-507870",
+                    "R-SSC-445714",
+                    "R-HSA-507868",
+                    "R-DME-432067",
+                    "R-SSC-432010",
+                    "R-TGU-432067",
+                    "R-GGA-432054",
+                    "R-BTA-432010",
+                    "R-SCE-445714",
+                    "R-DDI-507870",
+                    "R-ATH-432054",
+                    "R-DDI-432067",
+                    "R-XTR-445714",
+                    "R-BTA-432067",
+                    "R-CFA-507868",
+                    "R-RNO-445714"
+                ],
+                "rhea": [
+                    "29668",
+                    "29669",
+                    "29667",
+                    "29670"
+                ],
+                "sbo": "SBO:0000627",
+                "seed.reaction": [
+                    "rxn08687",
+                    "rxn08686",
+                    "rxn09745",
+                    "rxn09838",
+                    "rxn09874",
+                    "rxn09812",
+                    "rxn09643",
+                    "rxn05319"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_h2o_e",
+            "metabolites": {
+                "h2o_e": -1.0
+            },
+            "name": "H2O exchange",
+            "notes": {
+                "original_bigg_ids": [
+                    "EX_h2o[e]"
+                ]
+            },
+            "subsystem": "Extracellular exchange"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "EX_h_e"
+                ],
+                "biocyc": [
+                    "META:RXN-14452"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100765"
+                ],
+                "reactome.reaction": [
+                    "R-HSA-2534378",
+                    "R-DDI-74723",
+                    "R-BTA-170026",
+                    "R-CFA-170026",
+                    "R-SCE-74723",
+                    "R-DRE-74723",
+                    "R-HSA-170026",
+                    "R-TGU-2534378",
+                    "R-HSA-74723",
+                    "R-CFA-2534378",
+                    "R-TGU-74723",
+                    "R-OSA-170026",
+                    "R-RNO-2534378",
+                    "R-GGA-2534378",
+                    "R-MMU-2534378",
+                    "R-BTA-2534378",
+                    "R-SSC-2534378",
+                    "R-DRE-170026",
+                    "R-TGU-170026",
+                    "R-GGA-170026",
+                    "R-SCE-170026",
+                    "R-DRE-2534378",
+                    "R-BTA-74723",
+                    "R-SPO-74723",
+                    "R-XTR-74723",
+                    "R-RNO-74723",
+                    "R-XTR-2534378",
+                    "R-MMU-74723",
+                    "R-CFA-74723",
+                    "R-GGA-74723",
+                    "R-CEL-170026",
+                    "R-MMU-170026",
+                    "R-ATH-74723",
+                    "R-DME-74723",
+                    "R-PFA-74723",
+                    "R-SSC-74723",
+                    "R-XTR-170026",
+                    "R-SSC-170026",
+                    "R-CEL-74723",
+                    "R-ATH-170026",
+                    "R-RNO-170026",
+                    "R-DME-170026"
+                ],
+                "rhea": [
+                    "34980",
+                    "34981",
+                    "34982",
+                    "34979"
+                ],
+                "sbo": "SBO:0000627",
+                "seed.reaction": [
+                    "rxn11009",
+                    "rxn08730"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_h_e",
+            "metabolites": {
+                "h_e": -1.0
+            },
+            "name": "H+ exchange",
+            "notes": {
+                "original_bigg_ids": [
+                    "EX_h[e]"
+                ]
+            },
+            "subsystem": "Extracellular exchange"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "Ht"
+                ],
+                "biocyc": [
+                    "META:RXN-14452"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100765"
+                ],
+                "reactome.reaction": [
+                    "R-HSA-2534378",
+                    "R-DDI-74723",
+                    "R-BTA-170026",
+                    "R-CFA-170026",
+                    "R-SCE-74723",
+                    "R-DRE-74723",
+                    "R-HSA-170026",
+                    "R-TGU-2534378",
+                    "R-HSA-74723",
+                    "R-CFA-2534378",
+                    "R-TGU-74723",
+                    "R-OSA-170026",
+                    "R-RNO-2534378",
+                    "R-GGA-2534378",
+                    "R-MMU-2534378",
+                    "R-BTA-2534378",
+                    "R-SSC-2534378",
+                    "R-DRE-170026",
+                    "R-TGU-170026",
+                    "R-GGA-170026",
+                    "R-SCE-170026",
+                    "R-DRE-2534378",
+                    "R-BTA-74723",
+                    "R-SPO-74723",
+                    "R-XTR-74723",
+                    "R-RNO-74723",
+                    "R-XTR-2534378",
+                    "R-MMU-74723",
+                    "R-CFA-74723",
+                    "R-GGA-74723",
+                    "R-CEL-170026",
+                    "R-MMU-170026",
+                    "R-ATH-74723",
+                    "R-DME-74723",
+                    "R-PFA-74723",
+                    "R-SSC-74723",
+                    "R-XTR-170026",
+                    "R-SSC-170026",
+                    "R-CEL-74723",
+                    "R-ATH-170026",
+                    "R-RNO-170026",
+                    "R-DME-170026"
+                ],
+                "rhea": [
+                    "34980",
+                    "34981",
+                    "34982",
+                    "34979"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn11009",
+                    "rxn08730"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "Ht",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0
+            },
+            "name": "Proton diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "The"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
                 "sbo": "SBO:0000632"
             },
             "gene_reaction_rule": "",
@@ -1677,6 +2707,51 @@
                 "g6p_c": -1
             },
             "name": "D-Glucose 6-phosphate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_f6p_c",
+            "metabolites": {
+                "f6p_c": -1
+            },
+            "name": "D-Fructose 6-phosphate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_atp_c",
+            "metabolites": {
+                "atp_c": -1
+            },
+            "name": "ATP C10H12N5O13P3 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_adp_c",
+            "metabolites": {
+                "adp_c": -1
+            },
+            "name": "ADP C10H12N5O10P2 sink",
             "subsystem": "Pseudoreaction"
         }
     ],
