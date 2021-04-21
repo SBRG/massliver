@@ -11,11 +11,12 @@ Directory for the intermediate data that has been transformed.
 1.2-ma-amino_acid_enzyme_data.xlsx
   Includes 1.0-ma-amino_acid_enzyme_data.xlsx + updated unit conversions for katal, U, etc
 
-1.5-ma-data-collection.xlsx
-  Includes final form (MASSpy data form) of concentration, flux, Keq data from HEPATOKIN, In Vivo Studies Paper (2020), eQuilbrator 
-  
-1.0-rm-datacollection.xlsx
-  Includes initial Keq research
+1.12-ma-data-collection-glycogenolysis.xlsx
+  Includes concentration, flux, Keq data for glycogenolysis model
 
-1.0 - rm - enzyme - module - data.xlsx
-  Includes enzyme module data for TCA Cycle, Ketone Pathways
+2.8-srp-data-collection.xlsx 
+  Latest data collection for the small scale model 
+
+Flux_Solution(1.5-srp-glycogenolysis) 
+  Includes outputs of Flux and Concentration QP from 1.5 model version 
+  
