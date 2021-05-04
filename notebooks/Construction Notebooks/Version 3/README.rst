@@ -8,5 +8,11 @@ Quadratic Programming and Model Construction Attempts for Glycolysis
  
 2.0-srp-glycogenolysis.ipynb 
   Latest attempt to simulate small scale model 
+3.3-srp-rm-glycogenolysis.ipynb
+  FBA works for all the reactions in Glycogenolysis
+3.4-srp-rm-glycogenolysis.ipynb
+  Work in progress to get a good concentration solution
+3.5-srp-rm-glycogenolysis.ipynb
+  Better concentration solution. Need to work on PERCs and Ensemble modeling.
   
   
