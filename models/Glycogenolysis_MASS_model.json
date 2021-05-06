@@ -1,0 +1,4919 @@
+{
+    "boundary_conditions": {
+        "adp_b": 0.008038905799999998,
+        "atp_b": 0.009189999999999997,
+        "co2_b": 3.098979141980796e-05,
+        "f6p_b": 0.0001785271217457008,
+        "fdp_b": 1.698048830878023e-05,
+        "g6p_b": 9.970065514949486e-05,
+        "gdp_b": 9.999999999999996e-11,
+        "glc__D_b": 0.0,
+        "gtp_b": 9.999999999999996e-11,
+        "h2o_b": 1.0,
+        "h_b": 1.0,
+        "hco3_b": 2.081848051360152e-06,
+        "lac__L_b": 0.014,
+        "nad_b": 0.0012742238859564043,
+        "nadh_b": 6.6401809568431615e-06,
+        "oaa_b": 3.1190000000000005e-05,
+        "pep_b": 0.00205,
+        "pi_b": 0.0064,
+        "pyr_b": 0.007
+    },
+    "compartments": {
+        "c": "",
+        "e": "",
+        "m": "",
+        "r": ""
+    },
+    "custom_parameters": {},
+    "custom_rates": {},
+    "enzyme_modules": [],
+    "genes": [],
+    "id": "Glycogenolysis",
+    "metabolites": [
+        {
+            "_initial_condition": 0.0004361833521291895,
+            "annotation": {
+                "bigg.metabolite": [
+                    "adp"
+                ],
+                "biocyc": [
+                    "META:ADP"
+                ],
+                "chebi": [
+                    "CHEBI:2342",
+                    "CHEBI:16761",
+                    "CHEBI:456216",
+                    "CHEBI:40553",
+                    "CHEBI:22244",
+                    "CHEBI:87518",
+                    "CHEBI:13222"
+                ],
+                "hmdb": [
+                    "HMDB01341"
+                ],
+                "inchi_key": [
+                    "XTWYTFMLZFPYCI-KQYNXXCUSA-K"
+                ],
+                "kegg.compound": [
+                    "C00008"
+                ],
+                "kegg.glycan": [
+                    "G11113"
+                ],
+                "metanetx.chemical": [
+                    "MNXM7"
+                ],
+                "reactome.compound": [
+                    "114565",
+                    "211606",
+                    "114564",
+                    "6798177",
+                    "5632457",
+                    "5696026",
+                    "8869360",
+                    "29370",
+                    "113581",
+                    "113582"
+                ],
+                "sabiork": [
+                    "35"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00008"
+                ]
+            },
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_c",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.021620332469595365,
+            "annotation": {
+                "bigg.metabolite": [
+                    "atp"
+                ],
+                "biocyc": [
+                    "META:ATP"
+                ],
+                "chebi": [
+                    "CHEBI:15422",
+                    "CHEBI:10789",
+                    "CHEBI:10841",
+                    "CHEBI:2359",
+                    "CHEBI:22249",
+                    "CHEBI:13236",
+                    "CHEBI:237958",
+                    "CHEBI:30616",
+                    "CHEBI:57299",
+                    "CHEBI:40938"
+                ],
+                "hmdb": [
+                    "HMDB00538"
+                ],
+                "inchi_key": [
+                    "ZKHQWZAMYRWXGA-KQYNXXCUSA-J"
+                ],
+                "kegg.compound": [
+                    "C00002"
+                ],
+                "kegg.drug": [
+                    "D08646"
+                ],
+                "metanetx.chemical": [
+                    "MNXM3"
+                ],
+                "reactome.compound": [
+                    "8878982",
+                    "389573",
+                    "8938081",
+                    "211579",
+                    "113593",
+                    "113592",
+                    "5632460",
+                    "5696069",
+                    "29358",
+                    "8869363",
+                    "6798184"
+                ],
+                "sabiork": [
+                    "34"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00002"
+                ]
+            },
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_c",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 9.970065514949486e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "g6p"
+                ],
+                "biocyc": [
+                    "META:D-glucopyranose-6-phosphate"
+                ],
+                "chebi": [
+                    "CHEBI:61548",
+                    "CHEBI:14314",
+                    "CHEBI:4170"
+                ],
+                "hmdb": [
+                    "HMDB01549",
+                    "HMDB01401",
+                    "HMDB06793"
+                ],
+                "inchi_key": [
+                    "NBSCHQHZLSJFNQ-GASJEMHNSA-L"
+                ],
+                "kegg.compound": [
+                    "C00092"
+                ],
+                "metanetx.chemical": [
+                    "MNXM160"
+                ],
+                "reactome.compound": [
+                    "1629756"
+                ],
+                "sabiork": [
+                    "1404",
+                    "1405"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00079",
+                    "cpd26836"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "g6p_c",
+            "name": "D-Glucose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g6p[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.010482807029999996,
+            "annotation": {
+                "bigg.metabolite": [
+                    "glc__D"
+                ],
+                "biocyc": [
+                    "META:Glucopyranose"
+                ],
+                "chebi": [
+                    "CHEBI:12965",
+                    "CHEBI:20999",
+                    "CHEBI:4167",
+                    "CHEBI:17634"
+                ],
+                "hmdb": [
+                    "HMDB00122",
+                    "HMDB06564"
+                ],
+                "inchi_key": [
+                    "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+                ],
+                "kegg.compound": [
+                    "C00031"
+                ],
+                "kegg.drug": [
+                    "D00009"
+                ],
+                "metanetx.chemical": [
+                    "MNXM41"
+                ],
+                "sabiork": [
+                    "1406",
+                    "1407"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd26821",
+                    "cpd00027"
+                ]
+            },
+            "charge": 0,
+            "compartment": "c",
+            "formula": "C6H12O6",
+            "id": "glc__D_c",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h"
+                ],
+                "biocyc": [
+                    "META:PROTON"
+                ],
+                "chebi": [
+                    "CHEBI:5584",
+                    "CHEBI:13357",
+                    "CHEBI:15378",
+                    "CHEBI:10744"
+                ],
+                "hmdb": [
+                    "HMDB59597"
+                ],
+                "inchi_key": [
+                    "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00080"
+                ],
+                "metanetx.chemical": [
+                    "MNXM1"
+                ],
+                "reactome.compound": [
+                    "2000349",
+                    "425978",
+                    "74722",
+                    "428040",
+                    "427899",
+                    "428548",
+                    "156540",
+                    "70106",
+                    "425969",
+                    "1132304",
+                    "5668577",
+                    "1470067",
+                    "163953",
+                    "193465",
+                    "113529",
+                    "351626",
+                    "425999",
+                    "194688",
+                    "374900",
+                    "2872447",
+                    "372511"
+                ],
+                "sabiork": [
+                    "39"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00067"
+                ]
+            },
+            "charge": 1,
+            "compartment": "c",
+            "fixed": true,
+            "formula": "H",
+            "id": "h_c",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0001785271217457008,
+            "annotation": {
+                "bigg.metabolite": [
+                    "f6p"
+                ],
+                "biocyc": [
+                    "META:FRUCTOSE-6P"
+                ],
+                "chebi": [
+                    "CHEBI:16084",
+                    "CHEBI:12352",
+                    "CHEBI:57634",
+                    "CHEBI:22768",
+                    "CHEBI:10375",
+                    "CHEBI:42378"
+                ],
+                "hmdb": [
+                    "HMDB03971"
+                ],
+                "inchi_key": [
+                    "BGWGXPAPYGQALX-ARQDHWQXSA-L"
+                ],
+                "kegg.compound": [
+                    "C05345"
+                ],
+                "metanetx.chemical": [
+                    "MNXM89621"
+                ],
+                "sabiork": [
+                    "25"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd19035"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C6H11O9P",
+            "id": "f6p_c",
+            "name": "D-Fructose-6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "f6p[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h2o"
+                ],
+                "biocyc": [
+                    "META:CPD-15815",
+                    "META:OXONIUM",
+                    "META:HYDROXYL-GROUP",
+                    "META:WATER",
+                    "META:OH"
+                ],
+                "chebi": [
+                    "CHEBI:13352",
+                    "CHEBI:30490",
+                    "CHEBI:43228",
+                    "CHEBI:33813",
+                    "CHEBI:44292",
+                    "CHEBI:44641",
+                    "CHEBI:27313",
+                    "CHEBI:42043",
+                    "CHEBI:44819",
+                    "CHEBI:29356",
+                    "CHEBI:5594",
+                    "CHEBI:10743",
+                    "CHEBI:15377",
+                    "CHEBI:42857",
+                    "CHEBI:13365",
+                    "CHEBI:29412",
+                    "CHEBI:16234",
+                    "CHEBI:13419",
+                    "CHEBI:5585",
+                    "CHEBI:44701"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/799908db-b8c9-4982-86cb-1f225e2ad08c",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/e7f34a8e-cded-4793-b6d5-792335b38636",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/969d0227-3069-4e44-9525-7ae7bad84170"
+                ],
+                "hmdb": [
+                    "HMDB02111",
+                    "HMDB01039"
+                ],
+                "inchi_key": [
+                    "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00001",
+                    "C01328"
+                ],
+                "kegg.drug": [
+                    "D00001",
+                    "D06322"
+                ],
+                "metanetx.chemical": [
+                    "MNXM2"
+                ],
+                "reactome.compound": [
+                    "113521",
+                    "141343",
+                    "2022884",
+                    "5278291",
+                    "29356",
+                    "189422",
+                    "5668574",
+                    "5693747",
+                    "109276",
+                    "113519",
+                    "1605715",
+                    "8851517",
+                    "113518",
+                    "351603"
+                ],
+                "sabiork": [
+                    "40"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27222",
+                    "cpd00001",
+                    "cpd15275"
+                ]
+            },
+            "charge": 0,
+            "compartment": "c",
+            "fixed": true,
+            "formula": "H2O",
+            "id": "h2o_c",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.006399999999999998,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pi"
+                ],
+                "biocyc": [
+                    "META:Pi",
+                    "META:CPD-16459",
+                    "META:PHOSPHATE-GROUP"
+                ],
+                "chebi": [
+                    "CHEBI:26078",
+                    "CHEBI:18367",
+                    "CHEBI:29139",
+                    "CHEBI:39739",
+                    "CHEBI:43470",
+                    "CHEBI:35780",
+                    "CHEBI:43474",
+                    "CHEBI:26020",
+                    "CHEBI:45024",
+                    "CHEBI:39745",
+                    "CHEBI:29137",
+                    "CHEBI:14791",
+                    "CHEBI:7793"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"
+                ],
+                "hmdb": [
+                    "HMDB02105",
+                    "HMDB00973",
+                    "HMDB01429",
+                    "HMDB02142",
+                    "HMDB05947"
+                ],
+                "inchi_key": [
+                    "NBIIXXVUZAFLBC-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00009"
+                ],
+                "kegg.drug": [
+                    "D05467"
+                ],
+                "metanetx.chemical": [
+                    "MNXM9"
+                ],
+                "reactome.compound": [
+                    "5228339",
+                    "113550",
+                    "8851513",
+                    "113551",
+                    "109277",
+                    "29372",
+                    "8851226",
+                    "113548"
+                ],
+                "sabiork": [
+                    "36"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27787",
+                    "cpd00009"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "fixed": true,
+            "formula": "HO4P",
+            "id": "pi_c",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1.698048830878023e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "fdp"
+                ],
+                "chebi": [
+                    "CHEBI:37736",
+                    "CHEBI:49299"
+                ],
+                "inchi_key": [
+                    "RNBGYGVWRKECFJ-VRPWFDPXSA-J"
+                ],
+                "kegg.compound": [
+                    "C00354"
+                ],
+                "metanetx.chemical": [
+                    "MNXM417"
+                ],
+                "sabiork": [
+                    "1465"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00290"
+                ]
+            },
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C6H10O12P2",
+            "id": "fdp_c",
+            "name": "D-Fructose 1,6-bisphosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "fdp[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 4.125041458966285e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "dhap"
+                ],
+                "biocyc": [
+                    "META:DIHYDROXY-ACETONE-PHOSPHATE"
+                ],
+                "chebi": [
+                    "CHEBI:14341",
+                    "CHEBI:5454",
+                    "CHEBI:16108",
+                    "CHEBI:14342",
+                    "CHEBI:24355",
+                    "CHEBI:39571",
+                    "CHEBI:57642"
+                ],
+                "hmdb": [
+                    "HMDB11735",
+                    "HMDB01473"
+                ],
+                "inchi_key": [
+                    "GNGACRATGGDKBX-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00111"
+                ],
+                "metanetx.chemical": [
+                    "MNXM77"
+                ],
+                "reactome.compound": [
+                    "390404",
+                    "75970",
+                    "188451"
+                ],
+                "sabiork": [
+                    "28"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00095"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "dhap_c",
+            "name": "Dihydroxyacetone phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "dhap[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 7.567240076311184e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "g3p"
+                ],
+                "biocyc": [
+                    "META:GAP"
+                ],
+                "chebi": [
+                    "CHEBI:5446",
+                    "CHEBI:14333",
+                    "CHEBI:12984",
+                    "CHEBI:181",
+                    "CHEBI:17138",
+                    "CHEBI:21026",
+                    "CHEBI:12983",
+                    "CHEBI:18324",
+                    "CHEBI:58027",
+                    "CHEBI:59776",
+                    "CHEBI:29052"
+                ],
+                "hmdb": [
+                    "HMDB01112"
+                ],
+                "inchi_key": [
+                    "LXJXRIRHZLFYRP-VKHMYHEASA-L"
+                ],
+                "kegg.compound": [
+                    "C00661",
+                    "C00118"
+                ],
+                "metanetx.chemical": [
+                    "MNXM74"
+                ],
+                "reactome.compound": [
+                    "29578"
+                ],
+                "sabiork": [
+                    "27",
+                    "1687"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00102",
+                    "cpd19005"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C3H5O6P",
+            "id": "g3p_c",
+            "name": "Glyceraldehyde 3-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g3p[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 3.4683073132584e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "13dpg"
+                ],
+                "biocyc": [
+                    "META:DPG"
+                ],
+                "chebi": [
+                    "CHEBI:57604",
+                    "CHEBI:20189",
+                    "CHEBI:11881",
+                    "CHEBI:16001",
+                    "CHEBI:1658"
+                ],
+                "hmdb": [
+                    "HMDB62758"
+                ],
+                "inchi_key": [
+                    "LJQLQCAXBUHEAZ-UWTATZPHSA-J"
+                ],
+                "kegg.compound": [
+                    "C00236"
+                ],
+                "metanetx.chemical": [
+                    "MNXM261"
+                ],
+                "reactome.compound": [
+                    "29800"
+                ],
+                "sabiork": [
+                    "21215"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00203"
+                ]
+            },
+            "charge": -4,
+            "compartment": "c",
+            "formula": "C3H4O10P2",
+            "id": "_13dpg_c",
+            "name": "3-Phospho-D-glyceroyl phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "13dpg[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0012742238859564043,
+            "annotation": {
+                "bigg.metabolite": [
+                    "nad"
+                ],
+                "biocyc": [
+                    "META:NAD"
+                ],
+                "chebi": [
+                    "CHEBI:7422",
+                    "CHEBI:44215",
+                    "CHEBI:13394",
+                    "CHEBI:21901",
+                    "CHEBI:57540",
+                    "CHEBI:15846",
+                    "CHEBI:44281",
+                    "CHEBI:44214",
+                    "CHEBI:13393",
+                    "CHEBI:29867"
+                ],
+                "hmdb": [
+                    "HMDB00902"
+                ],
+                "inchi_key": [
+                    "BAWFJGJZGIEFAR-NNYOXOHSSA-M"
+                ],
+                "kegg.compound": [
+                    "C00003"
+                ],
+                "kegg.drug": [
+                    "D00002"
+                ],
+                "metanetx.chemical": [
+                    "MNXM8"
+                ],
+                "reactome.compound": [
+                    "352330",
+                    "192307",
+                    "194653",
+                    "113526",
+                    "29360"
+                ],
+                "sabiork": [
+                    "37"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00003"
+                ]
+            },
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C21H26N7O14P2",
+            "id": "nad_c",
+            "name": "Nicotinamide adenine dinucleotide",
+            "notes": {
+                "original_bigg_ids": [
+                    "nad[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 6.6401809568431615e-06,
+            "annotation": {
+                "bigg.metabolite": [
+                    "nadh"
+                ],
+                "biocyc": [
+                    "META:NADH"
+                ],
+                "chebi": [
+                    "CHEBI:13395",
+                    "CHEBI:21902",
+                    "CHEBI:7423",
+                    "CHEBI:44216",
+                    "CHEBI:57945",
+                    "CHEBI:16908",
+                    "CHEBI:13396"
+                ],
+                "hmdb": [
+                    "HMDB01487"
+                ],
+                "inchi_key": [
+                    "BOPGDPNILDQYTO-NNYOXOHSSA-L"
+                ],
+                "kegg.compound": [
+                    "C00004"
+                ],
+                "metanetx.chemical": [
+                    "MNXM10"
+                ],
+                "reactome.compound": [
+                    "192305",
+                    "73473",
+                    "29362",
+                    "194697"
+                ],
+                "sabiork": [
+                    "38"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00004"
+                ]
+            },
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C21H27N7O14P2",
+            "id": "nadh_c",
+            "name": "Nicotinamide adenine dinucleotide - reduced",
+            "notes": {
+                "original_bigg_ids": [
+                    "nadh[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0008315166618844186,
+            "annotation": {
+                "bigg.metabolite": [
+                    "3pg"
+                ],
+                "biocyc": [
+                    "META:G3P"
+                ],
+                "chebi": [
+                    "CHEBI:11879",
+                    "CHEBI:11880",
+                    "CHEBI:17794",
+                    "CHEBI:21029",
+                    "CHEBI:1657",
+                    "CHEBI:58272",
+                    "CHEBI:12987"
+                ],
+                "hmdb": [
+                    "HMDB60180"
+                ],
+                "inchi_key": [
+                    "OSJPPGNTCRNQQC-UWTATZPHSA-K"
+                ],
+                "kegg.compound": [
+                    "C00197"
+                ],
+                "metanetx.chemical": [
+                    "MNXM126"
+                ],
+                "reactome.compound": [
+                    "6799493",
+                    "29728"
+                ],
+                "sabiork": [
+                    "21216"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00169"
+                ]
+            },
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H4O7P",
+            "id": "_3pg_c",
+            "name": "3-Phospho-D-glycerate/ 3-\nPhosphoglycerate",
+            "notes": {
+                "original_bigg_ids": [
+                    "3pg[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0001378415614980826,
+            "annotation": {
+                "bigg.metabolite": [
+                    "2pg"
+                ],
+                "biocyc": [
+                    "META:2-PG"
+                ],
+                "chebi": [
+                    "CHEBI:39868",
+                    "CHEBI:21028",
+                    "CHEBI:58289",
+                    "CHEBI:24344",
+                    "CHEBI:12986",
+                    "CHEBI:17835",
+                    "CHEBI:11651",
+                    "CHEBI:1267",
+                    "CHEBI:88350"
+                ],
+                "hmdb": [
+                    "HMDB00362",
+                    "HMDB62707",
+                    "HMDB03391"
+                ],
+                "inchi_key": [
+                    "GXIURPTVHJPJLF-UWTATZPHSA-K"
+                ],
+                "kegg.compound": [
+                    "C00631"
+                ],
+                "metanetx.chemical": [
+                    "MNXM275"
+                ],
+                "reactome.compound": [
+                    "30485"
+                ],
+                "sabiork": [
+                    "31"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00482"
+                ]
+            },
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H4O7P",
+            "id": "_2pg_c",
+            "name": "D-Glycerate 2-phosphate/ 2-\nPhosphoglycerate",
+            "notes": {
+                "original_bigg_ids": [
+                    "2pg[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0007120408179136051,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pep"
+                ],
+                "biocyc": [
+                    "META:PHOSPHO-ENOL-PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:18021",
+                    "CHEBI:44894",
+                    "CHEBI:26054",
+                    "CHEBI:14812",
+                    "CHEBI:26055",
+                    "CHEBI:8147",
+                    "CHEBI:58702",
+                    "CHEBI:44897"
+                ],
+                "hmdb": [
+                    "HMDB00263"
+                ],
+                "inchi_key": [
+                    "DTBNBXWJWCWCIK-UHFFFAOYSA-K"
+                ],
+                "kegg.compound": [
+                    "C00074"
+                ],
+                "metanetx.chemical": [
+                    "MNXM73"
+                ],
+                "reactome.compound": [
+                    "372364",
+                    "29492"
+                ],
+                "sabiork": [
+                    "32"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00061"
+                ]
+            },
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C3H2O6P",
+            "id": "pep_c",
+            "name": "Phosphoenolpyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pep[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.00205,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pep"
+                ],
+                "biocyc": [
+                    "META:PHOSPHO-ENOL-PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:18021",
+                    "CHEBI:44894",
+                    "CHEBI:26054",
+                    "CHEBI:14812",
+                    "CHEBI:26055",
+                    "CHEBI:8147",
+                    "CHEBI:58702",
+                    "CHEBI:44897"
+                ],
+                "hmdb": [
+                    "HMDB00263"
+                ],
+                "inchi_key": [
+                    "DTBNBXWJWCWCIK-UHFFFAOYSA-K"
+                ],
+                "kegg.compound": [
+                    "C00074"
+                ],
+                "metanetx.chemical": [
+                    "MNXM73"
+                ],
+                "reactome.compound": [
+                    "372364",
+                    "29492"
+                ],
+                "sabiork": [
+                    "32"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00061"
+                ]
+            },
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C3H2O6P",
+            "id": "pep_m",
+            "name": "Phosphoenolpyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pep[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0004499999999999998,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pi"
+                ],
+                "biocyc": [
+                    "META:Pi",
+                    "META:CPD-16459",
+                    "META:PHOSPHATE-GROUP"
+                ],
+                "chebi": [
+                    "CHEBI:26078",
+                    "CHEBI:18367",
+                    "CHEBI:29139",
+                    "CHEBI:39739",
+                    "CHEBI:43470",
+                    "CHEBI:35780",
+                    "CHEBI:43474",
+                    "CHEBI:26020",
+                    "CHEBI:45024",
+                    "CHEBI:39745",
+                    "CHEBI:29137",
+                    "CHEBI:14791",
+                    "CHEBI:7793"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"
+                ],
+                "hmdb": [
+                    "HMDB02105",
+                    "HMDB00973",
+                    "HMDB01429",
+                    "HMDB02142",
+                    "HMDB05947"
+                ],
+                "inchi_key": [
+                    "NBIIXXVUZAFLBC-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00009"
+                ],
+                "kegg.drug": [
+                    "D05467"
+                ],
+                "metanetx.chemical": [
+                    "MNXM9"
+                ],
+                "reactome.compound": [
+                    "5228339",
+                    "113550",
+                    "8851513",
+                    "113551",
+                    "109277",
+                    "29372",
+                    "8851226",
+                    "113548"
+                ],
+                "sabiork": [
+                    "36"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27787",
+                    "cpd00009"
+                ]
+            },
+            "charge": -2,
+            "compartment": "m",
+            "fixed": true,
+            "formula": "HO4P",
+            "id": "pi_m",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 3.098979141980796e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "co2"
+                ],
+                "biocyc": [
+                    "META:CARBON-DIOXIDE"
+                ],
+                "chebi": [
+                    "CHEBI:23011",
+                    "CHEBI:3283",
+                    "CHEBI:48829",
+                    "CHEBI:16526",
+                    "CHEBI:13283",
+                    "CHEBI:13285",
+                    "CHEBI:13284",
+                    "CHEBI:13282"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/2ec3da94-5f50-4525-81b1-5607c5c7a3d3",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/05f60af4-0a3f-4ead-9a29-33bb0f123379"
+                ],
+                "hmdb": [
+                    "HMDB01967"
+                ],
+                "inchi_key": [
+                    "CURLTUGMZLYLDI-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00011"
+                ],
+                "kegg.drug": [
+                    "D00004"
+                ],
+                "metanetx.chemical": [
+                    "MNXM13"
+                ],
+                "reactome.compound": [
+                    "29376",
+                    "5668565",
+                    "189480",
+                    "1132345",
+                    "113528",
+                    "1237009",
+                    "159751",
+                    "389536",
+                    "159942"
+                ],
+                "sabiork": [
+                    "1266"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00011"
+                ]
+            },
+            "charge": 0,
+            "compartment": "m",
+            "formula": "CO2",
+            "id": "co2_m",
+            "name": "CO2 CO2",
+            "notes": {
+                "original_bigg_ids": [
+                    "co2[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 9.999999999999996e-11,
+            "annotation": {
+                "bigg.metabolite": [
+                    "gdp"
+                ],
+                "biocyc": [
+                    "META:GDP"
+                ],
+                "chebi": [
+                    "CHEBI:5212",
+                    "CHEBI:17552",
+                    "CHEBI:58189",
+                    "CHEBI:13327",
+                    "CHEBI:42738",
+                    "CHEBI:14379",
+                    "CHEBI:24448",
+                    "CHEBI:65180"
+                ],
+                "hmdb": [
+                    "HMDB01201"
+                ],
+                "inchi_key": [
+                    "QGWNDRXFNXRZMB-UUOKFMHZSA-K"
+                ],
+                "kegg.compound": [
+                    "C00035"
+                ],
+                "kegg.glycan": [
+                    "G10620"
+                ],
+                "metanetx.chemical": [
+                    "MNXM30"
+                ],
+                "reactome.compound": [
+                    "113525",
+                    "29420",
+                    "205689",
+                    "111349"
+                ],
+                "sabiork": [
+                    "1280"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00031"
+                ]
+            },
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C10H12N5O11P2",
+            "id": "gdp_m",
+            "name": "GDP C10H12N5O11P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "gdp[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 9.999999999999996e-11,
+            "annotation": {
+                "bigg.metabolite": [
+                    "gtp"
+                ],
+                "biocyc": [
+                    "META:GTP"
+                ],
+                "chebi": [
+                    "CHEBI:37565",
+                    "CHEBI:15996",
+                    "CHEBI:13342",
+                    "CHEBI:57600",
+                    "CHEBI:5234",
+                    "CHEBI:42934",
+                    "CHEBI:24451"
+                ],
+                "hmdb": [
+                    "HMDB01273"
+                ],
+                "inchi_key": [
+                    "XKMLYUALXHKNFT-UUOKFMHZSA-J"
+                ],
+                "kegg.compound": [
+                    "C00044"
+                ],
+                "metanetx.chemical": [
+                    "MNXM51"
+                ],
+                "reactome.compound": [
+                    "113573",
+                    "29438"
+                ],
+                "sabiork": [
+                    "1282"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00038"
+                ]
+            },
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C10H12N5O14P3",
+            "id": "gtp_m",
+            "name": "GTP C10H12N5O14P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "gtp[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 3.1190000000000005e-05,
+            "annotation": {
+                "bigg.metabolite": [
+                    "oaa"
+                ],
+                "biocyc": [
+                    "META:OXALACETIC_ACID"
+                ],
+                "chebi": [
+                    "CHEBI:25731",
+                    "CHEBI:24959",
+                    "CHEBI:12820",
+                    "CHEBI:16452",
+                    "CHEBI:30744",
+                    "CHEBI:14703",
+                    "CHEBI:24958",
+                    "CHEBI:7812",
+                    "CHEBI:25734",
+                    "CHEBI:29049"
+                ],
+                "envipath": [
+                    "4fd7f3e0-dd25-43ac-9453-dda3e52396e4/compound/133a11f3-81b0-4384-837e-1ccdd0a2a645",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/40afaad4-431a-4e3c-b4c7-020dbe4bdd2a",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/be7c543c-40bd-4698-9821-22f2e65c38f3"
+                ],
+                "hmdb": [
+                    "HMDB00223"
+                ],
+                "inchi_key": [
+                    "KHPXUQMNIQBQEV-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00036"
+                ],
+                "lipidmaps": [
+                    "LMFA01170120"
+                ],
+                "metanetx.chemical": [
+                    "MNXM46"
+                ],
+                "reactome.compound": [
+                    "6810070",
+                    "113587",
+                    "76213"
+                ],
+                "sabiork": [
+                    "1915"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00032"
+                ]
+            },
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H2O5",
+            "id": "oaa_m",
+            "name": "Oxaloacetate",
+            "notes": {
+                "original_bigg_ids": [
+                    "oaa[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0001503379790745299,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pyr"
+                ],
+                "biocyc": [
+                    "META:PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:26462",
+                    "CHEBI:26466",
+                    "CHEBI:8685",
+                    "CHEBI:32816",
+                    "CHEBI:45253",
+                    "CHEBI:14987",
+                    "CHEBI:15361"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/ccc99777-54dc-42d4-a97e-009b780d3905",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc01020e-8c7e-4087-9f56-cf8c962b7437"
+                ],
+                "hmdb": [
+                    "HMDB00243"
+                ],
+                "inchi_key": [
+                    "LCTONWCANYUPML-UHFFFAOYSA-M"
+                ],
+                "kegg.compound": [
+                    "C00022"
+                ],
+                "lipidmaps": [
+                    "LMFA01060077"
+                ],
+                "metanetx.chemical": [
+                    "MNXM23"
+                ],
+                "reactome.compound": [
+                    "1130930",
+                    "5357717",
+                    "113557",
+                    "29398",
+                    "389680"
+                ],
+                "sabiork": [
+                    "33"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00020"
+                ]
+            },
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C3H3O3",
+            "id": "pyr_c",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.008038905799999998,
+            "annotation": {
+                "bigg.metabolite": [
+                    "adp"
+                ],
+                "biocyc": [
+                    "META:ADP"
+                ],
+                "chebi": [
+                    "CHEBI:2342",
+                    "CHEBI:16761",
+                    "CHEBI:456216",
+                    "CHEBI:40553",
+                    "CHEBI:22244",
+                    "CHEBI:87518",
+                    "CHEBI:13222"
+                ],
+                "hmdb": [
+                    "HMDB01341"
+                ],
+                "inchi_key": [
+                    "XTWYTFMLZFPYCI-KQYNXXCUSA-K"
+                ],
+                "kegg.compound": [
+                    "C00008"
+                ],
+                "kegg.glycan": [
+                    "G11113"
+                ],
+                "metanetx.chemical": [
+                    "MNXM7"
+                ],
+                "reactome.compound": [
+                    "114565",
+                    "211606",
+                    "114564",
+                    "6798177",
+                    "5632457",
+                    "5696026",
+                    "8869360",
+                    "29370",
+                    "113581",
+                    "113582"
+                ],
+                "sabiork": [
+                    "35"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00008"
+                ]
+            },
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C10H12N5O10P2",
+            "id": "adp_m",
+            "name": "ADP C10H12N5O10P2",
+            "notes": {
+                "original_bigg_ids": [
+                    "adp[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.009189999999999997,
+            "annotation": {
+                "bigg.metabolite": [
+                    "atp"
+                ],
+                "biocyc": [
+                    "META:ATP"
+                ],
+                "chebi": [
+                    "CHEBI:15422",
+                    "CHEBI:10789",
+                    "CHEBI:10841",
+                    "CHEBI:2359",
+                    "CHEBI:22249",
+                    "CHEBI:13236",
+                    "CHEBI:237958",
+                    "CHEBI:30616",
+                    "CHEBI:57299",
+                    "CHEBI:40938"
+                ],
+                "hmdb": [
+                    "HMDB00538"
+                ],
+                "inchi_key": [
+                    "ZKHQWZAMYRWXGA-KQYNXXCUSA-J"
+                ],
+                "kegg.compound": [
+                    "C00002"
+                ],
+                "kegg.drug": [
+                    "D08646"
+                ],
+                "metanetx.chemical": [
+                    "MNXM3"
+                ],
+                "reactome.compound": [
+                    "8878982",
+                    "389573",
+                    "8938081",
+                    "211579",
+                    "113593",
+                    "113592",
+                    "5632460",
+                    "5696069",
+                    "29358",
+                    "8869363",
+                    "6798184"
+                ],
+                "sabiork": [
+                    "34"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00002"
+                ]
+            },
+            "charge": -4,
+            "compartment": "m",
+            "formula": "C10H12N5O13P3",
+            "id": "atp_m",
+            "name": "ATP C10H12N5O13P3",
+            "notes": {
+                "original_bigg_ids": [
+                    "atp[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 2.081848051360152e-06,
+            "annotation": {
+                "bigg.metabolite": [
+                    "hco3"
+                ],
+                "biocyc": [
+                    "META:CO3",
+                    "META:H2CO3",
+                    "META:HCO3"
+                ],
+                "chebi": [
+                    "CHEBI:13363",
+                    "CHEBI:41605",
+                    "CHEBI:13351",
+                    "CHEBI:29201",
+                    "CHEBI:22863",
+                    "CHEBI:3401",
+                    "CHEBI:23017",
+                    "CHEBI:23744",
+                    "CHEBI:40961",
+                    "CHEBI:41609",
+                    "CHEBI:17544",
+                    "CHEBI:28976",
+                    "CHEBI:5589"
+                ],
+                "envipath": [
+                    "4fd7f3e0-dd25-43ac-9453-dda3e52396e4/compound/c78c72b7-2f2b-4dde-9f3d-80bb61a1da3e",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/34be09c7-8615-4ee1-806a-6a93ae28d922"
+                ],
+                "hmdb": [
+                    "HMDB03538",
+                    "HMDB00595",
+                    "HMDB31453"
+                ],
+                "inchi_key": [
+                    "BVKZGUZCCUSVTD-UHFFFAOYSA-M"
+                ],
+                "kegg.compound": [
+                    "C01353",
+                    "C00288"
+                ],
+                "metanetx.chemical": [
+                    "MNXM60"
+                ],
+                "reactome.compound": [
+                    "29896",
+                    "425425",
+                    "111627"
+                ],
+                "sabiork": [
+                    "1916",
+                    "2275"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00242"
+                ]
+            },
+            "charge": -1,
+            "compartment": "m",
+            "formula": "CHO3",
+            "id": "hco3_m",
+            "name": "Bicarbonate",
+            "notes": {
+                "original_bigg_ids": [
+                    "hco3[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h"
+                ],
+                "biocyc": [
+                    "META:PROTON"
+                ],
+                "chebi": [
+                    "CHEBI:5584",
+                    "CHEBI:13357",
+                    "CHEBI:15378",
+                    "CHEBI:10744"
+                ],
+                "hmdb": [
+                    "HMDB59597"
+                ],
+                "inchi_key": [
+                    "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00080"
+                ],
+                "metanetx.chemical": [
+                    "MNXM1"
+                ],
+                "reactome.compound": [
+                    "2000349",
+                    "425978",
+                    "74722",
+                    "428040",
+                    "427899",
+                    "428548",
+                    "156540",
+                    "70106",
+                    "425969",
+                    "1132304",
+                    "5668577",
+                    "1470067",
+                    "163953",
+                    "193465",
+                    "113529",
+                    "351626",
+                    "425999",
+                    "194688",
+                    "374900",
+                    "2872447",
+                    "372511"
+                ],
+                "sabiork": [
+                    "39"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00067"
+                ]
+            },
+            "charge": 1,
+            "compartment": "m",
+            "fixed": true,
+            "formula": "H",
+            "id": "h_m",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0013400000000000007,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pyr"
+                ],
+                "biocyc": [
+                    "META:PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:26462",
+                    "CHEBI:26466",
+                    "CHEBI:8685",
+                    "CHEBI:32816",
+                    "CHEBI:45253",
+                    "CHEBI:14987",
+                    "CHEBI:15361"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/ccc99777-54dc-42d4-a97e-009b780d3905",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc01020e-8c7e-4087-9f56-cf8c962b7437"
+                ],
+                "hmdb": [
+                    "HMDB00243"
+                ],
+                "inchi_key": [
+                    "LCTONWCANYUPML-UHFFFAOYSA-M"
+                ],
+                "kegg.compound": [
+                    "C00022"
+                ],
+                "lipidmaps": [
+                    "LMFA01060077"
+                ],
+                "metanetx.chemical": [
+                    "MNXM23"
+                ],
+                "reactome.compound": [
+                    "1130930",
+                    "5357717",
+                    "113557",
+                    "29398",
+                    "389680"
+                ],
+                "sabiork": [
+                    "33"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00020"
+                ]
+            },
+            "charge": -1,
+            "compartment": "m",
+            "formula": "C3H3O3",
+            "id": "pyr_m",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[m]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.010414415008358033,
+            "annotation": {
+                "bigg.metabolite": [
+                    "lac__L"
+                ],
+                "biocyc": [
+                    "META:L-LACTATE"
+                ],
+                "chebi": [
+                    "CHEBI:11065",
+                    "CHEBI:16651",
+                    "CHEBI:422",
+                    "CHEBI:18783",
+                    "CHEBI:12411"
+                ],
+                "hmdb": [
+                    "HMDB62492",
+                    "HMDB00190",
+                    "HMDB03328"
+                ],
+                "inchi_key": [
+                    "JVTAAEKCZFNVCJ-REOHCLBHSA-M"
+                ],
+                "kegg.compound": [
+                    "C00186"
+                ],
+                "metanetx.chemical": [
+                    "MNXM179"
+                ],
+                "reactome.compound": [
+                    "373863",
+                    "29708",
+                    "6807616"
+                ],
+                "sabiork": [
+                    "1312"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00159"
+                ]
+            },
+            "charge": -1,
+            "compartment": "c",
+            "formula": "C3H5O3",
+            "id": "lac__L_c",
+            "name": "L-Lactate",
+            "notes": {
+                "original_bigg_ids": [
+                    "lac_L[c]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0003865535050000001,
+            "annotation": {
+                "bigg.metabolite": [
+                    "g6p"
+                ],
+                "biocyc": [
+                    "META:D-glucopyranose-6-phosphate"
+                ],
+                "chebi": [
+                    "CHEBI:61548",
+                    "CHEBI:14314",
+                    "CHEBI:4170"
+                ],
+                "hmdb": [
+                    "HMDB01549",
+                    "HMDB01401",
+                    "HMDB06793"
+                ],
+                "inchi_key": [
+                    "NBSCHQHZLSJFNQ-GASJEMHNSA-L"
+                ],
+                "kegg.compound": [
+                    "C00092"
+                ],
+                "metanetx.chemical": [
+                    "MNXM160"
+                ],
+                "reactome.compound": [
+                    "1629756"
+                ],
+                "sabiork": [
+                    "1404",
+                    "1405"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00079",
+                    "cpd26836"
+                ]
+            },
+            "charge": -2,
+            "compartment": "r",
+            "formula": "C6H11O9P",
+            "id": "g6p_r",
+            "name": "D-Glucose 6-phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "g6p[r]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.010482807029999996,
+            "annotation": {
+                "bigg.metabolite": [
+                    "glc__D"
+                ],
+                "biocyc": [
+                    "META:Glucopyranose"
+                ],
+                "chebi": [
+                    "CHEBI:12965",
+                    "CHEBI:20999",
+                    "CHEBI:4167",
+                    "CHEBI:17634"
+                ],
+                "hmdb": [
+                    "HMDB00122",
+                    "HMDB06564"
+                ],
+                "inchi_key": [
+                    "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+                ],
+                "kegg.compound": [
+                    "C00031"
+                ],
+                "kegg.drug": [
+                    "D00009"
+                ],
+                "metanetx.chemical": [
+                    "MNXM41"
+                ],
+                "sabiork": [
+                    "1406",
+                    "1407"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd26821",
+                    "cpd00027"
+                ]
+            },
+            "charge": 0,
+            "compartment": "r",
+            "formula": "C6H12O6",
+            "id": "glc__D_r",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[r]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h2o"
+                ],
+                "biocyc": [
+                    "META:CPD-15815",
+                    "META:OXONIUM",
+                    "META:HYDROXYL-GROUP",
+                    "META:WATER",
+                    "META:OH"
+                ],
+                "chebi": [
+                    "CHEBI:13352",
+                    "CHEBI:30490",
+                    "CHEBI:43228",
+                    "CHEBI:33813",
+                    "CHEBI:44292",
+                    "CHEBI:44641",
+                    "CHEBI:27313",
+                    "CHEBI:42043",
+                    "CHEBI:44819",
+                    "CHEBI:29356",
+                    "CHEBI:5594",
+                    "CHEBI:10743",
+                    "CHEBI:15377",
+                    "CHEBI:42857",
+                    "CHEBI:13365",
+                    "CHEBI:29412",
+                    "CHEBI:16234",
+                    "CHEBI:13419",
+                    "CHEBI:5585",
+                    "CHEBI:44701"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/799908db-b8c9-4982-86cb-1f225e2ad08c",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/e7f34a8e-cded-4793-b6d5-792335b38636",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/969d0227-3069-4e44-9525-7ae7bad84170"
+                ],
+                "hmdb": [
+                    "HMDB02111",
+                    "HMDB01039"
+                ],
+                "inchi_key": [
+                    "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00001",
+                    "C01328"
+                ],
+                "kegg.drug": [
+                    "D00001",
+                    "D06322"
+                ],
+                "metanetx.chemical": [
+                    "MNXM2"
+                ],
+                "reactome.compound": [
+                    "113521",
+                    "141343",
+                    "2022884",
+                    "5278291",
+                    "29356",
+                    "189422",
+                    "5668574",
+                    "5693747",
+                    "109276",
+                    "113519",
+                    "1605715",
+                    "8851517",
+                    "113518",
+                    "351603"
+                ],
+                "sabiork": [
+                    "40"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27222",
+                    "cpd00001",
+                    "cpd15275"
+                ]
+            },
+            "charge": 0,
+            "compartment": "r",
+            "fixed": true,
+            "formula": "H2O",
+            "id": "h2o_r",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[r]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0097441228,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pi"
+                ],
+                "biocyc": [
+                    "META:Pi",
+                    "META:CPD-16459",
+                    "META:PHOSPHATE-GROUP"
+                ],
+                "chebi": [
+                    "CHEBI:26078",
+                    "CHEBI:18367",
+                    "CHEBI:29139",
+                    "CHEBI:39739",
+                    "CHEBI:43470",
+                    "CHEBI:35780",
+                    "CHEBI:43474",
+                    "CHEBI:26020",
+                    "CHEBI:45024",
+                    "CHEBI:39745",
+                    "CHEBI:29137",
+                    "CHEBI:14791",
+                    "CHEBI:7793"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"
+                ],
+                "hmdb": [
+                    "HMDB02105",
+                    "HMDB00973",
+                    "HMDB01429",
+                    "HMDB02142",
+                    "HMDB05947"
+                ],
+                "inchi_key": [
+                    "NBIIXXVUZAFLBC-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00009"
+                ],
+                "kegg.drug": [
+                    "D05467"
+                ],
+                "metanetx.chemical": [
+                    "MNXM9"
+                ],
+                "reactome.compound": [
+                    "5228339",
+                    "113550",
+                    "8851513",
+                    "113551",
+                    "109277",
+                    "29372",
+                    "8851226",
+                    "113548"
+                ],
+                "sabiork": [
+                    "36"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27787",
+                    "cpd00009"
+                ]
+            },
+            "charge": -2,
+            "compartment": "r",
+            "formula": "HO4P",
+            "id": "pi_r",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[r]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0,
+            "annotation": {
+                "bigg.metabolite": [
+                    "glc__D"
+                ],
+                "biocyc": [
+                    "META:Glucopyranose"
+                ],
+                "chebi": [
+                    "CHEBI:12965",
+                    "CHEBI:20999",
+                    "CHEBI:4167",
+                    "CHEBI:17634"
+                ],
+                "hmdb": [
+                    "HMDB00122",
+                    "HMDB06564"
+                ],
+                "inchi_key": [
+                    "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+                ],
+                "kegg.compound": [
+                    "C00031"
+                ],
+                "kegg.drug": [
+                    "D00009"
+                ],
+                "metanetx.chemical": [
+                    "MNXM41"
+                ],
+                "sabiork": [
+                    "1406",
+                    "1407"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd26821",
+                    "cpd00027"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "fixed": true,
+            "formula": "C6H12O6",
+            "id": "glc__D_e",
+            "name": "D-Glucose",
+            "notes": {
+                "original_bigg_ids": [
+                    "glc_D[e]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h2o"
+                ],
+                "biocyc": [
+                    "META:CPD-15815",
+                    "META:OXONIUM",
+                    "META:HYDROXYL-GROUP",
+                    "META:WATER",
+                    "META:OH"
+                ],
+                "chebi": [
+                    "CHEBI:13352",
+                    "CHEBI:30490",
+                    "CHEBI:43228",
+                    "CHEBI:33813",
+                    "CHEBI:44292",
+                    "CHEBI:44641",
+                    "CHEBI:27313",
+                    "CHEBI:42043",
+                    "CHEBI:44819",
+                    "CHEBI:29356",
+                    "CHEBI:5594",
+                    "CHEBI:10743",
+                    "CHEBI:15377",
+                    "CHEBI:42857",
+                    "CHEBI:13365",
+                    "CHEBI:29412",
+                    "CHEBI:16234",
+                    "CHEBI:13419",
+                    "CHEBI:5585",
+                    "CHEBI:44701"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/799908db-b8c9-4982-86cb-1f225e2ad08c",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/e7f34a8e-cded-4793-b6d5-792335b38636",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/969d0227-3069-4e44-9525-7ae7bad84170"
+                ],
+                "hmdb": [
+                    "HMDB02111",
+                    "HMDB01039"
+                ],
+                "inchi_key": [
+                    "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00001",
+                    "C01328"
+                ],
+                "kegg.drug": [
+                    "D00001",
+                    "D06322"
+                ],
+                "metanetx.chemical": [
+                    "MNXM2"
+                ],
+                "reactome.compound": [
+                    "113521",
+                    "141343",
+                    "2022884",
+                    "5278291",
+                    "29356",
+                    "189422",
+                    "5668574",
+                    "5693747",
+                    "109276",
+                    "113519",
+                    "1605715",
+                    "8851517",
+                    "113518",
+                    "351603"
+                ],
+                "sabiork": [
+                    "40"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27222",
+                    "cpd00001",
+                    "cpd15275"
+                ]
+            },
+            "charge": 0,
+            "compartment": "e",
+            "fixed": true,
+            "formula": "H2O",
+            "id": "h2o_e",
+            "name": "H2O H2O",
+            "notes": {
+                "original_bigg_ids": [
+                    "h2o[e]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.0064,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pi"
+                ],
+                "biocyc": [
+                    "META:Pi",
+                    "META:CPD-16459",
+                    "META:PHOSPHATE-GROUP"
+                ],
+                "chebi": [
+                    "CHEBI:26078",
+                    "CHEBI:18367",
+                    "CHEBI:29139",
+                    "CHEBI:39739",
+                    "CHEBI:43470",
+                    "CHEBI:35780",
+                    "CHEBI:43474",
+                    "CHEBI:26020",
+                    "CHEBI:45024",
+                    "CHEBI:39745",
+                    "CHEBI:29137",
+                    "CHEBI:14791",
+                    "CHEBI:7793"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/db5219ee-60cb-4370-b066-340c9faf069c",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/84684967-eade-48d4-b25d-c4aede0a0836",
+                    "5882df9c-dae1-4d80-a40e-db4724271456/compound/ad82c39b-2edb-4953-b971-79a2d2ea6e26",
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/aac01fea-4223-49c1-8b12-cd50f11ebfc8",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c581b2ce-6238-45de-abc0-60ca8d47ed04"
+                ],
+                "hmdb": [
+                    "HMDB02105",
+                    "HMDB00973",
+                    "HMDB01429",
+                    "HMDB02142",
+                    "HMDB05947"
+                ],
+                "inchi_key": [
+                    "NBIIXXVUZAFLBC-UHFFFAOYSA-L"
+                ],
+                "kegg.compound": [
+                    "C00009"
+                ],
+                "kegg.drug": [
+                    "D05467"
+                ],
+                "metanetx.chemical": [
+                    "MNXM9"
+                ],
+                "reactome.compound": [
+                    "5228339",
+                    "113550",
+                    "8851513",
+                    "113551",
+                    "109277",
+                    "29372",
+                    "8851226",
+                    "113548"
+                ],
+                "sabiork": [
+                    "36"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd27787",
+                    "cpd00009"
+                ]
+            },
+            "charge": -2,
+            "compartment": "e",
+            "fixed": true,
+            "formula": "HO4P",
+            "id": "pi_e",
+            "name": "Phosphate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pi[e]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 1,
+            "annotation": {
+                "bigg.metabolite": [
+                    "h"
+                ],
+                "biocyc": [
+                    "META:PROTON"
+                ],
+                "chebi": [
+                    "CHEBI:5584",
+                    "CHEBI:13357",
+                    "CHEBI:15378",
+                    "CHEBI:10744"
+                ],
+                "hmdb": [
+                    "HMDB59597"
+                ],
+                "inchi_key": [
+                    "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+                ],
+                "kegg.compound": [
+                    "C00080"
+                ],
+                "metanetx.chemical": [
+                    "MNXM1"
+                ],
+                "reactome.compound": [
+                    "2000349",
+                    "425978",
+                    "74722",
+                    "428040",
+                    "427899",
+                    "428548",
+                    "156540",
+                    "70106",
+                    "425969",
+                    "1132304",
+                    "5668577",
+                    "1470067",
+                    "163953",
+                    "193465",
+                    "113529",
+                    "351626",
+                    "425999",
+                    "194688",
+                    "374900",
+                    "2872447",
+                    "372511"
+                ],
+                "sabiork": [
+                    "39"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00067"
+                ]
+            },
+            "charge": 1,
+            "compartment": "e",
+            "fixed": true,
+            "formula": "H",
+            "id": "h_e",
+            "name": "H+",
+            "notes": {
+                "original_bigg_ids": [
+                    "h[e]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.014,
+            "annotation": {
+                "bigg.metabolite": [
+                    "lac__L"
+                ],
+                "biocyc": [
+                    "META:L-LACTATE"
+                ],
+                "chebi": [
+                    "CHEBI:11065",
+                    "CHEBI:16651",
+                    "CHEBI:422",
+                    "CHEBI:18783",
+                    "CHEBI:12411"
+                ],
+                "hmdb": [
+                    "HMDB62492",
+                    "HMDB00190",
+                    "HMDB03328"
+                ],
+                "inchi_key": [
+                    "JVTAAEKCZFNVCJ-REOHCLBHSA-M"
+                ],
+                "kegg.compound": [
+                    "C00186"
+                ],
+                "metanetx.chemical": [
+                    "MNXM179"
+                ],
+                "reactome.compound": [
+                    "373863",
+                    "29708",
+                    "6807616"
+                ],
+                "sabiork": [
+                    "1312"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00159"
+                ]
+            },
+            "charge": -1,
+            "compartment": "e",
+            "formula": "C3H5O3",
+            "id": "lac__L_e",
+            "name": "L-Lactate",
+            "notes": {
+                "original_bigg_ids": [
+                    "lac_L[e]"
+                ]
+            }
+        },
+        {
+            "_initial_condition": 0.007,
+            "annotation": {
+                "bigg.metabolite": [
+                    "pyr"
+                ],
+                "biocyc": [
+                    "META:PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:26462",
+                    "CHEBI:26466",
+                    "CHEBI:8685",
+                    "CHEBI:32816",
+                    "CHEBI:45253",
+                    "CHEBI:14987",
+                    "CHEBI:15361"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/ccc99777-54dc-42d4-a97e-009b780d3905",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc01020e-8c7e-4087-9f56-cf8c962b7437"
+                ],
+                "hmdb": [
+                    "HMDB00243"
+                ],
+                "inchi_key": [
+                    "LCTONWCANYUPML-UHFFFAOYSA-M"
+                ],
+                "kegg.compound": [
+                    "C00022"
+                ],
+                "lipidmaps": [
+                    "LMFA01060077"
+                ],
+                "metanetx.chemical": [
+                    "MNXM23"
+                ],
+                "reactome.compound": [
+                    "1130930",
+                    "5357717",
+                    "113557",
+                    "29398",
+                    "389680"
+                ],
+                "sabiork": [
+                    "33"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00020"
+                ]
+            },
+            "charge": -1,
+            "compartment": "e",
+            "formula": "C3H3O3",
+            "id": "pyr_e",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[e]"
+                ]
+            }
+        }
+    ],
+    "reactions": [
+        {
+            "_equilibrium_constant": 28.076999999999998,
+            "_forward_rate_constant": 1.3136047200639023,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "HEX1"
+                ],
+                "biocyc": [
+                    "META:GLUCOKIN-RXN"
+                ],
+                "ec-code": [
+                    "2.7.1.1",
+                    "2.7.1.2"
+                ],
+                "kegg.reaction": [
+                    "R00299"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100612"
+                ],
+                "rhea": [
+                    "17827",
+                    "17828",
+                    "17826",
+                    "17825"
+                ],
+                "sabiork": [
+                    "9175",
+                    "793",
+                    "6915"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00216"
+                ]
+            },
+            "gene_reaction_rule": "3098_AT3 or 80201_AT1 or 2645_AT3 or 3098_AT4 or 3099_AT1 or 2645_AT2 or 3098_AT5 or 2645_AT1 or 3098_AT1 or 3101_AT1 or 3098_AT2",
+            "id": "HEX1",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "g6p_c": 1.0,
+                "glc__D_c": -1.0,
+                "h_c": 1.0
+            },
+            "name": "Hexokinase (D-glucose:ATP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "HEX1"
+                ]
+            },
+            "steady_state_flux": 0.0002977156684337587,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 0.6587364715234486,
+            "_forward_rate_constant": 11.588771072535977,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PGI"
+                ],
+                "biocyc": [
+                    "META:PGLUCISOM-RXN"
+                ],
+                "ec-code": [
+                    "5.3.1.9"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102535"
+                ],
+                "sbo": "SBO:0000176"
+            },
+            "gene_reaction_rule": "2821_AT1",
+            "id": "PGI",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "g6p_c": -1.0
+            },
+            "name": "Glucose-6-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGI"
+                ]
+            },
+            "steady_state_flux": -0.001985316688230929,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 154.66169139999997,
+            "_forward_rate_constant": 190.39912204842315,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "FBP"
+                ],
+                "ec-code": [
+                    "3.1.3.11"
+                ],
+                "metanetx.reaction": [
+                    "MNXR99465"
+                ],
+                "rhea": [
+                    "11067",
+                    "11065",
+                    "11066",
+                    "11064"
+                ],
+                "sabiork": [
+                    "2084"
+                ],
+                "sbo": "SBO:0000176"
+            },
+            "gene_reaction_rule": "2203_AT1 or 8789_AT1",
+            "id": "FBP",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "fdp_c": -1.0,
+                "h2o_c": -1.0,
+                "pi_c": 1.0
+            },
+            "name": "Fructose-bisphosphatase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBP"
+                ]
+            },
+            "steady_state_flux": 0.003231663479709332,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 514.5959162999998,
+            "_forward_rate_constant": 322.90438902194154,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PFK"
+                ],
+                "ec-code": [
+                    "2.7.1.11"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102507"
+                ],
+                "rhea": [
+                    "16111",
+                    "16109",
+                    "16110",
+                    "16112"
+                ],
+                "sbo": "SBO:0000176"
+            },
+            "gene_reaction_rule": "5214_AT1 or 5211_AT2 or (5214_AT1 and 5211_AT1) or (5214_AT1 and 5213_AT1) or 5213_AT1 or (5214_AT1 and 5211_AT2) or 5211_AT1 or (5211_AT1 and 5213_AT1) or (5213_AT1 and 5211_AT2)",
+            "id": "PFK",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "name": "Phosphofructokinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PFK"
+                ]
+            },
+            "steady_state_flux": 0.0012463467914784034,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 6.76271636847201e-05,
+            "_forward_rate_constant": 68.04327692460514,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "FBA"
+                ],
+                "ec-code": [
+                    "4.1.2.13"
+                ],
+                "kegg.reaction": [
+                    "R01068"
+                ],
+                "metanetx.reaction": [
+                    "MNXR99459"
+                ],
+                "rhea": [
+                    "14729",
+                    "14732",
+                    "14731",
+                    "14730"
+                ],
+                "sabiork": [
+                    "1338"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00786"
+                ]
+            },
+            "gene_reaction_rule": "226_AT2 or 226_AT1 or 226_AT3 or 230_AT1 or 229_AT1",
+            "id": "FBA",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Fructose-bisphosphate aldolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "FBA"
+                ]
+            },
+            "steady_state_flux": -0.0019853166882309293,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 0.6748615930713859,
+            "_forward_rate_constant": 28.00961105004005,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "TPI"
+                ],
+                "biocyc": [
+                    "META:TRIOSEPISOMERIZATION-RXN"
+                ],
+                "ec-code": [
+                    "5.3.1.1"
+                ],
+                "kegg.reaction": [
+                    "R01015"
+                ],
+                "metanetx.reaction": [
+                    "MNXR104918"
+                ],
+                "reactome.reaction": [
+                    "R-RNO-70481",
+                    "R-MMU-70481",
+                    "R-XTR-70481",
+                    "R-SSC-70481",
+                    "R-GGA-352927",
+                    "R-SCE-70454",
+                    "R-CEL-70481",
+                    "R-PFA-70454",
+                    "R-XTR-70454",
+                    "R-BTA-70481",
+                    "R-BTA-70454",
+                    "R-GGA-352914",
+                    "R-ATH-70481",
+                    "R-CFA-70454",
+                    "R-OSA-70454",
+                    "R-HSA-70481",
+                    "R-DRE-70454",
+                    "R-DME-70481",
+                    "R-OSA-70481",
+                    "R-DRE-70481",
+                    "R-ATH-70454",
+                    "R-HSA-70454",
+                    "R-SSC-70454",
+                    "R-DDI-70454",
+                    "R-SCE-70481",
+                    "R-CFA-70481",
+                    "R-PFA-70481",
+                    "R-DDI-70481",
+                    "R-SPO-70454",
+                    "R-SPO-70481",
+                    "R-RNO-70454",
+                    "R-MMU-70454",
+                    "R-CEL-70454",
+                    "R-GGA-70481",
+                    "R-GGA-70454",
+                    "R-DME-70454"
+                ],
+                "rhea": [
+                    "18587",
+                    "18588",
+                    "18586",
+                    "18585"
+                ],
+                "sabiork": [
+                    "4"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00747"
+                ]
+            },
+            "gene_reaction_rule": "7167_AT1 or 286016_AT1",
+            "id": "TPI",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "name": "Triose-phosphate isomerase",
+            "notes": {
+                "original_bigg_ids": [
+                    "TPI"
+                ]
+            },
+            "steady_state_flux": -0.0019853166882309293,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 0.13729027540367755,
+            "_forward_rate_constant": 3744571.80753533,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "GAPD"
+                ],
+                "biocyc": [
+                    "META:GAPOXNPHOSPHN-RXN"
+                ],
+                "ec-code": [
+                    "1.2.1.12",
+                    "1.2.1.59"
+                ],
+                "kegg.reaction": [
+                    "R01061"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100040"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-70482",
+                    "R-DME-70449",
+                    "R-PFA-70482",
+                    "R-SPO-70449",
+                    "R-DRE-70449",
+                    "R-CEL-70449",
+                    "R-CEL-70482",
+                    "R-CFA-70449",
+                    "R-MMU-70482",
+                    "R-HSA-70449",
+                    "R-OSA-70482",
+                    "R-GGA-352956",
+                    "R-RNO-70449",
+                    "R-SCE-70449",
+                    "R-SSC-70482",
+                    "R-ATH-70449",
+                    "R-GGA-70482",
+                    "R-OSA-70449",
+                    "R-GGA-352921",
+                    "R-DDI-70449",
+                    "R-SPO-70482",
+                    "R-TGU-70482",
+                    "R-SCE-70482",
+                    "R-HSA-70482",
+                    "R-DME-70482",
+                    "R-PFA-70449",
+                    "R-XTR-70449",
+                    "R-DRE-70482",
+                    "R-XTR-70482",
+                    "R-GGA-70449",
+                    "R-RNO-70482",
+                    "R-SSC-70449",
+                    "R-DDI-70482",
+                    "R-TGU-70449",
+                    "R-MMU-70449",
+                    "R-CFA-70482",
+                    "R-BTA-70449",
+                    "R-BTA-70482"
+                ],
+                "rhea": [
+                    "10303",
+                    "10300",
+                    "10302",
+                    "10301"
+                ],
+                "sabiork": [
+                    "7844"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00781"
+                ]
+            },
+            "gene_reaction_rule": "2597_AT1 or 26330_AT1",
+            "id": "GAPD",
+            "metabolites": {
+                "_13dpg_c": 1.0,
+                "g3p_c": -1.0,
+                "h_c": 1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0,
+                "pi_c": -1.0
+            },
+            "name": "Glyceraldehyde-3-phosphate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "GAPD"
+                ]
+            },
+            "steady_state_flux": -0.0039706333764618585,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 0.0022874300136481234,
+            "_forward_rate_constant": 349.4029355149159,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PGK"
+                ],
+                "biocyc": [
+                    "META:PHOSGLYPHOS-RXN"
+                ],
+                "ec-code": [
+                    "2.7.2.3"
+                ],
+                "kegg.reaction": [
+                    "R01512"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102538"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-71850",
+                    "R-DME-71850",
+                    "R-GGA-71850",
+                    "R-SPO-71850",
+                    "R-OSA-71850",
+                    "R-GGA-353039",
+                    "R-GGA-353023",
+                    "R-BTA-71850",
+                    "R-CFA-70486",
+                    "R-MMU-71850",
+                    "R-DME-70486",
+                    "R-PFA-71850",
+                    "R-SPO-70486",
+                    "R-SCE-70486",
+                    "R-PFA-70486",
+                    "R-SSC-70486",
+                    "R-ATH-70486",
+                    "R-DRE-70486",
+                    "R-HSA-70486",
+                    "R-OSA-70486",
+                    "R-XTR-71850",
+                    "R-MMU-70486",
+                    "R-RNO-70486",
+                    "R-TGU-70486",
+                    "R-DRE-71850",
+                    "R-SSC-71850",
+                    "R-SCE-71850",
+                    "R-CFA-71850",
+                    "R-XTR-70486",
+                    "R-DDI-70486",
+                    "R-DDI-71850",
+                    "R-RNO-71850",
+                    "R-BTA-70486",
+                    "R-CEL-70486",
+                    "R-HSA-71850",
+                    "R-CEL-71850",
+                    "R-GGA-70486",
+                    "R-TGU-71850"
+                ],
+                "rhea": [
+                    "14801",
+                    "14804",
+                    "14802",
+                    "14803"
+                ],
+                "sabiork": [
+                    "7644"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn01100"
+                ]
+            },
+            "gene_reaction_rule": "5230_AT1 or 375056_AT1 or 5232_AT1",
+            "id": "PGK",
+            "metabolites": {
+                "_13dpg_c": 1.0,
+                "_3pg_c": -1.0,
+                "adp_c": 1.0,
+                "atp_c": -1.0
+            },
+            "name": "Phosphoglycerate kinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGK"
+                ]
+            },
+            "steady_state_flux": 0.0039706333764618585,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 16.39778748511043,
+            "_forward_rate_constant": 45.57006932316232,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PGM"
+                ],
+                "biocyc": [
+                    "META:3PGAREARR-RXN",
+                    "META:RXN-15513"
+                ],
+                "ec-code": [
+                    "5.4.2.1",
+                    "5.4.2.11",
+                    "5.4.2.12"
+                ],
+                "kegg.reaction": [
+                    "R01518"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102547"
+                ],
+                "reactome.reaction": [
+                    "R-XTR-71654",
+                    "R-SSC-71654",
+                    "R-DME-71445",
+                    "R-XTR-71445",
+                    "R-RNO-71445",
+                    "R-GGA-71654",
+                    "R-SSC-71445",
+                    "R-GGA-71445",
+                    "R-DDI-71654",
+                    "R-SPO-71654",
+                    "R-MMU-71445",
+                    "R-BTA-71445",
+                    "R-CFA-71445",
+                    "R-PFA-71445",
+                    "R-GGA-352994",
+                    "R-TGU-71654",
+                    "R-SPO-71445",
+                    "R-HSA-71445",
+                    "R-ATH-71654",
+                    "R-MMU-71654",
+                    "R-BTA-71654",
+                    "R-GGA-353014",
+                    "R-DRE-71654",
+                    "R-HSA-71654",
+                    "R-CFA-71654",
+                    "R-OSA-71654",
+                    "R-DDI-71445",
+                    "R-RNO-71654",
+                    "R-DRE-71445",
+                    "R-OSA-71445",
+                    "R-PFA-71654",
+                    "R-DME-71654",
+                    "R-TGU-71445",
+                    "R-SCE-71445",
+                    "R-ATH-71445",
+                    "R-SCE-71654"
+                ],
+                "rhea": [
+                    "15902",
+                    "15903",
+                    "15901",
+                    "15904"
+                ],
+                "sabiork": [
+                    "7641"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn01106"
+                ]
+            },
+            "gene_reaction_rule": "669_AT1 or 5223_AT1 or 5224_AT2 or 5224_AT1 or 669_AT2",
+            "id": "PGM",
+            "metabolites": {
+                "_2pg_c": -1.0,
+                "_3pg_c": 1.0
+            },
+            "name": "Phosphoglycerate mutase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PGM"
+                ]
+            },
+            "steady_state_flux": 0.0039706333764618585,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 1.9003352496769088,
+            "_forward_rate_constant": 16.76429163674884,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "ENO"
+                ],
+                "biocyc": [
+                    "META:2PGADEHYDRAT-RXN"
+                ],
+                "ec-code": [
+                    "4.2.1.11"
+                ],
+                "kegg.reaction": [
+                    "R00658"
+                ],
+                "metanetx.reaction": [
+                    "MNXR97932"
+                ],
+                "reactome.reaction": [
+                    "R-BTA-71660",
+                    "R-RNO-70494",
+                    "R-TGU-71660",
+                    "R-SSC-71660",
+                    "R-GGA-352981",
+                    "R-DME-70494",
+                    "R-CFA-70494",
+                    "R-OSA-70494",
+                    "R-SCE-71660",
+                    "R-GGA-353044",
+                    "R-CFA-71660",
+                    "R-GGA-70494",
+                    "R-PFA-71660",
+                    "R-SPO-71660",
+                    "R-SPO-70494",
+                    "R-DDI-70494",
+                    "R-RNO-71660",
+                    "R-MMU-70494",
+                    "R-ATH-70494",
+                    "R-SCE-70494",
+                    "R-SSC-70494",
+                    "R-HSA-70494",
+                    "R-DME-71660",
+                    "R-CEL-71660",
+                    "R-HSA-71660",
+                    "R-TGU-70494",
+                    "R-XTR-71660",
+                    "R-DRE-70494",
+                    "R-DRE-71660",
+                    "R-MMU-71660",
+                    "R-ATH-71660",
+                    "R-BTA-70494",
+                    "R-CEL-70494",
+                    "R-XTR-70494",
+                    "R-DDI-71660",
+                    "R-OSA-71660",
+                    "R-PFA-70494",
+                    "R-GGA-71660"
+                ],
+                "rhea": [
+                    "10166",
+                    "10165",
+                    "10164",
+                    "10167"
+                ],
+                "sabiork": [
+                    "8"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00459"
+                ]
+            },
+            "gene_reaction_rule": "2023_AT1 or 2027_AT1 or 2027_AT2 or 2026_AT1",
+            "id": "ENO",
+            "metabolites": {
+                "_2pg_c": -1.0,
+                "h2o_c": 1.0,
+                "pep_c": 1.0
+            },
+            "name": "Enolase",
+            "notes": {
+                "original_bigg_ids": [
+                    "ENO"
+                ]
+            },
+            "steady_state_flux": -0.0039706333764618585,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "id": "PEPtm",
+            "metabolites": {
+                "pep_c": 1,
+                "pep_m": -1,
+                "pi_c": -1,
+                "pi_m": 1
+            },
+            "name": "Phosphoenolpyruvate transport to mitochondria ",
+            "steady_state_flux": 0.0
+        },
+        {
+            "_equilibrium_constant": 0.005536708019000002,
+            "_forward_rate_constant": 3162850598140.459,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PEPCKm"
+                ],
+                "biocyc": [
+                    "META:4.1.1.32-RXN"
+                ],
+                "ec-code": [
+                    "4.1.1.32"
+                ],
+                "kegg.reaction": [
+                    "R00431"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102487"
+                ],
+                "reactome.reaction": [
+                    "R-XTR-70241",
+                    "R-GGA-70241",
+                    "R-RNO-70241",
+                    "R-DME-372819",
+                    "R-CFA-372819",
+                    "R-DME-70241",
+                    "R-HSA-70241",
+                    "R-BTA-372819",
+                    "R-DDI-372819",
+                    "R-CFA-70241",
+                    "R-TGU-70241",
+                    "R-BTA-70241",
+                    "R-GGA-372741",
+                    "R-RNO-372819",
+                    "R-DDI-70241",
+                    "R-CEL-70241",
+                    "R-DRE-70241",
+                    "R-MMU-372819",
+                    "R-XTR-372819",
+                    "R-CEL-372819",
+                    "R-GGA-372724",
+                    "R-SSC-372819",
+                    "R-HSA-372819",
+                    "R-SSC-70241",
+                    "R-MMU-70241"
+                ],
+                "rhea": [
+                    "10388",
+                    "10389",
+                    "10390",
+                    "10391"
+                ],
+                "sabiork": [
+                    "106"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00305"
+                ]
+            },
+            "gene_reaction_rule": "5106_AT1 or 5105_AT1",
+            "id": "PEPCKm",
+            "metabolites": {
+                "co2_m": 1.0,
+                "gdp_m": 1.0,
+                "gtp_m": -1.0,
+                "oaa_m": -1.0,
+                "pep_m": 1.0
+            },
+            "name": "Phosphoenolpyruvate carboxykinase (GTP)",
+            "notes": {
+                "original_bigg_ids": [
+                    "PEPCKm"
+                ]
+            },
+            "steady_state_flux": 0.0062358257063863005,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 23920.238779999985,
+            "_forward_rate_constant": 8034.706822932791,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PYK"
+                ],
+                "biocyc": [
+                    "META:PEPDEPHOS-RXN"
+                ],
+                "ec-code": [
+                    "2.7.1.40"
+                ],
+                "kegg.reaction": [
+                    "R00200"
+                ],
+                "metanetx.reaction": [
+                    "MNXR103371"
+                ],
+                "reactome.reaction": [
+                    "R-SSC-71670",
+                    "R-GGA-353056",
+                    "R-DRE-71670",
+                    "R-OSA-71670",
+                    "R-SPO-71670",
+                    "R-DDI-71670",
+                    "R-SCE-71670",
+                    "R-CEL-71670",
+                    "R-PFA-71670",
+                    "R-HSA-71670",
+                    "R-TGU-71670",
+                    "R-DME-71670",
+                    "R-ATH-71670",
+                    "R-BTA-71670",
+                    "R-MMU-71670",
+                    "R-RNO-71670",
+                    "R-GGA-71670",
+                    "R-CFA-71670",
+                    "R-XTR-71670"
+                ],
+                "rhea": [
+                    "18160",
+                    "18159",
+                    "18158",
+                    "18157"
+                ],
+                "sabiork": [
+                    "9"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00148"
+                ]
+            },
+            "gene_reaction_rule": "5315_AT2 or 5313_AT2 or 5315_AT3 or 5313_AT1 or 5315_AT1",
+            "id": "PYK",
+            "metabolites": {
+                "adp_c": -1.0,
+                "atp_c": 1.0,
+                "h_c": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0
+            },
+            "name": "Pyruvate kinase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYK"
+                ]
+            },
+            "steady_state_flux": 0.00249433028255452,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 11.963271860000003,
+            "_forward_rate_constant": 369641585.4325323,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PCm"
+                ],
+                "biocyc": [
+                    "META:PYRUVATE-CARBOXYLASE-RXN"
+                ],
+                "ec-code": [
+                    "6.4.1.1"
+                ],
+                "kegg.reaction": [
+                    "R00344"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102391"
+                ],
+                "rhea": [
+                    "20847",
+                    "20844",
+                    "20845",
+                    "20846"
+                ],
+                "sabiork": [
+                    "105"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00250"
+                ]
+            },
+            "gene_reaction_rule": "5091_AT1 or 5091_AT2",
+            "id": "PCm",
+            "metabolites": {
+                "adp_m": 1.0,
+                "atp_m": -1.0,
+                "h_m": 1.0,
+                "hco3_m": -1.0,
+                "oaa_m": 1.0,
+                "pi_m": 1.0,
+                "pyr_m": -1.0
+            },
+            "name": "Pyruvate carboxylase",
+            "notes": {
+                "original_bigg_ids": [
+                    "PCm"
+                ]
+            },
+            "steady_state_flux": 0.00599032075777909,
+            "subsystem": "Pyruvate metabolism"
+        },
+        {
+            "_equilibrium_constant": 0.0002044854834982167,
+            "_forward_rate_constant": 12860.391954745446,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "LDH_L"
+                ],
+                "biocyc": [
+                    "META:L-LACTATE-DEHYDROGENASE-RXN"
+                ],
+                "ec-code": [
+                    "1.1.1.27"
+                ],
+                "kegg.reaction": [
+                    "R00703"
+                ],
+                "metanetx.reaction": [
+                    "MNXR101040"
+                ],
+                "reactome.reaction": [
+                    "R-SSC-71849",
+                    "R-CEL-71849",
+                    "R-DRE-6807826",
+                    "R-CFA-70510",
+                    "R-OSA-71849",
+                    "R-HSA-6807826",
+                    "R-BTA-71849",
+                    "R-MMU-70510",
+                    "R-RNO-71849",
+                    "R-XTR-70510",
+                    "R-SSC-6807826",
+                    "R-DME-71849",
+                    "R-TGU-6807826",
+                    "R-GGA-6807826",
+                    "R-PFA-70510",
+                    "R-GGA-71849",
+                    "R-SPO-6807826",
+                    "R-ATH-71849",
+                    "R-XTR-71849",
+                    "R-ATH-70510",
+                    "R-DME-6807826",
+                    "R-GGA-70510",
+                    "R-GGA-372910",
+                    "R-TGU-70510",
+                    "R-SPO-70510",
+                    "R-HSA-70510",
+                    "R-DRE-70510",
+                    "R-GGA-372903",
+                    "R-DRE-71849",
+                    "R-OSA-70510",
+                    "R-SSC-70510",
+                    "R-BTA-70510",
+                    "R-PFA-71849",
+                    "R-XTR-6807826",
+                    "R-ATH-6807826",
+                    "R-PFA-6807826",
+                    "R-DME-70510",
+                    "R-SPO-71849",
+                    "R-TGU-71849",
+                    "R-HSA-71849",
+                    "R-CEL-70510",
+                    "R-MMU-6807826",
+                    "R-RNO-70510",
+                    "R-CFA-71849",
+                    "R-MMU-71849",
+                    "R-CEL-6807826",
+                    "R-OSA-6807826"
+                ],
+                "rhea": [
+                    "23447",
+                    "23445",
+                    "23446",
+                    "23444"
+                ],
+                "sabiork": [
+                    "61"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00499"
+                ]
+            },
+            "gene_reaction_rule": "(3945_AT1 and 3939_AT1) or 160287_AT1 or 3948_AT2 or 3939_AT1 or 3948_AT1 or 55293_AT1 or 3945_AT1 or 92483_AT1",
+            "id": "LDH_L",
+            "metabolites": {
+                "h_c": 1.0,
+                "lac__L_c": -1.0,
+                "nad_c": -1.0,
+                "nadh_c": 1.0,
+                "pyr_c": 1.0
+            },
+            "name": "L-lactate dehydrogenase",
+            "notes": {
+                "original_bigg_ids": [
+                    "LDH_L"
+                ]
+            },
+            "steady_state_flux": 0.10787846106,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 1.0,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "G6Pter"
+                ],
+                "metanetx.reaction": [
+                    "MNXR99915"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn08570",
+                    "rxn09644",
+                    "rxn13641"
+                ]
+            },
+            "gene_reaction_rule": "2542_AT1",
+            "id": "G6Pter",
+            "metabolites": {
+                "g6p_c": -1.0,
+                "g6p_r": 1.0
+            },
+            "name": "Glucose 6 phosphate endoplasmic reticular transport via diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "G6Pter"
+                ]
+            },
+            "steady_state_flux": 0.002283032356664687,
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_equilibrium_constant": 3.597122302158273,
+            "_forward_rate_constant": 6.374390165899944,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "G6PPer"
+                ],
+                "biocyc": [
+                    "META:RXN66-526"
+                ],
+                "ec-code": [
+                    "3.1.3.9",
+                    "3.1.3.58"
+                ],
+                "kegg.reaction": [
+                    "R00303"
+                ],
+                "metanetx.reaction": [
+                    "MNXR99912"
+                ],
+                "rhea": [
+                    "16691",
+                    "16689",
+                    "16692",
+                    "16690"
+                ],
+                "sabiork": [
+                    "7713",
+                    "796"
+                ],
+                "sbo": "SBO:0000176",
+                "seed.reaction": [
+                    "rxn00220"
+                ]
+            },
+            "gene_reaction_rule": "57818_AT1 or 2538_AT1 or 92579_AT1",
+            "id": "G6PPer",
+            "metabolites": {
+                "g6p_r": -1.0,
+                "glc__D_r": 1.0,
+                "h2o_r": -1.0,
+                "pi_r": 1.0
+            },
+            "name": "Glucose-6-phosphate phosphatase, edoplasmic reticular",
+            "notes": {
+                "original_bigg_ids": [
+                    "G6PPer"
+                ]
+            },
+            "steady_state_flux": 0.002283032356664687,
+            "subsystem": "Glycolysis/gluconeogenesis"
+        },
+        {
+            "_equilibrium_constant": 1.0,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "GLCter"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-574"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100188"
+                ],
+                "sabiork": [
+                    "7002",
+                    "601"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn09875",
+                    "rxn09679",
+                    "rxn08617"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "GLCter",
+            "metabolites": {
+                "glc__D_c": -1.0,
+                "glc__D_r": 1.0
+            },
+            "name": "Glucose transport, endoplasmic reticulum",
+            "notes": {
+                "original_bigg_ids": [
+                    "GLCter"
+                ]
+            },
+            "steady_state_flux": -0.002283032356664687,
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_equilibrium_constant": 1.0,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "GLCt1"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-574"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100188"
+                ],
+                "sabiork": [
+                    "7002",
+                    "601"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn09875",
+                    "rxn09679",
+                    "rxn08617"
+                ]
+            },
+            "gene_reaction_rule": "66035_AT1 or 6517_AT1 or 56606_AT1 or 154091_AT1 or 6513_AT1 or 11182_AT1 or 29988_AT1 or 6514_AT1 or 155184_AT1 or 56606_AT2 or 144195_AT1 or 6515_AT1 or 81031_AT1",
+            "id": "GLCt1",
+            "metabolites": {
+                "glc__D_c": 1.0,
+                "glc__D_e": -1.0
+            },
+            "name": "Glucose transport  uniport ",
+            "notes": {
+                "original_bigg_ids": [
+                    "GLCt1r"
+                ]
+            },
+            "steady_state_flux": -0.0019853166882309284,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PYRt2m"
+                ],
+                "metanetx.reaction": [
+                    "MNXR103385"
+                ],
+                "reactome.reaction": [
+                    "R-RNO-372347",
+                    "R-HSA-372342",
+                    "R-GGA-372359"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05469",
+                    "rxn09832",
+                    "rxn09717",
+                    "rxn09217"
+                ]
+            },
+            "gene_reaction_rule": "6566_AT1",
+            "id": "PYRt2m",
+            "metabolites": {
+                "h_c": -1.0,
+                "h_m": 1.0,
+                "pyr_c": -1.0,
+                "pyr_m": 1.0
+            },
+            "name": "Pyruvate mitochondrial transport via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYRt2m"
+                ]
+            },
+            "steady_state_flux": 0.12578402070574954,
+            "subsystem": "Transport, mitochondrial"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 100000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "H2Oter"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-145",
+                    "META:TRANS-RXN0-547"
+                ],
+                "metanetx.reaction": [
+                    "MNXR98641"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-507868",
+                    "R-CFA-432054",
+                    "R-CFA-432010",
+                    "R-RNO-507868",
+                    "R-OSA-432065",
+                    "R-GGA-432010",
+                    "R-SPO-445714",
+                    "R-PFA-445714",
+                    "R-CFA-432065",
+                    "R-GGA-432067",
+                    "R-TGU-432054",
+                    "R-TGU-445714",
+                    "R-OSA-507868",
+                    "R-DRE-507868",
+                    "R-SPO-507868",
+                    "R-BTA-432054",
+                    "R-GGA-507870",
+                    "R-OSA-432010",
+                    "R-DME-432065",
+                    "R-DRE-432067",
+                    "R-PFA-507868",
+                    "R-SSC-432054",
+                    "R-HSA-432065",
+                    "R-OSA-507870",
+                    "R-HSA-432054",
+                    "R-SSC-432065",
+                    "R-CEL-507868",
+                    "R-XTR-507868",
+                    "R-ATH-507870",
+                    "R-SCE-432065",
+                    "R-BTA-507870",
+                    "R-DME-432010",
+                    "R-CFA-445714",
+                    "R-DRE-445714",
+                    "R-BTA-507868",
+                    "R-GGA-507868",
+                    "R-RNO-432054",
+                    "R-RNO-432010",
+                    "R-SSC-432067",
+                    "R-CEL-445714",
+                    "R-DDI-432065",
+                    "R-ATH-432010",
+                    "R-SCE-432054",
+                    "R-MMU-432065",
+                    "R-MMU-445714",
+                    "R-GGA-432065",
+                    "R-HSA-432067",
+                    "R-SSC-507870",
+                    "R-SCE-432067",
+                    "R-RNO-507870",
+                    "R-DME-432054",
+                    "R-ATH-432067",
+                    "R-BTA-445714",
+                    "R-DRE-507870",
+                    "R-DME-507868",
+                    "R-DME-507870",
+                    "R-DRE-432010",
+                    "R-MMU-432010",
+                    "R-HSA-445714",
+                    "R-OSA-432054",
+                    "R-RNO-432067",
+                    "R-TGU-432010",
+                    "R-TGU-507868",
+                    "R-DDI-432054",
+                    "R-PFA-507870",
+                    "R-HSA-507870",
+                    "R-XTR-432067",
+                    "R-HSA-432010",
+                    "R-SSC-507868",
+                    "R-SCE-507870",
+                    "R-CEL-507870",
+                    "R-DDI-507868",
+                    "R-DRE-432054",
+                    "R-XTR-507870",
+                    "R-DDI-432010",
+                    "R-BTA-432065",
+                    "R-CFA-432067",
+                    "R-OSA-432067",
+                    "R-ATH-432065",
+                    "R-GGA-445714",
+                    "R-SCE-507868",
+                    "R-TGU-432065",
+                    "R-MMU-432067",
+                    "R-TGU-507870",
+                    "R-CFA-507870",
+                    "R-RNO-432065",
+                    "R-MMU-432054",
+                    "R-MMU-507868",
+                    "R-SPO-507870",
+                    "R-SCE-432010",
+                    "R-MMU-507870",
+                    "R-SSC-445714",
+                    "R-HSA-507868",
+                    "R-DME-432067",
+                    "R-SSC-432010",
+                    "R-TGU-432067",
+                    "R-GGA-432054",
+                    "R-BTA-432010",
+                    "R-SCE-445714",
+                    "R-DDI-507870",
+                    "R-ATH-432054",
+                    "R-DDI-432067",
+                    "R-XTR-445714",
+                    "R-BTA-432067",
+                    "R-CFA-507868",
+                    "R-RNO-445714"
+                ],
+                "rhea": [
+                    "29668",
+                    "29669",
+                    "29667",
+                    "29670"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn08687",
+                    "rxn08686",
+                    "rxn09745",
+                    "rxn09838",
+                    "rxn09874",
+                    "rxn09812",
+                    "rxn09643",
+                    "rxn05319"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "H2Oter",
+            "metabolites": {
+                "h2o_c": -1.0,
+                "h2o_r": 1.0
+            },
+            "name": "H2O endoplasmic reticulum transport",
+            "notes": {
+                "original_bigg_ids": [
+                    "H2Oter"
+                ]
+            },
+            "steady_state_flux": 0.002283032356664687,
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PIter"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-470"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102871"
+                ],
+                "rhea": [
+                    "32824",
+                    "32826",
+                    "32825",
+                    "32823"
+                ],
+                "sabiork": [
+                    "10985"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn10838",
+                    "rxn09722",
+                    "rxn09121",
+                    "rxn13178"
+                ]
+            },
+            "gene_reaction_rule": "2542_AT1",
+            "id": "PIter",
+            "metabolites": {
+                "pi_c": 1.0,
+                "pi_r": -1.0
+            },
+            "name": "Phosphate transport, endoplasmic reticulum",
+            "notes": {
+                "original_bigg_ids": [
+                    "PIter"
+                ]
+            },
+            "steady_state_flux": 0.002283032356664687,
+            "subsystem": "Transport, endoplasmic reticular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 100000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "H2Ot"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-145",
+                    "META:TRANS-RXN0-547"
+                ],
+                "metanetx.reaction": [
+                    "MNXR98641"
+                ],
+                "reactome.reaction": [
+                    "R-ATH-507868",
+                    "R-CFA-432054",
+                    "R-CFA-432010",
+                    "R-RNO-507868",
+                    "R-OSA-432065",
+                    "R-GGA-432010",
+                    "R-SPO-445714",
+                    "R-PFA-445714",
+                    "R-CFA-432065",
+                    "R-GGA-432067",
+                    "R-TGU-432054",
+                    "R-TGU-445714",
+                    "R-OSA-507868",
+                    "R-DRE-507868",
+                    "R-SPO-507868",
+                    "R-BTA-432054",
+                    "R-GGA-507870",
+                    "R-OSA-432010",
+                    "R-DME-432065",
+                    "R-DRE-432067",
+                    "R-PFA-507868",
+                    "R-SSC-432054",
+                    "R-HSA-432065",
+                    "R-OSA-507870",
+                    "R-HSA-432054",
+                    "R-SSC-432065",
+                    "R-CEL-507868",
+                    "R-XTR-507868",
+                    "R-ATH-507870",
+                    "R-SCE-432065",
+                    "R-BTA-507870",
+                    "R-DME-432010",
+                    "R-CFA-445714",
+                    "R-DRE-445714",
+                    "R-BTA-507868",
+                    "R-GGA-507868",
+                    "R-RNO-432054",
+                    "R-RNO-432010",
+                    "R-SSC-432067",
+                    "R-CEL-445714",
+                    "R-DDI-432065",
+                    "R-ATH-432010",
+                    "R-SCE-432054",
+                    "R-MMU-432065",
+                    "R-MMU-445714",
+                    "R-GGA-432065",
+                    "R-HSA-432067",
+                    "R-SSC-507870",
+                    "R-SCE-432067",
+                    "R-RNO-507870",
+                    "R-DME-432054",
+                    "R-ATH-432067",
+                    "R-BTA-445714",
+                    "R-DRE-507870",
+                    "R-DME-507868",
+                    "R-DME-507870",
+                    "R-DRE-432010",
+                    "R-MMU-432010",
+                    "R-HSA-445714",
+                    "R-OSA-432054",
+                    "R-RNO-432067",
+                    "R-TGU-432010",
+                    "R-TGU-507868",
+                    "R-DDI-432054",
+                    "R-PFA-507870",
+                    "R-HSA-507870",
+                    "R-XTR-432067",
+                    "R-HSA-432010",
+                    "R-SSC-507868",
+                    "R-SCE-507870",
+                    "R-CEL-507870",
+                    "R-DDI-507868",
+                    "R-DRE-432054",
+                    "R-XTR-507870",
+                    "R-DDI-432010",
+                    "R-BTA-432065",
+                    "R-CFA-432067",
+                    "R-OSA-432067",
+                    "R-ATH-432065",
+                    "R-GGA-445714",
+                    "R-SCE-507868",
+                    "R-TGU-432065",
+                    "R-MMU-432067",
+                    "R-TGU-507870",
+                    "R-CFA-507870",
+                    "R-RNO-432065",
+                    "R-MMU-432054",
+                    "R-MMU-507868",
+                    "R-SPO-507870",
+                    "R-SCE-432010",
+                    "R-MMU-507870",
+                    "R-SSC-445714",
+                    "R-HSA-507868",
+                    "R-DME-432067",
+                    "R-SSC-432010",
+                    "R-TGU-432067",
+                    "R-GGA-432054",
+                    "R-BTA-432010",
+                    "R-SCE-445714",
+                    "R-DDI-507870",
+                    "R-ATH-432054",
+                    "R-DDI-432067",
+                    "R-XTR-445714",
+                    "R-BTA-432067",
+                    "R-CFA-507868",
+                    "R-RNO-445714"
+                ],
+                "rhea": [
+                    "29668",
+                    "29669",
+                    "29667",
+                    "29670"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn08687",
+                    "rxn08686",
+                    "rxn09745",
+                    "rxn09838",
+                    "rxn09874",
+                    "rxn09812",
+                    "rxn09643",
+                    "rxn05319"
+                ]
+            },
+            "gene_reaction_rule": "358_AT1 or 361_AT1 or 4284_AT1 or 359_AT1 or 362_AT1 or 343_AT1",
+            "id": "H2Ot",
+            "metabolites": {
+                "h2o_c": 1.0,
+                "h2o_e": -1.0
+            },
+            "name": "H2O transport via diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "H2Ot"
+                ]
+            },
+            "steady_state_flux": 0.009485329212835876,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PIt"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN0-470"
+                ],
+                "metanetx.reaction": [
+                    "MNXR102871"
+                ],
+                "rhea": [
+                    "32824",
+                    "32826",
+                    "32825",
+                    "32823"
+                ],
+                "sabiork": [
+                    "10985"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn10838",
+                    "rxn09722",
+                    "rxn09121",
+                    "rxn13178"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "PIt",
+            "metabolites": {
+                "pi_c": -1.0,
+                "pi_e": 1.0
+            },
+            "name": "Inorganic phosphate exchange, diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "r1423"
+                ]
+            },
+            "steady_state_flux": 0.009485329212835876,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "Ht"
+                ],
+                "biocyc": [
+                    "META:RXN-14452"
+                ],
+                "metanetx.reaction": [
+                    "MNXR100765"
+                ],
+                "reactome.reaction": [
+                    "R-HSA-2534378",
+                    "R-DDI-74723",
+                    "R-BTA-170026",
+                    "R-CFA-170026",
+                    "R-SCE-74723",
+                    "R-DRE-74723",
+                    "R-HSA-170026",
+                    "R-TGU-2534378",
+                    "R-HSA-74723",
+                    "R-CFA-2534378",
+                    "R-TGU-74723",
+                    "R-OSA-170026",
+                    "R-RNO-2534378",
+                    "R-GGA-2534378",
+                    "R-MMU-2534378",
+                    "R-BTA-2534378",
+                    "R-SSC-2534378",
+                    "R-DRE-170026",
+                    "R-TGU-170026",
+                    "R-GGA-170026",
+                    "R-SCE-170026",
+                    "R-DRE-2534378",
+                    "R-BTA-74723",
+                    "R-SPO-74723",
+                    "R-XTR-74723",
+                    "R-RNO-74723",
+                    "R-XTR-2534378",
+                    "R-MMU-74723",
+                    "R-CFA-74723",
+                    "R-GGA-74723",
+                    "R-CEL-170026",
+                    "R-MMU-170026",
+                    "R-ATH-74723",
+                    "R-DME-74723",
+                    "R-PFA-74723",
+                    "R-SSC-74723",
+                    "R-XTR-170026",
+                    "R-SSC-170026",
+                    "R-CEL-74723",
+                    "R-ATH-170026",
+                    "R-RNO-170026",
+                    "R-DME-170026"
+                ],
+                "rhea": [
+                    "34980",
+                    "34981",
+                    "34982",
+                    "34979"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn11009",
+                    "rxn08730"
+                ]
+            },
+            "gene_reaction_rule": "",
+            "id": "Ht",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0
+            },
+            "name": "Proton diffusion",
+            "notes": {
+                "original_bigg_ids": [
+                    "The"
+                ]
+            },
+            "steady_state_flux": -0.10046322957834125,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "L_LACt2r"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-104"
+                ],
+                "metanetx.reaction": [
+                    "MNXR101277"
+                ],
+                "reactome.reaction": [
+                    "R-GGA-373889",
+                    "R-XTR-373875",
+                    "R-DME-373867",
+                    "R-DME-373875",
+                    "R-MMU-373867",
+                    "R-TGU-373867",
+                    "R-GGA-373887",
+                    "R-SSC-373875",
+                    "R-DRE-373875",
+                    "R-BTA-373867",
+                    "R-GGA-373867",
+                    "R-CFA-373867",
+                    "R-SSC-373867",
+                    "R-DRE-373867",
+                    "R-RNO-373867",
+                    "R-TGU-373875",
+                    "R-XTR-373867",
+                    "R-HSA-373867",
+                    "R-CFA-373875",
+                    "R-MMU-373875",
+                    "R-HSA-373875",
+                    "R-GGA-373875",
+                    "R-RNO-373875",
+                    "R-BTA-373875"
+                ],
+                "rhea": [
+                    "29418",
+                    "29415",
+                    "29416",
+                    "29417"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05602",
+                    "rxn08794",
+                    "rxn13334"
+                ]
+            },
+            "gene_reaction_rule": "9194_AT1 or 23539_AT1 or 6566_AT1 or 9123_AT1 or 682_AT1",
+            "id": "L_LACt2r",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0,
+                "lac__L_c": 1.0,
+                "lac__L_e": -1.0
+            },
+            "name": "L lactate reversible transport via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "L_LACt2r"
+                ]
+            },
+            "steady_state_flux": 0.10787846106,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000000.0,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PYRt2"
+                ],
+                "metanetx.reaction": [
+                    "MNXR103385"
+                ],
+                "reactome.reaction": [
+                    "R-RNO-372347",
+                    "R-HSA-372342",
+                    "R-GGA-372359"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05469",
+                    "rxn09832",
+                    "rxn09717",
+                    "rxn09217"
+                ]
+            },
+            "gene_reaction_rule": "9123_AT1 or 9194_AT1 or 6566_AT1",
+            "id": "PYRt2",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0,
+                "pyr_c": 1.0,
+                "pyr_e": -1.0
+            },
+            "name": "Pyruvate transport in via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYRt2r"
+                ]
+            },
+            "steady_state_flux": 0.015411229363195002,
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 6.924531940698469,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_adp_c",
+            "metabolites": {
+                "adp_c": -1
+            },
+            "name": "ADP C10H12N5O10P2 sink",
+            "steady_state_flux": 0.0030203655538195004
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.13970023625062358,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_atp_c",
+            "metabolites": {
+                "atp_c": 1
+            },
+            "name": "ATP C10H12N5O13P3 sink",
+            "steady_state_flux": 0.0030203655538195004
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 4.349829681098129e-15,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_g6p_c",
+            "metabolites": {
+                "g6p_c": -1
+            },
+            "name": "D-Glucose 6-phosphate sink",
+            "steady_state_flux": 4.336808689942018e-19
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 4.1370681321623253e-17,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_glc__D_c",
+            "metabolites": {
+                "glc__D_c": 1
+            },
+            "name": "D-Glucose sink",
+            "steady_state_flux": 4.336808689942018e-19
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1.734723475976807e-18,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_h_c",
+            "metabolites": {
+                "h_c": -1
+            },
+            "name": "H+ sink",
+            "steady_state_flux": 1.734723475976807e-18
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 2.429215599027857e-15,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_f6p_c",
+            "metabolites": {
+                "f6p_c": 1
+            },
+            "name": "D-Fructose-6-phosphate sink",
+            "steady_state_flux": 4.336808689942018e-19
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 5.10799054901095e-14,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_fdp_c",
+            "metabolites": {
+                "fdp_c": -1
+            },
+            "name": "D-Fructose 1,6-bisphosphate sink",
+            "steady_state_flux": 8.673617379884035e-19
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 81.54597385022902,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_nad_c",
+            "metabolites": {
+                "nad_c": 1
+            },
+            "name": "Nicotinamide adenine dinucleotide sink",
+            "steady_state_flux": 0.10390782768353814
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 15648.342772414057,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_nadh_c",
+            "metabolites": {
+                "nadh_c": -1
+            },
+            "name": "Nicotinamide adenine dinucleotide - reduced sink",
+            "steady_state_flux": 0.10390782768353814
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 9.07948462555808,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pep_c",
+            "metabolites": {
+                "pep_c": 1
+            },
+            "name": "Phosphoenolpyruvate sink",
+            "steady_state_flux": 0.006464963659016379
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 3.0418661982372197,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pep_m",
+            "metabolites": {
+                "pep_m": -1
+            },
+            "name": "Phosphoenolpyruvate sink",
+            "steady_state_flux": 0.0062358257063863005
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 13.31182390617576,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pi_m",
+            "metabolites": {
+                "pi_m": -1
+            },
+            "name": "Phosphate sink",
+            "steady_state_flux": 0.00599032075777909
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 201.22193214893676,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_co2_m",
+            "metabolites": {
+                "co2_m": -1
+            },
+            "name": "CO2 CO2 sink",
+            "steady_state_flux": 0.0062358257063863005
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 62358257.063863024,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_gdp_m",
+            "metabolites": {
+                "gdp_m": -1
+            },
+            "name": "GDP C10H12N5O11P2 sink",
+            "steady_state_flux": 0.0062358257063863005
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 62358257.063863024,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_gtp_m",
+            "metabolites": {
+                "gtp_m": 1
+            },
+            "name": "GTP C10H12N5O14P3 sink",
+            "steady_state_flux": 0.0062358257063863005
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 7.871271196127306,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_oaa_m",
+            "metabolites": {
+                "oaa_m": 1
+            },
+            "name": "Oxaloacetate sink",
+            "steady_state_flux": 0.0002455049486072107
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 8.077176776347205e-14,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pyr_c",
+            "metabolites": {
+                "pyr_c": 1
+            },
+            "name": "Pyruvate sink",
+            "steady_state_flux": 1.214306433183765e-17
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.7451661839076522,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_adp_m",
+            "metabolites": {
+                "adp_m": -1
+            },
+            "name": "ADP C10H12N5O10P2 sink",
+            "steady_state_flux": 0.00599032075777909
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.6518303327289545,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_atp_m",
+            "metabolites": {
+                "atp_m": 1
+            },
+            "name": "ATP C10H12N5O13P3 sink",
+            "steady_state_flux": 0.00599032075777909
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 2877.4053677286297,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_hco3_m",
+            "metabolites": {
+                "hco3_m": 1
+            },
+            "name": "Bicarbonate sink",
+            "steady_state_flux": 0.00599032075777909
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.13177434146352862,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_h_m",
+            "metabolites": {
+                "h_m": -1
+            },
+            "name": "H+ sink",
+            "steady_state_flux": 0.13177434146352862
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 89.39828354326148,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pyr_m",
+            "metabolites": {
+                "pyr_m": -1
+            },
+            "name": "Pyruvate sink",
+            "steady_state_flux": 0.11979369994797046
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1000,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_glc__D_e",
+            "metabolites": {
+                "glc__D_e": -1
+            },
+            "name": "D-Glucose exchange",
+            "steady_state_flux": 0.0019853166882309284
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.009485329212835876,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_h2o_e",
+            "metabolites": {
+                "h2o_e": -1
+            },
+            "name": "H2O H2O exchange",
+            "steady_state_flux": 0.009485329212835876
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 1.4820826895056056,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_pi_e",
+            "metabolites": {
+                "pi_e": -1
+            },
+            "name": "Phosphate exchange",
+            "steady_state_flux": 0.009485329212835876
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 0.02282646084485375,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_h_e",
+            "metabolites": {
+                "h_e": -1
+            },
+            "name": "H+ exchange",
+            "steady_state_flux": 0.02282646084485375
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 7.705604361428572,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_lac__L_e",
+            "metabolites": {
+                "lac__L_e": -1
+            },
+            "name": "L-Lactate exchange",
+            "steady_state_flux": 0.10787846106
+        },
+        {
+            "_equilibrium_constant": 1,
+            "_forward_rate_constant": 2.201604194742143,
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_pyr_e",
+            "metabolites": {
+                "pyr_e": -1
+            },
+            "name": "Pyruvate exchange",
+            "steady_state_flux": 0.015411229363195002
+        }
+    ],
+    "units": [],
+    "version": "1"
+}
