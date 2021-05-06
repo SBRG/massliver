@@ -16,4 +16,5 @@ Quadratic Programming and Model Construction Attempts for Glycolysis
   Better concentration solution. Need to work on PERCs and Ensemble modeling.
 3.6-srp-rm-glycogenolysis.ipynb
   Simulation working for glycogenolysis model but need to work on fluxes time profile, Ensemble modeling
-  
+ 3.9-srp-rm-glycogenolysis.ipynb
+  stable model of glycolysis and gluconeogenesis, ensemble model works, exports model
