@@ -2,13 +2,22 @@
     "boundary_conditions": {
         "adp_b": 1.0,
         "atp_b": 1.0,
-        "f6p_b": 1.0,
-        "g6p_b": 1.0
+        "co2_b": 1.0,
+        "gdp_b": 1.0,
+        "gtp_b": 1.0,
+        "h_b": 1.0,
+        "hco3_b": 1.0,
+        "lac__L_b": 0.0,
+        "nad_b": 1.0,
+        "nadh_b": 1.0,
+        "oaa_b": 1.0,
+        "pep_b": 1.0,
+        "pi_b": 1.0,
+        "pyr_b": 0.0
     },
     "compartments": {
         "c": "",
         "e": "",
-        "i": "",
         "m": "",
         "r": ""
     },
@@ -17,11 +26,11 @@
     "enzyme_modules": [],
     "genes": [
         {
-            "id": "3101_AT1",
-            "name": "HK3",
+            "id": "3098_AT2",
+            "name": "HK1",
             "notes": {
                 "original_bigg_ids": [
-                    "3101.1"
+                    "3098.2"
                 ]
             }
         },
@@ -44,74 +53,74 @@
             }
         },
         {
-            "id": "5211_AT2",
-            "name": "PFKL",
+            "id": "5213_AT1",
+            "name": "PFKM",
             "notes": {
                 "original_bigg_ids": [
-                    "5211.2"
+                    "5213.1"
                 ]
             }
         },
         {
-            "id": "226_AT3",
-            "name": "ALDOA",
+            "id": "229_AT1",
+            "name": "ALDOB",
             "notes": {
                 "original_bigg_ids": [
-                    "226.3"
+                    "229.1"
                 ]
             }
         },
         {
-            "id": "7167_AT1",
-            "name": "TPI1",
+            "id": "286016_AT1",
+            "name": "",
             "notes": {
                 "original_bigg_ids": [
-                    "7167.1"
+                    "286016.1"
                 ]
             }
         },
         {
-            "id": "2597_AT1",
-            "name": "GAPDH",
+            "id": "26330_AT1",
+            "name": "GAPDHS",
             "notes": {
                 "original_bigg_ids": [
-                    "2597.1"
+                    "26330.1"
                 ]
             }
         },
         {
-            "id": "375056_AT1",
-            "name": "MIA3",
+            "id": "5232_AT1",
+            "name": "PGK2",
             "notes": {
                 "original_bigg_ids": [
-                    "375056.1"
+                    "5232.1"
                 ]
             }
         },
         {
-            "id": "669_AT1",
-            "name": "BPGM",
+            "id": "5224_AT2",
+            "name": "PGAM2",
             "notes": {
                 "original_bigg_ids": [
-                    "669.1"
+                    "5224.2"
                 ]
             }
         },
         {
-            "id": "2023_AT1",
-            "name": "ENO1",
+            "id": "2026_AT1",
+            "name": "ENO2",
             "notes": {
                 "original_bigg_ids": [
-                    "2023.1"
+                    "2026.1"
                 ]
             }
         },
         {
-            "id": "5105_AT1",
-            "name": "PCK1",
+            "id": "5106_AT1",
+            "name": "PCK2",
             "notes": {
                 "original_bigg_ids": [
-                    "5105.1"
+                    "5106.1"
                 ]
             }
         },
@@ -152,11 +161,11 @@
             }
         },
         {
-            "id": "5236_AT1",
-            "name": "PGM1",
+            "id": "55276_AT1",
+            "name": "PGM2",
             "notes": {
                 "original_bigg_ids": [
-                    "5236.1"
+                    "55276.1"
                 ]
             }
         },
@@ -188,11 +197,11 @@
             }
         },
         {
-            "id": "84706_AT1",
-            "name": "GPT2",
+            "id": "2875_AT1",
+            "name": "GPT",
             "notes": {
                 "original_bigg_ids": [
-                    "84706.1"
+                    "2875.1"
                 ]
             }
         },
@@ -206,11 +215,20 @@
             }
         },
         {
-            "id": "4190_AT1",
-            "name": "MDH1",
+            "id": "5105_AT1",
+            "name": "PCK1",
             "notes": {
                 "original_bigg_ids": [
-                    "4190.1"
+                    "5105.1"
+                ]
+            }
+        },
+        {
+            "id": "130752_AT1",
+            "name": "MDH1B",
+            "notes": {
+                "original_bigg_ids": [
+                    "130752.1"
                 ]
             }
         },
@@ -235,27 +253,61 @@
         {
             "annotation": {
                 "ccds": [
-                    "CCDS98.2"
+                    "CCDS5169.1"
+                ],
+                "hprd": [
+                    "11572"
                 ],
                 "ncbigene": [
-                    "155184"
+                    "154091"
                 ],
                 "omim": [
-                    "610371"
+                    "610372"
                 ],
                 "refseq_name": [
-                    "SLC2A7"
+                    "SLC2A12"
                 ],
                 "refseq_synonym": [
-                    "GLUT7"
+                    "GLUT8",
+                    "GLUT12"
                 ],
                 "sbo": "SBO:0000243"
             },
-            "id": "155184_AT1",
-            "name": "SLC2A7",
+            "id": "154091_AT1",
+            "name": "SLC2A12",
             "notes": {
                 "original_bigg_ids": [
-                    "155184.1"
+                    "154091.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS858.1"
+                ],
+                "ncbigene": [
+                    "6566"
+                ],
+                "omim": [
+                    "600682"
+                ],
+                "refseq_name": [
+                    "SLC16A1"
+                ],
+                "refseq_synonym": [
+                    "MCT",
+                    "MCT1",
+                    "HHF7",
+                    "MCT1D"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "6566_AT1",
+            "name": "SLC16A1",
+            "notes": {
+                "original_bigg_ids": [
+                    "6566.1"
                 ]
             }
         },
@@ -288,6 +340,34 @@
             "notes": {
                 "original_bigg_ids": [
                     "361.1"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "ccds": [
+                    "CCDS13966.1"
+                ],
+                "ncbigene": [
+                    "23539"
+                ],
+                "omim": [
+                    "610409"
+                ],
+                "refseq_name": [
+                    "SLC16A8"
+                ],
+                "refseq_synonym": [
+                    "REMP",
+                    "MCT3"
+                ],
+                "sbo": "SBO:0000243"
+            },
+            "id": "23539_AT1",
+            "name": "SLC16A8",
+            "notes": {
+                "original_bigg_ids": [
+                    "23539.1"
                 ]
             }
         }
@@ -651,18 +731,6 @@
             "notes": {
                 "original_bigg_ids": [
                     "lac_L[c]"
-                ]
-            }
-        },
-        {
-            "charge": 0,
-            "compartment": "i",
-            "formula": "H",
-            "id": "h_i",
-            "name": "H+",
-            "notes": {
-                "original_bigg_ids": [
-                    "h[i]"
                 ]
             }
         },
@@ -1247,6 +1315,121 @@
                     "h[e]"
                 ]
             }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "lac__L"
+                ],
+                "biocyc": [
+                    "META:L-LACTATE"
+                ],
+                "chebi": [
+                    "CHEBI:11065",
+                    "CHEBI:16651",
+                    "CHEBI:422",
+                    "CHEBI:18783",
+                    "CHEBI:12411"
+                ],
+                "hmdb": [
+                    "HMDB62492",
+                    "HMDB00190",
+                    "HMDB03328"
+                ],
+                "inchi_key": [
+                    "JVTAAEKCZFNVCJ-REOHCLBHSA-M"
+                ],
+                "kegg.compound": [
+                    "C00186"
+                ],
+                "metanetx.chemical": [
+                    "MNXM179"
+                ],
+                "reactome.compound": [
+                    "373863",
+                    "29708",
+                    "6807616"
+                ],
+                "sabiork": [
+                    "1312"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00159"
+                ]
+            },
+            "charge": -1,
+            "compartment": "e",
+            "formula": "C3H5O3",
+            "id": "lac__L_e",
+            "name": "L-Lactate",
+            "notes": {
+                "original_bigg_ids": [
+                    "lac_L[e]"
+                ]
+            }
+        },
+        {
+            "annotation": {
+                "bigg.metabolite": [
+                    "pyr"
+                ],
+                "biocyc": [
+                    "META:PYRUVATE"
+                ],
+                "chebi": [
+                    "CHEBI:26462",
+                    "CHEBI:26466",
+                    "CHEBI:8685",
+                    "CHEBI:32816",
+                    "CHEBI:45253",
+                    "CHEBI:14987",
+                    "CHEBI:15361"
+                ],
+                "envipath": [
+                    "650babc9-9d68-4b73-9332-11972ca26f7b/compound/ccc99777-54dc-42d4-a97e-009b780d3905",
+                    "32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc01020e-8c7e-4087-9f56-cf8c962b7437"
+                ],
+                "hmdb": [
+                    "HMDB00243"
+                ],
+                "inchi_key": [
+                    "LCTONWCANYUPML-UHFFFAOYSA-M"
+                ],
+                "kegg.compound": [
+                    "C00022"
+                ],
+                "lipidmaps": [
+                    "LMFA01060077"
+                ],
+                "metanetx.chemical": [
+                    "MNXM23"
+                ],
+                "reactome.compound": [
+                    "1130930",
+                    "5357717",
+                    "113557",
+                    "29398",
+                    "389680"
+                ],
+                "sabiork": [
+                    "33"
+                ],
+                "sbo": "SBO:0000247",
+                "seed.compound": [
+                    "cpd00020"
+                ]
+            },
+            "charge": -1,
+            "compartment": "e",
+            "formula": "C3H3O3",
+            "id": "pyr_e",
+            "name": "Pyruvate",
+            "notes": {
+                "original_bigg_ids": [
+                    "pyr[e]"
+                ]
+            }
         }
     ],
     "reactions": [
@@ -1545,20 +1728,6 @@
                 ]
             },
             "subsystem": "Glycolysis/gluconeogenesis"
-        },
-        {
-            "_lower_bound": 0.0,
-            "_reversible": true,
-            "_upper_bound": 1000.0,
-            "gene_reaction_rule": "",
-            "id": "PYRt2m",
-            "metabolites": {
-                "h_i": -1,
-                "h_m": 1,
-                "pyr_c": -1,
-                "pyr_m": 1
-            },
-            "name": ""
         },
         {
             "_lower_bound": -1000.0,
@@ -1928,6 +2097,46 @@
                 ]
             },
             "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": 0.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PYRt2m"
+                ],
+                "metanetx.reaction": [
+                    "MNXR103385"
+                ],
+                "reactome.reaction": [
+                    "R-RNO-372347",
+                    "R-HSA-372342",
+                    "R-GGA-372359"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05469",
+                    "rxn09832",
+                    "rxn09717",
+                    "rxn09217"
+                ]
+            },
+            "gene_reaction_rule": "6566_AT1",
+            "id": "PYRt2m",
+            "metabolites": {
+                "h_c": -1.0,
+                "h_m": 1.0,
+                "pyr_c": -1.0,
+                "pyr_m": 1.0
+            },
+            "name": "Pyruvate mitochondrial transport via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYRt2m"
+                ]
+            },
+            "subsystem": "Transport, mitochondrial"
         },
         {
             "_lower_bound": -1000.0,
@@ -2699,14 +2908,123 @@
             "_reversible": true,
             "_upper_bound": 1000.0,
             "annotation": {
+                "bigg.reaction": [
+                    "L_LACt2r"
+                ],
+                "biocyc": [
+                    "META:TRANS-RXN-104"
+                ],
+                "metanetx.reaction": [
+                    "MNXR101277"
+                ],
+                "reactome.reaction": [
+                    "R-GGA-373889",
+                    "R-XTR-373875",
+                    "R-DME-373867",
+                    "R-DME-373875",
+                    "R-MMU-373867",
+                    "R-TGU-373867",
+                    "R-GGA-373887",
+                    "R-SSC-373875",
+                    "R-DRE-373875",
+                    "R-BTA-373867",
+                    "R-GGA-373867",
+                    "R-CFA-373867",
+                    "R-SSC-373867",
+                    "R-DRE-373867",
+                    "R-RNO-373867",
+                    "R-TGU-373875",
+                    "R-XTR-373867",
+                    "R-HSA-373867",
+                    "R-CFA-373875",
+                    "R-MMU-373875",
+                    "R-HSA-373875",
+                    "R-GGA-373875",
+                    "R-RNO-373875",
+                    "R-BTA-373875"
+                ],
+                "rhea": [
+                    "29418",
+                    "29415",
+                    "29416",
+                    "29417"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05602",
+                    "rxn08794",
+                    "rxn13334"
+                ]
+            },
+            "gene_reaction_rule": "9194_AT1 or 23539_AT1 or 6566_AT1 or 9123_AT1 or 682_AT1",
+            "id": "L_LACt2r",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0,
+                "lac__L_c": 1.0,
+                "lac__L_e": -1.0
+            },
+            "name": "L lactate reversible transport via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "L_LACt2r"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "bigg.reaction": [
+                    "PYRt2"
+                ],
+                "metanetx.reaction": [
+                    "MNXR103385"
+                ],
+                "reactome.reaction": [
+                    "R-RNO-372347",
+                    "R-HSA-372342",
+                    "R-GGA-372359"
+                ],
+                "sbo": "SBO:0000185",
+                "seed.reaction": [
+                    "rxn05469",
+                    "rxn09832",
+                    "rxn09717",
+                    "rxn09217"
+                ]
+            },
+            "gene_reaction_rule": "9123_AT1 or 9194_AT1 or 6566_AT1",
+            "id": "PYRt2",
+            "metabolites": {
+                "h_c": 1.0,
+                "h_e": -1.0,
+                "pyr_c": 1.0,
+                "pyr_e": -1.0
+            },
+            "name": "Pyruvate transport in via proton symport",
+            "notes": {
+                "original_bigg_ids": [
+                    "PYRt2r"
+                ]
+            },
+            "subsystem": "Transport, extracellular"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
                 "sbo": "SBO:0000632"
             },
             "gene_reaction_rule": "",
-            "id": "SK_g6p_c",
+            "id": "SK_pyr_c",
             "metabolites": {
-                "g6p_c": -1
+                "pyr_c": -1
             },
-            "name": "D-Glucose 6-phosphate sink",
+            "name": "Pyruvate sink",
             "subsystem": "Pseudoreaction"
         },
         {
@@ -2717,11 +3035,71 @@
                 "sbo": "SBO:0000632"
             },
             "gene_reaction_rule": "",
-            "id": "SK_f6p_c",
+            "id": "SK_pyr_m",
             "metabolites": {
-                "f6p_c": -1
+                "pyr_m": -1
             },
-            "name": "D-Fructose 6-phosphate sink",
+            "name": "Pyruvate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_hco3_m",
+            "metabolites": {
+                "hco3_m": -1
+            },
+            "name": "Bicarbonate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_co2_m",
+            "metabolites": {
+                "co2_m": -1
+            },
+            "name": "CO2 CO2 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_gtp_m",
+            "metabolites": {
+                "gtp_m": -1
+            },
+            "name": "GTP C10H12N5O14P3 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_gdp_m",
+            "metabolites": {
+                "gdp_m": -1
+            },
+            "name": "GDP C10H12N5O11P2 sink",
             "subsystem": "Pseudoreaction"
         },
         {
@@ -2747,11 +3125,161 @@
                 "sbo": "SBO:0000632"
             },
             "gene_reaction_rule": "",
+            "id": "SK_atp_m",
+            "metabolites": {
+                "atp_m": -1
+            },
+            "name": "ATP C10H12N5O13P3 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
             "id": "SK_adp_c",
             "metabolites": {
                 "adp_c": -1
             },
             "name": "ADP C10H12N5O10P2 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_adp_m",
+            "metabolites": {
+                "adp_m": -1
+            },
+            "name": "ADP C10H12N5O10P2 sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pi_m",
+            "metabolites": {
+                "pi_m": -1
+            },
+            "name": "Phosphate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_h_m",
+            "metabolites": {
+                "h_m": -1
+            },
+            "name": "H+ sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_nadh_c",
+            "metabolites": {
+                "nadh_c": -1
+            },
+            "name": "Nicotinamide adenine dinucleotide - reduced sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_nad_c",
+            "metabolites": {
+                "nad_c": -1
+            },
+            "name": "Nicotinamide adenine dinucleotide sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_pep_m",
+            "metabolites": {
+                "pep_m": -1
+            },
+            "name": "Phosphoenolpyruvate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000632"
+            },
+            "gene_reaction_rule": "",
+            "id": "SK_oaa_m",
+            "metabolites": {
+                "oaa_m": -1
+            },
+            "name": "Oxaloacetate sink",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_pyr_e",
+            "metabolites": {
+                "pyr_e": -1
+            },
+            "name": "Pyruvate exchange",
+            "subsystem": "Pseudoreaction"
+        },
+        {
+            "_lower_bound": -1000.0,
+            "_reversible": true,
+            "_upper_bound": 1000.0,
+            "annotation": {
+                "sbo": "SBO:0000627"
+            },
+            "gene_reaction_rule": "",
+            "id": "EX_lac__L_e",
+            "metabolites": {
+                "lac__L_e": -1
+            },
+            "name": "L-Lactate exchange",
             "subsystem": "Pseudoreaction"
         }
     ],
